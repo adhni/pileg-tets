@@ -20,7 +20,7 @@ Small Python ports that run against `data/prepared`.
   Validates the prepared data layer and records expected source coverage gaps as notes instead of failures.
 
 - `python/party_ratio_analysis.py`
-  Ports the ratio-focused sections of the original `party_ratio_analysis.Rmd` notebook.
+  Ports the ratio-focused sections of the archived `archive/r_reference/party_ratio_analysis.Rmd` notebook.
 
 - `python/representation_gap.py`
   Ports the core representation-gap calculations using explicit dapil seat counts and the Python winner estimates.
@@ -56,3 +56,5 @@ python3 analysis/python/run_all.py
 ## Outputs
 
 All script outputs land in `analysis/python_outputs/`.
+
+Legacy R/Quarto notebooks are archived under `archive/r_reference/` and are not part of the active Python workflow.

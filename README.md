@@ -50,3 +50,4 @@ That command rebuilds:
 - The current Python scripts use only the standard library plus `matplotlib`.
 - `Papua Barat Daya` is expected to be absent from the DPD source.
 - `DKI Jakarta` is expected to be absent from the DPRD kabupaten/kota source.
+- Legacy R notebooks are archived under `archive/r_reference/` and are no longer part of the active pipeline.

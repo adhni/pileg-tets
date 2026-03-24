@@ -1,0 +1,85 @@
+province,district,district_label,seat_count
+Aceh,ACEH I,Aceh I,7
+Aceh,ACEH II,Aceh II,6
+Sumatera Utara,SUMATERA UTARA I,Sumatera Utara I,10
+Sumatera Utara,SUMATERA UTARA II,Sumatera Utara II,10
+Sumatera Utara,SUMATERA UTARA III,Sumatera Utara III,10
+Sumatera Barat,SUMATERA BARAT I,Sumatera Barat I,8
+Sumatera Barat,SUMATERA BARAT II,Sumatera Barat II,6
+Riau,RIAU I,Riau I,7
+Riau,RIAU II,Riau II,6
+Kepulauan Riau,KEPULAUAN RIAU,Kepulauan Riau,4
+Jambi,JAMBI,Jambi,8
+Sumatera Selatan,SUMATERA SELATAN I,Sumatera Selatan I,8
+Sumatera Selatan,SUMATERA SELATAN II,Sumatera Selatan II,9
+Kepulauan Bangka Belitung,KEPULAUAN BANGKA BELITUNG,Kepulauan Bangka Belitung,3
+Bengkulu,BENGKULU,Bengkulu,4
+Lampung,LAMPUNG I,Lampung I,10
+Lampung,LAMPUNG II,Lampung II,10
+DKI Jakarta,DKI JAKARTA I,DKI Jakarta I,6
+DKI Jakarta,DKI JAKARTA II,DKI Jakarta II,7
+DKI Jakarta,DKI JAKARTA III,DKI Jakarta III,8
+Jawa Barat,JAWA BARAT I,Jawa Barat I,7
+Jawa Barat,JAWA BARAT II,Jawa Barat II,10
+Jawa Barat,JAWA BARAT III,Jawa Barat III,9
+Jawa Barat,JAWA BARAT IV,Jawa Barat IV,6
+Jawa Barat,JAWA BARAT IX,Jawa Barat IX,8
+Jawa Barat,JAWA BARAT V,Jawa Barat V,9
+Jawa Barat,JAWA BARAT VI,Jawa Barat VI,6
+Jawa Barat,JAWA BARAT VII,Jawa Barat VII,10
+Jawa Barat,JAWA BARAT VIII,Jawa Barat VIII,9
+Jawa Barat,JAWA BARAT X,Jawa Barat X,7
+Jawa Barat,JAWA BARAT XI,Jawa Barat XI,10
+Jawa Tengah,JAWA TENGAH I,Jawa Tengah I,8
+Jawa Tengah,JAWA TENGAH II,Jawa Tengah II,7
+Jawa Tengah,JAWA TENGAH III,Jawa Tengah III,9
+Jawa Tengah,JAWA TENGAH IV,Jawa Tengah IV,7
+Jawa Tengah,JAWA TENGAH IX,Jawa Tengah IX,8
+Jawa Tengah,JAWA TENGAH V,Jawa Tengah V,8
+Jawa Tengah,JAWA TENGAH VI,Jawa Tengah VI,8
+Jawa Tengah,JAWA TENGAH VII,Jawa Tengah VII,7
+Jawa Tengah,JAWA TENGAH VIII,Jawa Tengah VIII,8
+Jawa Tengah,JAWA TENGAH X,Jawa Tengah X,7
+Daerah Istimewa Yogyakarta,DAERAH ISTIMEWA YOGYAKARTA,Daerah Istimewa Yogyakarta,8
+Jawa Timur,JAWA TIMUR I,Jawa Timur I,10
+Jawa Timur,JAWA TIMUR II,Jawa Timur II,7
+Jawa Timur,JAWA TIMUR III,Jawa Timur III,7
+Jawa Timur,JAWA TIMUR IV,Jawa Timur IV,8
+Jawa Timur,JAWA TIMUR IX,Jawa Timur IX,6
+Jawa Timur,JAWA TIMUR V,Jawa Timur V,8
+Jawa Timur,JAWA TIMUR VI,Jawa Timur VI,9
+Jawa Timur,JAWA TIMUR VII,Jawa Timur VII,8
+Jawa Timur,JAWA TIMUR VIII,Jawa Timur VIII,10
+Jawa Timur,JAWA TIMUR X,Jawa Timur X,6
+Jawa Timur,JAWA TIMUR XI,Jawa Timur XI,8
+Banten,BANTEN I,Banten I,6
+Banten,BANTEN II,Banten II,6
+Banten,BANTEN III,Banten III,10
+Bali,BALI,Bali,9
+Nusa Tenggara Barat,NUSA TENGGARA BARAT I,Nusa Tenggara Barat I,3
+Nusa Tenggara Barat,NUSA TENGGARA BARAT II,Nusa Tenggara Barat II,8
+Nusa Tenggara Timur,NUSA TENGGARA TIMUR I,Nusa Tenggara Timur I,6
+Nusa Tenggara Timur,NUSA TENGGARA TIMUR II,Nusa Tenggara Timur II,7
+Kalimantan Barat,KALIMANTAN BARAT I,Kalimantan Barat I,8
+Kalimantan Barat,KALIMANTAN BARAT II,Kalimantan Barat II,4
+Kalimantan Tengah,KALIMANTAN TENGAH,Kalimantan Tengah,6
+Kalimantan Selatan,KALIMANTAN SELATAN I,Kalimantan Selatan I,6
+Kalimantan Selatan,KALIMANTAN SELATAN II,Kalimantan Selatan II,5
+Kalimantan Timur,KALIMANTAN TIMUR,Kalimantan Timur,8
+Kalimantan Utara,KALIMANTAN UTARA,Kalimantan Utara,3
+Sulawesi Utara,SULAWESI UTARA,Sulawesi Utara,6
+Gorontalo,GORONTALO,Gorontalo,3
+Sulawesi Tengah,SULAWESI TENGAH,Sulawesi Tengah,7
+Sulawesi Selatan,SULAWESI SELATAN I,Sulawesi Selatan I,8
+Sulawesi Selatan,SULAWESI SELATAN II,Sulawesi Selatan II,9
+Sulawesi Selatan,SULAWESI SELATAN III,Sulawesi Selatan III,7
+Sulawesi Barat,SULAWESI BARAT,Sulawesi Barat,4
+Sulawesi Tenggara,SULAWESI TENGGARA,Sulawesi Tenggara,6
+Maluku,MALUKU,Maluku,4
+Maluku Utara,MALUKU UTARA,Maluku Utara,3
+Papua,P A P U A,Papua,3
+Papua Barat,PAPUA BARAT,Papua Barat,3
+Papua Selatan,PAPUA SELATAN,Papua Selatan,3
+Papua Tengah,PAPUA TENGAH,Papua Tengah,3
+Papua Pegunungan,PAPUA PEGUNUNGAN,Papua Pegunungan,3
+Papua Barat Daya,PAPUA BARAT DAYA,Papua Barat Daya,3

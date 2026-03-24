@@ -16,3 +16,5 @@ analysis/python_outputs/.mplconfig/
 analysis/python_outputs/
 analysis/reports/
 analysis/notebooks/*.html
+archive/r_reference/*.html
+archive/r_reference/*_files/
