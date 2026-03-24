@@ -39,6 +39,10 @@ CANDIDATES = [
 ]
 
 
+def source_csv_available() -> bool:
+    return SOURCE_CSV_PATH.exists()
+
+
 def parse_float(value: str) -> float | None:
     raw = (value or "").strip()
     if not raw or raw.upper() == "NA":
@@ -1316,6 +1320,12 @@ def build_html(payload: dict) -> str:
 
 
 def main() -> None:
+    if not source_csv_available():
+        print(
+            "Skipping Pilpres vs Pileg dashboard build because the optional local source is missing:",
+            SOURCE_CSV_PATH,
+        )
+        return
     payload = make_payload()
     html = build_html(payload)
     output_path = OUTPUT_DIR / "index.html"

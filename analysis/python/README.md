@@ -38,7 +38,7 @@ Small Python ports that run against `data/prepared`.
   Builds a separate standalone HTML dashboard for DPR seat-adjustment scenarios using the live prepared slate data, tracked dapil seat counts, and the existing dapil map geometry.
 
 - `python/build_pilpres_vs_pileg_dashboard.py`
-  Builds a separate standalone HTML dashboard comparing province-level Pilpres vote share against coalition Pileg percentages from the `Pilpres V Pileg` source folder.
+  Builds a separate standalone HTML dashboard comparing province-level Pilpres vote share against coalition Pileg percentages from an optional local CSV in `Pilpres V Pileg/`.
 
 - `python/run_all.py`
   Runs the Python prep and analysis pipeline end to end.
@@ -64,6 +64,8 @@ python3 analysis/python/run_all.py
 ## Outputs
 
 All script outputs land in `analysis/python_outputs/`.
+
+`analysis/python/run_all.py` skips the Pilpres-vs-Pileg dashboard automatically when `Pilpres V Pileg/election_results.csv` is not present locally.
 
 For DPR outputs, the Python workflow now separates two lenses:
 

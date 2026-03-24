@@ -8,6 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
+PILPRES_VS_PILEG_SOURCE = ROOT / "Pilpres V Pileg" / "election_results.csv"
 
 STEPS = [
     ["analysis/prepare_python_data.py"],
@@ -27,6 +28,12 @@ STEPS = [
 
 def main() -> None:
     for step in STEPS:
+        if step == ["analysis/python/build_pilpres_vs_pileg_dashboard.py"] and not PILPRES_VS_PILEG_SOURCE.exists():
+            print(
+                "==> Skipping analysis/python/build_pilpres_vs_pileg_dashboard.py",
+                f"(optional local source missing: {PILPRES_VS_PILEG_SOURCE})",
+            )
+            continue
         cmd = [sys.executable, *step]
         print(f"==> Running {' '.join(step)}")
         subprocess.run(cmd, cwd=ROOT, check=True)

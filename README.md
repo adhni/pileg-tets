@@ -28,7 +28,7 @@ That command rebuilds:
 - `analysis/python_outputs/report/`
 - `analysis/python_outputs/dashboard/`
 - `analysis/python_outputs/pileg_dashboard/`
-- `analysis/python_outputs/pilpres_vs_pileg_dashboard/`
+- `analysis/python_outputs/pilpres_vs_pileg_dashboard/` when the optional local Pilpres CSV is present
 
 ## Main Files
 
@@ -59,7 +59,8 @@ That command rebuilds:
 - For DPR analysis, vote views include all parties, while seat and winner outputs default to the legal 4% national parliamentary-threshold model.
 - Raw all-party seat simulations are still exported for comparison so threshold-driven replacement winners can be inspected directly.
 - The seat-adjustment scenario dashboard uses existing repo data only; it takes inspiration from the archived Quarto scenario framing but does not reuse the notebook's hardcoded vote table.
-- The Pilpres-vs-Pileg dashboard uses the source CSV stored under `Pilpres V Pileg/` because the repo does not yet have a prepared province-level Pilpres layer.
+- The Pilpres-vs-Pileg dashboard uses an optional local CSV at `Pilpres V Pileg/election_results.csv` because the repo does not yet have a prepared province-level Pilpres layer.
+- `analysis/python/run_all.py` skips the Pilpres-vs-Pileg dashboard automatically when that optional local CSV is absent.
 - `Papua Barat Daya` is expected to be absent from the DPD source.
 - `DKI Jakarta` is expected to be absent from the DPRD kabupaten/kota source.
 - Legacy R notebooks are archived under `archive/r_reference/` and are no longer part of the active pipeline.
