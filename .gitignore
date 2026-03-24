@@ -1,0 +1,20 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.gitrepo/
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+data/
+Mentri (1).xlsx
+ministers_cleaned.xlsx
+analysis/ministers_cleaned.csv
+analysis/raw_sheet.tsv
+analysis/python_outputs/.mplconfig/
+analysis/python_outputs/
+analysis/reports/
+analysis/notebooks/*.html
+archive/r_reference/*.html
+archive/r_reference/*_files/
