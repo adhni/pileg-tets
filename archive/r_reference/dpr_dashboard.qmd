@@ -1,0 +1,400 @@
+---
+title: "Indonesian DPR Vote Dynamics"
+page-layout: full
+format:
+  html:
+    theme: lux
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+<style>
+body {
+  background-color: #f7f9fc;
+}
+.section.hero {
+  border-radius: 18px;
+  padding: 2.5rem 2.8rem;
+  background: linear-gradient(135deg, rgba(27,153,139,0.95), rgba(46,134,171,0.9));
+  color: #ffffff;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+  margin-bottom: 2.4rem;
+}
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.4rem;
+  margin-bottom: 2.4rem;
+}
+.metric-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.6rem;
+  box-shadow: 0 18px 35px rgba(50,71,92,0.14);
+  border: 1px solid rgba(27,153,139,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.metric-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6c7a89;
+}
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1b2040;
+}
+.metric-subtitle {
+  font-size: 0.95rem;
+  color: #5c6c7f;
+  margin: 0;
+}
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 1.8rem;
+  box-shadow: 0 18px 35px rgba(50,71,92,0.12);
+  border: 1px solid rgba(27,153,139,0.06);
+  margin-bottom: 2rem;
+}
+h2.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1b2040;
+  margin-bottom: 1.2rem;
+}
+.caption-text {
+  color: #6c7a89;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+.plotly-html-widget {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.reactable {
+  font-size: 0.95rem;
+}
+.reactable .rt-th {
+  font-weight: 600;
+  color: #1b2040;
+}
+.reactable .rt-tr-group:hover .rt-td {
+  background: rgba(27,153,139,0.08);
+  transition: background 0.15s ease-in-out;
+}
+</style>
+
+```{r setup}
+library(tidyverse)
+library(plotly)
+library(reactable)
+library(scales)
+
+# helper for metric cards
+metric_card <- function(title, value, subtitle) {
+  htmltools::div(
+    class = "metric-card",
+    htmltools::div(class = "metric-title", title),
+    htmltools::div(class = "metric-value", value),
+    htmltools::p(class = "metric-subtitle", subtitle)
+  )
+}
+
+dpr_path <- file.path("..", "..", "data", "processed", "dpr_all.csv")
+dpr <- read_csv(dpr_path, show_col_types = FALSE)
+
+dpr_summary <- dpr %>%
+  group_by(Province, District, PartyNumber, PartyName) %>%
+  summarise(
+    party_ballots = first(PartyVote),
+    total_candidate_votes = sum(CandidateVote, na.rm = TRUE),
+    total_ballots = party_ballots + total_candidate_votes,
+    top_candidate_votes = max(CandidateVote, na.rm = TRUE),
+    top_candidate_name = CandidateName[which.max(CandidateVote)],
+    .groups = "drop"
+  ) %>%
+  mutate(
+    top_share = if_else(total_candidate_votes > 0,
+                        top_candidate_votes / total_candidate_votes,
+                        NA_real_),
+    party_ballot_share = if_else(total_ballots > 0,
+                                 party_ballots / total_ballots,
+                                 NA_real_)
+  )
+
+province_count <- n_distinct(dpr_summary$Province)
+district_count <- n_distinct(paste(dpr_summary$Province, dpr_summary$District, sep = " :: "))
+party_slate_count <- nrow(dpr_summary)
+median_top_share <- median(dpr_summary$top_share, na.rm = TRUE)
+median_party_share <- median(dpr_summary$party_ballot_share, na.rm = TRUE)
+dominance_corr <- cor(dpr_summary$top_share, dpr_summary$party_ballot_share, use = "complete.obs")
+
+regional_top <- dpr_summary %>%
+  group_by(Province) %>%
+  summarise(
+    average_top_share = mean(top_share, na.rm = TRUE),
+    average_party_share = mean(party_ballot_share, na.rm = TRUE)
+  ) %>%
+  drop_na() %>%
+  arrange(desc(average_top_share))
+
+dominant_candidates <- dpr_summary %>%
+  arrange(desc(top_share)) %>%
+  slice_head(n = 15)
+
+brand_loyalty <- dpr_summary %>%
+  arrange(desc(party_ballot_share)) %>%
+  slice_head(n = 15)
+```
+
+<div class="section hero">
+  <h1>Mapping the Balance Between Party Brands and Personal Vote Magnets</h1>
+  <p style="max-width: 720px; font-size: 1.05rem; line-height: 1.6; margin-top: 1rem;">
+    Explore how parties competing for the 2024 DPR seats divide their support between party logos
+    and charismatic candidates. The dashboard blends national coverage with district-level drill downs,
+    highlighting where single personalities dominate and where party machines retain voter loyalty.
+  </p>
+</div>
+
+<div class="metric-grid">
+  ```{r}
+  metric_card(
+    "Provinces covered",
+    format(province_count, big.mark = ","),
+    "Every province contributes at least one party slate"
+  )
+  ```
+  ```{r}
+  metric_card(
+    "Party slates",
+    format(party_slate_count, big.mark = ","),
+    paste0("Across ", district_count, " unique province–district races")
+  )
+  ```
+  ```{r}
+  metric_card(
+    "Median candidate dominance",
+    percent(median_top_share, accuracy = 0.1),
+    "Half of slates see one name collect ≥ this share of personal votes"
+  )
+  ```
+  ```{r}
+  metric_card(
+    "Median party ballot weight",
+    percent(median_party_share, accuracy = 0.1),
+    "Typical slate draws a quarter of votes via the party logo alone"
+  )
+  ```
+  ```{r}
+  metric_card(
+    "Brand vs persona correlation",
+    scales::number(dominance_corr, accuracy = 0.001),
+    "Negative values hint at a gentle trade-off between star power and party loyalty"
+  )
+  ```
+</div>
+
+<div class="card">
+  <h2 class="section-title">Candidate Vote Concentration</h2>
+  ```{r}
+  top_share_hist <- dpr_summary %>%
+    filter(!is.na(top_share)) %>%
+    ggplot(aes(x = top_share)) +
+    geom_histogram(binwidth = 0.05, fill = "#1B998B", color = "white", boundary = 0) +
+    scale_x_continuous(labels = percent_format(accuracy = 1)) +
+    labs(
+      x = "Share of candidate votes captured by the slate leader",
+      y = "Party slates",
+      title = "Half of the slates channel ≥50% of personal votes to a single candidate",
+      subtitle = "Distribution of candidate vote concentration by party slate"
+    ) +
+    theme_minimal(base_size = 13) +
+    theme(
+      plot.background = element_rect(fill = NA, color = NA),
+      panel.grid.minor = element_blank(),
+      plot.title = element_text(face = "bold", size = 16),
+      plot.subtitle = element_text(color = "#4f5d75"),
+      axis.title = element_text(color = "#34495e")
+    )
+
+  ggplotly(top_share_hist, tooltip = c("x", "y")) %>%
+    layout(margin = list(t = 55, b = 70, l = 60, r = 20))
+  ```
+  <p class="caption-text">
+    Bars in the far right tail correspond to districts where one figure absorbs nearly all personal votes.
+    Those skews remain more common in eastern provinces and parties with highly localised strongholds.
+  </p>
+</div>
+
+<div class="card">
+  <h2 class="section-title">Party Brands vs. Personal Vote Magnets</h2>
+  ```{r}
+  scatter_plot <- dpr_summary %>%
+    filter(!is.na(top_share), !is.na(party_ballot_share)) %>%
+    plot_ly(
+      x = ~top_share,
+      y = ~party_ballot_share,
+      type = "scatter",
+      mode = "markers",
+      text = ~paste(
+        "Province:", Province,
+        "<br>District:", District,
+        "<br>Party:", PartyName,
+        "<br>Top candidate:", top_candidate_name,
+        "<br>Top share:", percent(top_share, accuracy = 0.1),
+        "<br>Party ballot share:", percent(party_ballot_share, accuracy = 0.1)
+      ),
+      hoverinfo = "text",
+      marker = list(size = 8),
+      color = ~party_ballot_share,
+      colors = "Bluered",
+      showscale = TRUE
+    ) %>%
+    layout(
+      xaxis = list(title = "Top candidate share of personal votes", tickformat = ".0%"),
+      yaxis = list(title = "Party ballots as share of total party support", tickformat = ".0%"),
+      coloraxis = list(colorbar = list(title = "Party ballot %")),
+      title = "Gentle inverse relationship with many mixed strategies"
+    )
+
+  scatter_plot
+  ```
+  <p class="caption-text">
+    Hover to see district-level detail. Points in the upper-left highlight machine-driven parties, while
+    those in the lower-right illustrate superstar candidates who overshadow the party brand.
+  </p>
+</div>
+
+<div class="card">
+  <h2 class="section-title">Who Commands the Slate?</h2>
+  ```{r}
+  dominance_table <- dominant_candidates %>%
+    mutate(
+      `Top share` = percent(top_share, accuracy = 0.1),
+      `Total candidate votes` = comma(total_candidate_votes),
+      `Top candidate votes` = comma(top_candidate_votes)
+    ) %>%
+    select(
+      Province,
+      District,
+      Party = PartyName,
+      `Top candidate` = top_candidate_name,
+      `Top candidate votes`,
+      `Total candidate votes`,
+      `Top share`
+    )
+
+  reactable(
+    dominance_table,
+    searchable = TRUE,
+    filterable = TRUE,
+    striped = TRUE,
+    highlight = TRUE,
+    defaultSorted = list(`Top share` = "desc"),
+    theme = reactableTheme(
+      borderColor = "rgba(27,153,139,0.12)",
+      stripedColor = "rgba(46,134,171,0.08)",
+      highlightColor = "rgba(241,143,1,0.12)",
+      cellPadding = 12,
+      style = list(fontFamily = "Inter, 'Helvetica Neue', Arial, sans-serif"),
+      headerStyle = list(color = "#1b2040", fontWeight = 700)
+    )
+  )
+  ```
+  <p class="caption-text">
+    Filter by province or party to surface local vote magnets. Papua districts dominate the leaderboard,
+    but North Sulawesi and national parties with celebrity figures also feature prominently.
+  </p>
+</div>
+
+<div class="card">
+  <h2 class="section-title">Party Loyalty Hotspots</h2>
+  ```{r}
+  party_table <- brand_loyalty %>%
+    mutate(
+      `Party ballot share` = percent(party_ballot_share, accuracy = 0.1),
+      `Party ballots` = comma(party_ballots),
+      `Total ballots` = comma(total_ballots)
+    ) %>%
+    select(
+      Province,
+      District,
+      Party = PartyName,
+      `Party ballots`,
+      `Total ballots`,
+      `Party ballot share`
+    )
+
+  reactable(
+    party_table,
+    searchable = TRUE,
+    filterable = TRUE,
+    striped = TRUE,
+    highlight = TRUE,
+    defaultSorted = list(`Party ballot share` = "desc"),
+    theme = reactableTheme(
+      borderColor = "rgba(27,153,139,0.12)",
+      stripedColor = "rgba(27,153,139,0.08)",
+      highlightColor = "rgba(27,153,139,0.16)",
+      cellPadding = 12,
+      style = list(fontFamily = "Inter, 'Helvetica Neue', Arial, sans-serif"),
+      headerStyle = list(color = "#1b2040", fontWeight = 700)
+    )
+  )
+  ```
+  <p class="caption-text">
+    High party-ballot shares cluster in Central Java, Banten, and parts of East Indonesia, signalling where
+    party brands resonate more than individual personalities. Combine with the scatter plot to spot outliers.
+  </p>
+</div>
+
+<div class="card">
+  <h2 class="section-title">Provincial Averages</h2>
+  ```{r}
+  province_plot <- regional_top %>%
+    mutate(Province = fct_reorder(Province, average_top_share)) %>%
+    ggplot(aes(x = average_top_share, y = Province)) +
+    geom_col(fill = "#2E86AB", alpha = 0.85) +
+    geom_point(aes(x = average_party_share), color = "#F18F01", size = 3) +
+    scale_x_continuous(labels = percent_format(accuracy = 1)) +
+    labs(
+      x = "Average share",
+      y = NULL,
+      title = "Average personal vote dominance vs. party ballot reliance",
+      subtitle = "Bars show mean top candidate share; orange points show mean party ballot share"
+    ) +
+    theme_minimal(base_size = 13) +
+    theme(
+      plot.title = element_text(face = "bold", size = 16),
+      plot.subtitle = element_text(color = "#4f5d75"),
+      axis.title = element_text(color = "#34495e"),
+      panel.grid.minor = element_blank()
+    )
+
+  ggplotly(province_plot, tooltip = c("x", "y")) %>%
+    layout(margin = list(t = 55, b = 60, l = 120, r = 40))
+  ```
+  <p class="caption-text">
+    Provinces to the top favour highly centralised personal campaigns, while points positioned to the right of
+    the bars show where party brands continue to pull significant weight alongside star candidates.
+  </p>
+</div>
+
+<div class="card">
+  <h2 class="section-title">How to Use This Dashboard</h2>
+  <ul style="font-size: 1rem; color: #4f5d75; line-height: 1.6;">
+    <li>Hover on charts to reveal province, district, and party context for each observation.</li>
+    <li>Use the search and column filters in the tables to spotlight specific regions or parties.</li>
+    <li>Compare leaderboards with the scatter plot to see whether dominance coexists with party loyalty.</li>
+    <li>Blend this view with seat allocation outcomes to evaluate strategic success versus raw vote patterns.</li>
+  </ul>
+</div>
