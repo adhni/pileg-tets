@@ -12,6 +12,7 @@ from common import PREPARED_DATA_DIR, PYTHON_OUTPUT_DIR, ROOT, ensure_dir, read_
 
 OUTPUT_DIR = ensure_dir(PYTHON_OUTPUT_DIR / "pilpres_vs_pileg_dashboard")
 SOURCE_CSV_PATH = ROOT / "Pilpres V Pileg" / "election_results.csv"
+TRACKED_SOURCE_CSV_PATH = ROOT / "analysis" / "reference" / "pilpres_vs_pileg" / "election_results.csv"
 PROVINCE_LOOKUP_PATH = PREPARED_DATA_DIR / "province_lookup.csv"
 
 CANDIDATES = [
@@ -39,8 +40,15 @@ CANDIDATES = [
 ]
 
 
-def source_csv_available() -> bool:
-    return SOURCE_CSV_PATH.exists()
+def resolve_source_csv_path() -> Path:
+    if SOURCE_CSV_PATH.exists():
+        return SOURCE_CSV_PATH
+    if TRACKED_SOURCE_CSV_PATH.exists():
+        return TRACKED_SOURCE_CSV_PATH
+    raise FileNotFoundError(
+        "Missing Pilpres vs Pileg input CSV. Checked "
+        f"{SOURCE_CSV_PATH} and {TRACKED_SOURCE_CSV_PATH}."
+    )
 
 
 def parse_float(value: str) -> float | None:
@@ -109,8 +117,9 @@ def safe_json(data: dict) -> str:
 
 
 def make_payload() -> dict:
+    source_csv_path = resolve_source_csv_path()
     province_mapping = build_province_mapping()
-    source_rows = read_csv(SOURCE_CSV_PATH)
+    source_rows = read_csv(source_csv_path)
 
     provinces: list[dict[str, object]] = []
     complete_provinces: list[dict[str, object]] = []
@@ -275,11 +284,15 @@ def make_payload() -> dict:
             ],
             "sources": [
                 source_entry(
-                    SOURCE_CSV_PATH,
+                    source_csv_path,
                     "Pilpres vs Pileg Comparison Table",
                     "csv",
                     row_count=len(source_rows),
-                    note="Province-level presidential percentages, coalition vote percentages, coalition vote totals, and precomputed helper columns.",
+                    note=(
+                        "Province-level presidential percentages, coalition vote percentages, coalition vote totals, and helper columns."
+                        if source_csv_path == SOURCE_CSV_PATH
+                        else "Tracked reference copy trimmed to the columns needed for the public dashboard build."
+                    ),
                 ),
                 source_entry(
                     PROVINCE_LOOKUP_PATH,
@@ -1319,27 +1332,4 @@ def build_html(payload: dict) -> str:
     return template.replace("__PAYLOAD__", safe_json(payload))
 
 
-def main() -> None:
-    if not source_csv_available():
-        print(
-            "Skipping Pilpres vs Pileg dashboard build because the optional local source is missing:",
-            SOURCE_CSV_PATH,
-        )
-        return
-    payload = make_payload()
-    html = build_html(payload)
-    output_path = OUTPUT_DIR / "index.html"
-    output_path.write_text(html, encoding="utf-8")
-    (OUTPUT_DIR / "dashboard_metadata.json").write_text(
-        json.dumps(payload["meta"], ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-    (OUTPUT_DIR / "README.txt").write_text(
-        "Open index.html in a browser. This standalone dashboard compares province-level Pilpres vote shares with coalition Pileg percentages from the Pilpres V Pileg source folder.\n",
-        encoding="utf-8",
-    )
-    print("Wrote Pilpres vs Pileg dashboard to", output_path)
-
-
-if __name__ == "__main__":
-    main()
+d

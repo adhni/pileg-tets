@@ -1,0 +1,85 @@
+province,district,district_label,seat_count,source_file
+Aceh,ACEH I,Aceh I,7,analysis/reference/dapil_seat_counts.csv
+Aceh,ACEH II,Aceh II,6,analysis/reference/dapil_seat_counts.csv
+Sumatera Utara,SUMATERA UTARA I,Sumatera Utara I,10,analysis/reference/dapil_seat_counts.csv
+Sumatera Utara,SUMATERA UTARA II,Sumatera Utara II,10,analysis/reference/dapil_seat_counts.csv
+Sumatera Utara,SUMATERA UTARA III,Sumatera Utara III,10,analysis/reference/dapil_seat_counts.csv
+Sumatera Barat,SUMATERA BARAT I,Sumatera Barat I,8,analysis/reference/dapil_seat_counts.csv
+Sumatera Barat,SUMATERA BARAT II,Sumatera Barat II,6,analysis/reference/dapil_seat_counts.csv
+Riau,RIAU I,Riau I,7,analysis/reference/dapil_seat_counts.csv
+Riau,RIAU II,Riau II,6,analysis/reference/dapil_seat_counts.csv
+Kepulauan Riau,KEPULAUAN RIAU,Kepulauan Riau,4,analysis/reference/dapil_seat_counts.csv
+Jambi,JAMBI,Jambi,8,analysis/reference/dapil_seat_counts.csv
+Sumatera Selatan,SUMATERA SELATAN I,Sumatera Selatan I,8,analysis/reference/dapil_seat_counts.csv
+Sumatera Selatan,SUMATERA SELATAN II,Sumatera Selatan II,9,analysis/reference/dapil_seat_counts.csv
+Kepulauan Bangka Belitung,KEPULAUAN BANGKA BELITUNG,Kepulauan Bangka Belitung,3,analysis/reference/dapil_seat_counts.csv
+Bengkulu,BENGKULU,Bengkulu,4,analysis/reference/dapil_seat_counts.csv
+Lampung,LAMPUNG I,Lampung I,10,analysis/reference/dapil_seat_counts.csv
+Lampung,LAMPUNG II,Lampung II,10,analysis/reference/dapil_seat_counts.csv
+DKI Jakarta,DKI JAKARTA I,DKI Jakarta I,6,analysis/reference/dapil_seat_counts.csv
+DKI Jakarta,DKI JAKARTA II,DKI Jakarta II,7,analysis/reference/dapil_seat_counts.csv
+DKI Jakarta,DKI JAKARTA III,DKI Jakarta III,8,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT I,Jawa Barat I,7,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT II,Jawa Barat II,10,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT III,Jawa Barat III,9,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT IV,Jawa Barat IV,6,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT IX,Jawa Barat IX,8,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT V,Jawa Barat V,9,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT VI,Jawa Barat VI,6,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT VII,Jawa Barat VII,10,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT VIII,Jawa Barat VIII,9,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT X,Jawa Barat X,7,analysis/reference/dapil_seat_counts.csv
+Jawa Barat,JAWA BARAT XI,Jawa Barat XI,10,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH I,Jawa Tengah I,8,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH II,Jawa Tengah II,7,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH III,Jawa Tengah III,9,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH IV,Jawa Tengah IV,7,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH IX,Jawa Tengah IX,8,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH V,Jawa Tengah V,8,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH VI,Jawa Tengah VI,8,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH VII,Jawa Tengah VII,7,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH VIII,Jawa Tengah VIII,8,analysis/reference/dapil_seat_counts.csv
+Jawa Tengah,JAWA TENGAH X,Jawa Tengah X,7,analysis/reference/dapil_seat_counts.csv
+Daerah Istimewa Yogyakarta,DAERAH ISTIMEWA YOGYAKARTA,Daerah Istimewa Yogyakarta,8,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR I,Jawa Timur I,10,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR II,Jawa Timur II,7,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR III,Jawa Timur III,7,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR IV,Jawa Timur IV,8,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR IX,Jawa Timur IX,6,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR V,Jawa Timur V,8,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR VI,Jawa Timur VI,9,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR VII,Jawa Timur VII,8,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR VIII,Jawa Timur VIII,10,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR X,Jawa Timur X,6,analysis/reference/dapil_seat_counts.csv
+Jawa Timur,JAWA TIMUR XI,Jawa Timur XI,8,analysis/reference/dapil_seat_counts.csv
+Banten,BANTEN I,Banten I,6,analysis/reference/dapil_seat_counts.csv
+Banten,BANTEN II,Banten II,6,analysis/reference/dapil_seat_counts.csv
+Banten,BANTEN III,Banten III,10,analysis/reference/dapil_seat_counts.csv
+Bali,BALI,Bali,9,analysis/reference/dapil_seat_counts.csv
+Nusa Tenggara Barat,NUSA TENGGARA BARAT I,Nusa Tenggara Barat I,3,analysis/reference/dapil_seat_counts.csv
+Nusa Tenggara Barat,NUSA TENGGARA BARAT II,Nusa Tenggara Barat II,8,analysis/reference/dapil_seat_counts.csv
+Nusa Tenggara Timur,NUSA TENGGARA TIMUR I,Nusa Tenggara Timur I,6,analysis/reference/dapil_seat_counts.csv
+Nusa Tenggara Timur,NUSA TENGGARA TIMUR II,Nusa Tenggara Timur II,7,analysis/reference/dapil_seat_counts.csv
+Kalimantan Barat,KALIMANTAN BARAT I,Kalimantan Barat I,8,analysis/reference/dapil_seat_counts.csv
+Kalimantan Barat,KALIMANTAN BARAT II,Kalimantan Barat II,4,analysis/reference/dapil_seat_counts.csv
+Kalimantan Tengah,KALIMANTAN TENGAH,Kalimantan Tengah,6,analysis/reference/dapil_seat_counts.csv
+Kalimantan Selatan,KALIMANTAN SELATAN I,Kalimantan Selatan I,6,analysis/reference/dapil_seat_counts.csv
+Kalimantan Selatan,KALIMANTAN SELATAN II,Kalimantan Selatan II,5,analysis/reference/dapil_seat_counts.csv
+Kalimantan Timur,KALIMANTAN TIMUR,Kalimantan Timur,8,analysis/reference/dapil_seat_counts.csv
+Kalimantan Utara,KALIMANTAN UTARA,Kalimantan Utara,3,analysis/reference/dapil_seat_counts.csv
+Sulawesi Utara,SULAWESI UTARA,Sulawesi Utara,6,analysis/reference/dapil_seat_counts.csv
+Gorontalo,GORONTALO,Gorontalo,3,analysis/reference/dapil_seat_counts.csv
+Sulawesi Tengah,SULAWESI TENGAH,Sulawesi Tengah,7,analysis/reference/dapil_seat_counts.csv
+Sulawesi Selatan,SULAWESI SELATAN I,Sulawesi Selatan I,8,analysis/reference/dapil_seat_counts.csv
+Sulawesi Selatan,SULAWESI SELATAN II,Sulawesi Selatan II,9,analysis/reference/dapil_seat_counts.csv
+Sulawesi Selatan,SULAWESI SELATAN III,Sulawesi Selatan III,7,analysis/reference/dapil_seat_counts.csv
+Sulawesi Barat,SULAWESI BARAT,Sulawesi Barat,4,analysis/reference/dapil_seat_counts.csv
+Sulawesi Tenggara,SULAWESI TENGGARA,Sulawesi Tenggara,6,analysis/reference/dapil_seat_counts.csv
+Maluku,MALUKU,Maluku,4,analysis/reference/dapil_seat_counts.csv
+Maluku Utara,MALUKU UTARA,Maluku Utara,3,analysis/reference/dapil_seat_counts.csv
+Papua,P A P U A,Papua,3,analysis/reference/dapil_seat_counts.csv
+Papua Barat,PAPUA BARAT,Papua Barat,3,analysis/reference/dapil_seat_counts.csv
+Papua Selatan,PAPUA SELATAN,Papua Selatan,3,analysis/reference/dapil_seat_counts.csv
+Papua Tengah,PAPUA TENGAH,Papua Tengah,3,analysis/reference/dapil_seat_counts.csv
+Papua Pegunungan,PAPUA PEGUNUNGAN,Papua Pegunungan,3,analysis/reference/dapil_seat_counts.csv
+Papua Barat Daya,PAPUA BARAT DAYA,Papua Barat Daya,3,analysis/reference/dapil_seat_counts.csv

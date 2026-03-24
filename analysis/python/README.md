@@ -40,6 +40,9 @@ Small Python ports that run against `data/prepared`.
 - `python/build_pilpres_vs_pileg_dashboard.py`
   Builds a separate standalone HTML dashboard comparing province-level Pilpres vote share against coalition Pileg percentages from an optional local CSV in `Pilpres V Pileg/`.
 
+- `python/publish_render_site.py`
+  Builds the minimum upstream outputs needed by the three public dashboards, packages them into one static site, and writes the Render publish directory.
+
 - `python/run_all.py`
   Runs the Python prep and analysis pipeline end to end.
 
@@ -53,24 +56,4 @@ python3 analysis/python/dpr_estimated_winners.py
 python3 analysis/python/data_coverage_report.py
 python3 analysis/python/party_ratio_analysis.py
 python3 analysis/python/representation_gap.py
-python3 analysis/python/plot_quicklooks.py
-python3 analysis/python/report_builder.py
-python3 analysis/python/build_interactive_dashboard.py
-python3 analysis/python/build_pileg_seat_dashboard.py
-python3 analysis/python/build_pilpres_vs_pileg_dashboard.py
-python3 analysis/python/run_all.py
-```
-
-## Outputs
-
-All script outputs land in `analysis/python_outputs/`.
-
-`analysis/python/run_all.py` skips the Pilpres-vs-Pileg dashboard automatically when `Pilpres V Pileg/election_results.csv` is not present locally.
-
-For DPR outputs, the Python workflow now separates two lenses:
-
-- vote analysis shows all parties and all candidate votes
-- DPR seat and winner analysis defaults to the legal 4% national parliamentary-threshold model
-- raw all-party seat simulations are still exported for transparency and comparison
-
-Legacy R/Quarto notebooks are archived under `archive/r_reference/` and are not part of the active Python workflow.
+python3 analysis/python/plot_qu

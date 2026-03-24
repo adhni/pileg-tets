@@ -1,0 +1,913 @@
+province,province_raw,party_code,party_name,provincial_seats
+Aceh,Aceh,PKB,Partai Kebangkitan Bangsa,9
+Aceh,Aceh,Gerindra,Partai Gerakan Indonesia Raya,5
+Aceh,Aceh,PDIP,Partai Demokrasi Indonesia Perjuangan,1
+Aceh,Aceh,Golkar,Partai Golongan Karya,9
+Aceh,Aceh,NasDem,Partai NasDem,10
+Aceh,Aceh,Buruh,Partai Buruh,0
+Aceh,Aceh,Gelora,Partai Gelombang Rakyat Indonesia,0
+Aceh,Aceh,PKS,Partai Keadilan Sejahtera,4
+Aceh,Aceh,PKN,Partai Kebangkitan Nusantara,0
+Aceh,Aceh,Hanura,Partai Hati Nurani Rakyat,0
+Aceh,Aceh,Garuda,Partai Garda Republik Indonesia,0
+Aceh,Aceh,PAN,Partai Amanat Nasional,5
+Aceh,Aceh,PBB,Partai Bulan Bintang,0
+Aceh,Aceh,Demokrat,Partai Demokrat,7
+Aceh,Aceh,PSI,Partai Solidaritas Indonesia,0
+Aceh,Aceh,Perindo,Partai Perindo,0
+Aceh,Aceh,PPP,Partai Persatuan Pembangunan,5
+Aceh,Aceh,PNA,PNA,1
+Aceh,Aceh,Gabthat,Gabthat,0
+Aceh,Aceh,PDA,PDA,1
+Aceh,Aceh,PA,PA,20
+Aceh,Aceh,PASA,PASA,4
+Aceh,Aceh,SIRA,SIRA,0
+Aceh,Aceh,Ummat,Partai Ummat,0
+Sumatera Utara,North Sumatra,PKB,Partai Kebangkitan Bangsa,4
+Sumatera Utara,North Sumatra,Gerindra,Partai Gerakan Indonesia Raya,13
+Sumatera Utara,North Sumatra,PDIP,Partai Demokrasi Indonesia Perjuangan,21
+Sumatera Utara,North Sumatra,Golkar,Partai Golongan Karya,22
+Sumatera Utara,North Sumatra,NasDem,Partai NasDem,12
+Sumatera Utara,North Sumatra,Buruh,Partai Buruh,0
+Sumatera Utara,North Sumatra,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sumatera Utara,North Sumatra,PKS,Partai Keadilan Sejahtera,10
+Sumatera Utara,North Sumatra,PKN,Partai Kebangkitan Nusantara,0
+Sumatera Utara,North Sumatra,Hanura,Partai Hati Nurani Rakyat,5
+Sumatera Utara,North Sumatra,Garuda,Partai Garda Republik Indonesia,0
+Sumatera Utara,North Sumatra,PAN,Partai Amanat Nasional,6
+Sumatera Utara,North Sumatra,PBB,Partai Bulan Bintang,0
+Sumatera Utara,North Sumatra,Demokrat,Partai Demokrat,5
+Sumatera Utara,North Sumatra,PSI,Partai Solidaritas Indonesia,0
+Sumatera Utara,North Sumatra,Perindo,Partai Perindo,1
+Sumatera Utara,North Sumatra,PPP,Partai Persatuan Pembangunan,1
+Sumatera Utara,North Sumatra,PNA,PNA,0
+Sumatera Utara,North Sumatra,Gabthat,Gabthat,0
+Sumatera Utara,North Sumatra,PDA,PDA,0
+Sumatera Utara,North Sumatra,PA,PA,0
+Sumatera Utara,North Sumatra,PASA,PASA,0
+Sumatera Utara,North Sumatra,SIRA,SIRA,0
+Sumatera Utara,North Sumatra,Ummat,Partai Ummat,0
+Sumatera Barat,West Sumatra,PKB,Partai Kebangkitan Bangsa,3
+Sumatera Barat,West Sumatra,Gerindra,Partai Gerakan Indonesia Raya,10
+Sumatera Barat,West Sumatra,PDIP,Partai Demokrasi Indonesia Perjuangan,3
+Sumatera Barat,West Sumatra,Golkar,Partai Golongan Karya,9
+Sumatera Barat,West Sumatra,NasDem,Partai NasDem,9
+Sumatera Barat,West Sumatra,Buruh,Partai Buruh,0
+Sumatera Barat,West Sumatra,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sumatera Barat,West Sumatra,PKS,Partai Keadilan Sejahtera,10
+Sumatera Barat,West Sumatra,PKN,Partai Kebangkitan Nusantara,0
+Sumatera Barat,West Sumatra,Hanura,Partai Hati Nurani Rakyat,0
+Sumatera Barat,West Sumatra,Garuda,Partai Garda Republik Indonesia,0
+Sumatera Barat,West Sumatra,PAN,Partai Amanat Nasional,8
+Sumatera Barat,West Sumatra,PBB,Partai Bulan Bintang,0
+Sumatera Barat,West Sumatra,Demokrat,Partai Demokrat,8
+Sumatera Barat,West Sumatra,PSI,Partai Solidaritas Indonesia,0
+Sumatera Barat,West Sumatra,Perindo,Partai Perindo,0
+Sumatera Barat,West Sumatra,PPP,Partai Persatuan Pembangunan,5
+Sumatera Barat,West Sumatra,PNA,PNA,0
+Sumatera Barat,West Sumatra,Gabthat,Gabthat,0
+Sumatera Barat,West Sumatra,PDA,PDA,0
+Sumatera Barat,West Sumatra,PA,PA,0
+Sumatera Barat,West Sumatra,PASA,PASA,0
+Sumatera Barat,West Sumatra,SIRA,SIRA,0
+Sumatera Barat,West Sumatra,Ummat,Partai Ummat,0
+Riau,Riau,PKB,Partai Kebangkitan Bangsa,6
+Riau,Riau,Gerindra,Partai Gerakan Indonesia Raya,8
+Riau,Riau,PDIP,Partai Demokrasi Indonesia Perjuangan,11
+Riau,Riau,Golkar,Partai Golongan Karya,10
+Riau,Riau,NasDem,Partai NasDem,6
+Riau,Riau,Buruh,Partai Buruh,0
+Riau,Riau,Gelora,Partai Gelombang Rakyat Indonesia,0
+Riau,Riau,PKS,Partai Keadilan Sejahtera,10
+Riau,Riau,PKN,Partai Kebangkitan Nusantara,0
+Riau,Riau,Hanura,Partai Hati Nurani Rakyat,0
+Riau,Riau,Garuda,Partai Garda Republik Indonesia,0
+Riau,Riau,PAN,Partai Amanat Nasional,5
+Riau,Riau,PBB,Partai Bulan Bintang,0
+Riau,Riau,Demokrat,Partai Demokrat,8
+Riau,Riau,PSI,Partai Solidaritas Indonesia,0
+Riau,Riau,Perindo,Partai Perindo,0
+Riau,Riau,PPP,Partai Persatuan Pembangunan,1
+Riau,Riau,PNA,PNA,0
+Riau,Riau,Gabthat,Gabthat,0
+Riau,Riau,PDA,PDA,0
+Riau,Riau,PA,PA,0
+Riau,Riau,PASA,PASA,0
+Riau,Riau,SIRA,SIRA,0
+Riau,Riau,Ummat,Partai Ummat,0
+Kepulauan Riau,Riau Islands,PKB,Partai Kebangkitan Bangsa,2
+Kepulauan Riau,Riau Islands,Gerindra,Partai Gerakan Indonesia Raya,9
+Kepulauan Riau,Riau Islands,PDIP,Partai Demokrasi Indonesia Perjuangan,4
+Kepulauan Riau,Riau Islands,Golkar,Partai Golongan Karya,9
+Kepulauan Riau,Riau Islands,NasDem,Partai NasDem,7
+Kepulauan Riau,Riau Islands,Buruh,Partai Buruh,0
+Kepulauan Riau,Riau Islands,Gelora,Partai Gelombang Rakyat Indonesia,0
+Kepulauan Riau,Riau Islands,PKS,Partai Keadilan Sejahtera,6
+Kepulauan Riau,Riau Islands,PKN,Partai Kebangkitan Nusantara,0
+Kepulauan Riau,Riau Islands,Hanura,Partai Hati Nurani Rakyat,1
+Kepulauan Riau,Riau Islands,Garuda,Partai Garda Republik Indonesia,0
+Kepulauan Riau,Riau Islands,PAN,Partai Amanat Nasional,2
+Kepulauan Riau,Riau Islands,PBB,Partai Bulan Bintang,0
+Kepulauan Riau,Riau Islands,Demokrat,Partai Demokrat,3
+Kepulauan Riau,Riau Islands,PSI,Partai Solidaritas Indonesia,1
+Kepulauan Riau,Riau Islands,Perindo,Partai Perindo,1
+Kepulauan Riau,Riau Islands,PPP,Partai Persatuan Pembangunan,0
+Kepulauan Riau,Riau Islands,PNA,PNA,0
+Kepulauan Riau,Riau Islands,Gabthat,Gabthat,0
+Kepulauan Riau,Riau Islands,PDA,PDA,0
+Kepulauan Riau,Riau Islands,PA,PA,0
+Kepulauan Riau,Riau Islands,PASA,PASA,0
+Kepulauan Riau,Riau Islands,SIRA,SIRA,0
+Kepulauan Riau,Riau Islands,Ummat,Partai Ummat,0
+Jambi,Jambi,PKB,Partai Kebangkitan Bangsa,6
+Jambi,Jambi,Gerindra,Partai Gerakan Indonesia Raya,6
+Jambi,Jambi,PDIP,Partai Demokrasi Indonesia Perjuangan,6
+Jambi,Jambi,Golkar,Partai Golongan Karya,7
+Jambi,Jambi,NasDem,Partai NasDem,5
+Jambi,Jambi,Buruh,Partai Buruh,0
+Jambi,Jambi,Gelora,Partai Gelombang Rakyat Indonesia,0
+Jambi,Jambi,PKS,Partai Keadilan Sejahtera,5
+Jambi,Jambi,PKN,Partai Kebangkitan Nusantara,0
+Jambi,Jambi,Hanura,Partai Hati Nurani Rakyat,0
+Jambi,Jambi,Garuda,Partai Garda Republik Indonesia,0
+Jambi,Jambi,PAN,Partai Amanat Nasional,10
+Jambi,Jambi,PBB,Partai Bulan Bintang,0
+Jambi,Jambi,Demokrat,Partai Demokrat,5
+Jambi,Jambi,PSI,Partai Solidaritas Indonesia,0
+Jambi,Jambi,Perindo,Partai Perindo,0
+Jambi,Jambi,PPP,Partai Persatuan Pembangunan,5
+Jambi,Jambi,PNA,PNA,0
+Jambi,Jambi,Gabthat,Gabthat,0
+Jambi,Jambi,PDA,PDA,0
+Jambi,Jambi,PA,PA,0
+Jambi,Jambi,PASA,PASA,0
+Jambi,Jambi,SIRA,SIRA,0
+Jambi,Jambi,Ummat,Partai Ummat,0
+Sumatera Selatan,South Sumatra,PKB,Partai Kebangkitan Bangsa,7
+Sumatera Selatan,South Sumatra,Gerindra,Partai Gerakan Indonesia Raya,11
+Sumatera Selatan,South Sumatra,PDIP,Partai Demokrasi Indonesia Perjuangan,9
+Sumatera Selatan,South Sumatra,Golkar,Partai Golongan Karya,12
+Sumatera Selatan,South Sumatra,NasDem,Partai NasDem,10
+Sumatera Selatan,South Sumatra,Buruh,Partai Buruh,0
+Sumatera Selatan,South Sumatra,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sumatera Selatan,South Sumatra,PKS,Partai Keadilan Sejahtera,7
+Sumatera Selatan,South Sumatra,PKN,Partai Kebangkitan Nusantara,1
+Sumatera Selatan,South Sumatra,Hanura,Partai Hati Nurani Rakyat,1
+Sumatera Selatan,South Sumatra,Garuda,Partai Garda Republik Indonesia,0
+Sumatera Selatan,South Sumatra,PAN,Partai Amanat Nasional,6
+Sumatera Selatan,South Sumatra,PBB,Partai Bulan Bintang,0
+Sumatera Selatan,South Sumatra,Demokrat,Partai Demokrat,8
+Sumatera Selatan,South Sumatra,PSI,Partai Solidaritas Indonesia,0
+Sumatera Selatan,South Sumatra,Perindo,Partai Perindo,1
+Sumatera Selatan,South Sumatra,PPP,Partai Persatuan Pembangunan,2
+Sumatera Selatan,South Sumatra,PNA,PNA,0
+Sumatera Selatan,South Sumatra,Gabthat,Gabthat,0
+Sumatera Selatan,South Sumatra,PDA,PDA,0
+Sumatera Selatan,South Sumatra,PA,PA,0
+Sumatera Selatan,South Sumatra,PASA,PASA,0
+Sumatera Selatan,South Sumatra,SIRA,SIRA,0
+Sumatera Selatan,South Sumatra,Ummat,Partai Ummat,0
+Kepulauan Bangka Belitung,Bangka Belitung,PKB,Partai Kebangkitan Bangsa,2
+Kepulauan Bangka Belitung,Bangka Belitung,Gerindra,Partai Gerakan Indonesia Raya,7
+Kepulauan Bangka Belitung,Bangka Belitung,PDIP,Partai Demokrasi Indonesia Perjuangan,9
+Kepulauan Bangka Belitung,Bangka Belitung,Golkar,Partai Golongan Karya,8
+Kepulauan Bangka Belitung,Bangka Belitung,NasDem,Partai NasDem,6
+Kepulauan Bangka Belitung,Bangka Belitung,Buruh,Partai Buruh,0
+Kepulauan Bangka Belitung,Bangka Belitung,Gelora,Partai Gelombang Rakyat Indonesia,0
+Kepulauan Bangka Belitung,Bangka Belitung,PKS,Partai Keadilan Sejahtera,6
+Kepulauan Bangka Belitung,Bangka Belitung,PKN,Partai Kebangkitan Nusantara,0
+Kepulauan Bangka Belitung,Bangka Belitung,Hanura,Partai Hati Nurani Rakyat,0
+Kepulauan Bangka Belitung,Bangka Belitung,Garuda,Partai Garda Republik Indonesia,0
+Kepulauan Bangka Belitung,Bangka Belitung,PAN,Partai Amanat Nasional,0
+Kepulauan Bangka Belitung,Bangka Belitung,PBB,Partai Bulan Bintang,1
+Kepulauan Bangka Belitung,Bangka Belitung,Demokrat,Partai Demokrat,3
+Kepulauan Bangka Belitung,Bangka Belitung,PSI,Partai Solidaritas Indonesia,0
+Kepulauan Bangka Belitung,Bangka Belitung,Perindo,Partai Perindo,0
+Kepulauan Bangka Belitung,Bangka Belitung,PPP,Partai Persatuan Pembangunan,3
+Kepulauan Bangka Belitung,Bangka Belitung,PNA,PNA,0
+Kepulauan Bangka Belitung,Bangka Belitung,Gabthat,Gabthat,0
+Kepulauan Bangka Belitung,Bangka Belitung,PDA,PDA,0
+Kepulauan Bangka Belitung,Bangka Belitung,PA,PA,0
+Kepulauan Bangka Belitung,Bangka Belitung,PASA,PASA,0
+Kepulauan Bangka Belitung,Bangka Belitung,SIRA,SIRA,0
+Kepulauan Bangka Belitung,Bangka Belitung,Ummat,Partai Ummat,0
+Bengkulu,Bengkulu,PKB,Partai Kebangkitan Bangsa,3
+Bengkulu,Bengkulu,Gerindra,Partai Gerakan Indonesia Raya,6
+Bengkulu,Bengkulu,PDIP,Partai Demokrasi Indonesia Perjuangan,6
+Bengkulu,Bengkulu,Golkar,Partai Golongan Karya,10
+Bengkulu,Bengkulu,NasDem,Partai NasDem,4
+Bengkulu,Bengkulu,Buruh,Partai Buruh,0
+Bengkulu,Bengkulu,Gelora,Partai Gelombang Rakyat Indonesia,0
+Bengkulu,Bengkulu,PKS,Partai Keadilan Sejahtera,2
+Bengkulu,Bengkulu,PKN,Partai Kebangkitan Nusantara,0
+Bengkulu,Bengkulu,Hanura,Partai Hati Nurani Rakyat,3
+Bengkulu,Bengkulu,Garuda,Partai Garda Republik Indonesia,0
+Bengkulu,Bengkulu,PAN,Partai Amanat Nasional,6
+Bengkulu,Bengkulu,PBB,Partai Bulan Bintang,0
+Bengkulu,Bengkulu,Demokrat,Partai Demokrat,4
+Bengkulu,Bengkulu,PSI,Partai Solidaritas Indonesia,0
+Bengkulu,Bengkulu,Perindo,Partai Perindo,0
+Bengkulu,Bengkulu,PPP,Partai Persatuan Pembangunan,1
+Bengkulu,Bengkulu,PNA,PNA,0
+Bengkulu,Bengkulu,Gabthat,Gabthat,0
+Bengkulu,Bengkulu,PDA,PDA,0
+Bengkulu,Bengkulu,PA,PA,0
+Bengkulu,Bengkulu,PASA,PASA,0
+Bengkulu,Bengkulu,SIRA,SIRA,0
+Bengkulu,Bengkulu,Ummat,Partai Ummat,0
+Lampung,Lampung,PKB,Partai Kebangkitan Bangsa,11
+Lampung,Lampung,Gerindra,Partai Gerakan Indonesia Raya,16
+Lampung,Lampung,PDIP,Partai Demokrasi Indonesia Perjuangan,13
+Lampung,Lampung,Golkar,Partai Golongan Karya,11
+Lampung,Lampung,NasDem,Partai NasDem,10
+Lampung,Lampung,Buruh,Partai Buruh,0
+Lampung,Lampung,Gelora,Partai Gelombang Rakyat Indonesia,0
+Lampung,Lampung,PKS,Partai Keadilan Sejahtera,7
+Lampung,Lampung,PKN,Partai Kebangkitan Nusantara,0
+Lampung,Lampung,Hanura,Partai Hati Nurani Rakyat,0
+Lampung,Lampung,Garuda,Partai Garda Republik Indonesia,0
+Lampung,Lampung,PAN,Partai Amanat Nasional,8
+Lampung,Lampung,PBB,Partai Bulan Bintang,0
+Lampung,Lampung,Demokrat,Partai Demokrat,9
+Lampung,Lampung,PSI,Partai Solidaritas Indonesia,0
+Lampung,Lampung,Perindo,Partai Perindo,0
+Lampung,Lampung,PPP,Partai Persatuan Pembangunan,0
+Lampung,Lampung,PNA,PNA,0
+Lampung,Lampung,Gabthat,Gabthat,0
+Lampung,Lampung,PDA,PDA,0
+Lampung,Lampung,PA,PA,0
+Lampung,Lampung,PASA,PASA,0
+Lampung,Lampung,SIRA,SIRA,0
+Lampung,Lampung,Ummat,Partai Ummat,0
+DKI Jakarta,Jakarta,PKB,Partai Kebangkitan Bangsa,10
+DKI Jakarta,Jakarta,Gerindra,Partai Gerakan Indonesia Raya,14
+DKI Jakarta,Jakarta,PDIP,Partai Demokrasi Indonesia Perjuangan,15
+DKI Jakarta,Jakarta,Golkar,Partai Golongan Karya,10
+DKI Jakarta,Jakarta,NasDem,Partai NasDem,11
+DKI Jakarta,Jakarta,Buruh,Partai Buruh,0
+DKI Jakarta,Jakarta,Gelora,Partai Gelombang Rakyat Indonesia,0
+DKI Jakarta,Jakarta,PKS,Partai Keadilan Sejahtera,18
+DKI Jakarta,Jakarta,PKN,Partai Kebangkitan Nusantara,0
+DKI Jakarta,Jakarta,Hanura,Partai Hati Nurani Rakyat,0
+DKI Jakarta,Jakarta,Garuda,Partai Garda Republik Indonesia,0
+DKI Jakarta,Jakarta,PAN,Partai Amanat Nasional,10
+DKI Jakarta,Jakarta,PBB,Partai Bulan Bintang,0
+DKI Jakarta,Jakarta,Demokrat,Partai Demokrat,8
+DKI Jakarta,Jakarta,PSI,Partai Solidaritas Indonesia,8
+DKI Jakarta,Jakarta,Perindo,Partai Perindo,1
+DKI Jakarta,Jakarta,PPP,Partai Persatuan Pembangunan,1
+DKI Jakarta,Jakarta,PNA,PNA,0
+DKI Jakarta,Jakarta,Gabthat,Gabthat,0
+DKI Jakarta,Jakarta,PDA,PDA,0
+DKI Jakarta,Jakarta,PA,PA,0
+DKI Jakarta,Jakarta,PASA,PASA,0
+DKI Jakarta,Jakarta,SIRA,SIRA,0
+DKI Jakarta,Jakarta,Ummat,Partai Ummat,0
+Jawa Barat,West Java,PKB,Partai Kebangkitan Bangsa,15
+Jawa Barat,West Java,Gerindra,Partai Gerakan Indonesia Raya,20
+Jawa Barat,West Java,PDIP,Partai Demokrasi Indonesia Perjuangan,17
+Jawa Barat,West Java,Golkar,Partai Golongan Karya,19
+Jawa Barat,West Java,NasDem,Partai NasDem,8
+Jawa Barat,West Java,Buruh,Partai Buruh,0
+Jawa Barat,West Java,Gelora,Partai Gelombang Rakyat Indonesia,0
+Jawa Barat,West Java,PKS,Partai Keadilan Sejahtera,19
+Jawa Barat,West Java,PKN,Partai Kebangkitan Nusantara,0
+Jawa Barat,West Java,Hanura,Partai Hati Nurani Rakyat,0
+Jawa Barat,West Java,Garuda,Partai Garda Republik Indonesia,0
+Jawa Barat,West Java,PAN,Partai Amanat Nasional,7
+Jawa Barat,West Java,PBB,Partai Bulan Bintang,0
+Jawa Barat,West Java,Demokrat,Partai Demokrat,8
+Jawa Barat,West Java,PSI,Partai Solidaritas Indonesia,1
+Jawa Barat,West Java,Perindo,Partai Perindo,0
+Jawa Barat,West Java,PPP,Partai Persatuan Pembangunan,6
+Jawa Barat,West Java,PNA,PNA,0
+Jawa Barat,West Java,Gabthat,Gabthat,0
+Jawa Barat,West Java,PDA,PDA,0
+Jawa Barat,West Java,PA,PA,0
+Jawa Barat,West Java,PASA,PASA,0
+Jawa Barat,West Java,SIRA,SIRA,0
+Jawa Barat,West Java,Ummat,Partai Ummat,0
+Jawa Tengah,Central Java,PKB,Partai Kebangkitan Bangsa,20
+Jawa Tengah,Central Java,Gerindra,Partai Gerakan Indonesia Raya,17
+Jawa Tengah,Central Java,PDIP,Partai Demokrasi Indonesia Perjuangan,33
+Jawa Tengah,Central Java,Golkar,Partai Golongan Karya,17
+Jawa Tengah,Central Java,NasDem,Partai NasDem,3
+Jawa Tengah,Central Java,Buruh,Partai Buruh,0
+Jawa Tengah,Central Java,Gelora,Partai Gelombang Rakyat Indonesia,0
+Jawa Tengah,Central Java,PKS,Partai Keadilan Sejahtera,11
+Jawa Tengah,Central Java,PKN,Partai Kebangkitan Nusantara,0
+Jawa Tengah,Central Java,Hanura,Partai Hati Nurani Rakyat,0
+Jawa Tengah,Central Java,Garuda,Partai Garda Republik Indonesia,0
+Jawa Tengah,Central Java,PAN,Partai Amanat Nasional,4
+Jawa Tengah,Central Java,PBB,Partai Bulan Bintang,0
+Jawa Tengah,Central Java,Demokrat,Partai Demokrat,7
+Jawa Tengah,Central Java,PSI,Partai Solidaritas Indonesia,2
+Jawa Tengah,Central Java,Perindo,Partai Perindo,0
+Jawa Tengah,Central Java,PPP,Partai Persatuan Pembangunan,6
+Jawa Tengah,Central Java,PNA,PNA,0
+Jawa Tengah,Central Java,Gabthat,Gabthat,0
+Jawa Tengah,Central Java,PDA,PDA,0
+Jawa Tengah,Central Java,PA,PA,0
+Jawa Tengah,Central Java,PASA,PASA,0
+Jawa Tengah,Central Java,SIRA,SIRA,0
+Jawa Tengah,Central Java,Ummat,Partai Ummat,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PKB,Partai Kebangkitan Bangsa,6
+Daerah Istimewa Yogyakarta,Yogyakarta,Gerindra,Partai Gerakan Indonesia Raya,8
+Daerah Istimewa Yogyakarta,Yogyakarta,PDIP,Partai Demokrasi Indonesia Perjuangan,19
+Daerah Istimewa Yogyakarta,Yogyakarta,Golkar,Partai Golongan Karya,6
+Daerah Istimewa Yogyakarta,Yogyakarta,NasDem,Partai NasDem,2
+Daerah Istimewa Yogyakarta,Yogyakarta,Buruh,Partai Buruh,0
+Daerah Istimewa Yogyakarta,Yogyakarta,Gelora,Partai Gelombang Rakyat Indonesia,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PKS,Partai Keadilan Sejahtera,7
+Daerah Istimewa Yogyakarta,Yogyakarta,PKN,Partai Kebangkitan Nusantara,0
+Daerah Istimewa Yogyakarta,Yogyakarta,Hanura,Partai Hati Nurani Rakyat,0
+Daerah Istimewa Yogyakarta,Yogyakarta,Garuda,Partai Garda Republik Indonesia,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PAN,Partai Amanat Nasional,5
+Daerah Istimewa Yogyakarta,Yogyakarta,PBB,Partai Bulan Bintang,0
+Daerah Istimewa Yogyakarta,Yogyakarta,Demokrat,Partai Demokrat,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PSI,Partai Solidaritas Indonesia,1
+Daerah Istimewa Yogyakarta,Yogyakarta,Perindo,Partai Perindo,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PPP,Partai Persatuan Pembangunan,1
+Daerah Istimewa Yogyakarta,Yogyakarta,PNA,PNA,0
+Daerah Istimewa Yogyakarta,Yogyakarta,Gabthat,Gabthat,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PDA,PDA,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PA,PA,0
+Daerah Istimewa Yogyakarta,Yogyakarta,PASA,PASA,0
+Daerah Istimewa Yogyakarta,Yogyakarta,SIRA,SIRA,0
+Daerah Istimewa Yogyakarta,Yogyakarta,Ummat,Partai Ummat,0
+Jawa Timur,East Java,PKB,Partai Kebangkitan Bangsa,27
+Jawa Timur,East Java,Gerindra,Partai Gerakan Indonesia Raya,21
+Jawa Timur,East Java,PDIP,Partai Demokrasi Indonesia Perjuangan,21
+Jawa Timur,East Java,Golkar,Partai Golongan Karya,15
+Jawa Timur,East Java,NasDem,Partai NasDem,10
+Jawa Timur,East Java,Buruh,Partai Buruh,0
+Jawa Timur,East Java,Gelora,Partai Gelombang Rakyat Indonesia,0
+Jawa Timur,East Java,PKS,Partai Keadilan Sejahtera,5
+Jawa Timur,East Java,PKN,Partai Kebangkitan Nusantara,0
+Jawa Timur,East Java,Hanura,Partai Hati Nurani Rakyat,0
+Jawa Timur,East Java,Garuda,Partai Garda Republik Indonesia,0
+Jawa Timur,East Java,PAN,Partai Amanat Nasional,5
+Jawa Timur,East Java,PBB,Partai Bulan Bintang,0
+Jawa Timur,East Java,Demokrat,Partai Demokrat,11
+Jawa Timur,East Java,PSI,Partai Solidaritas Indonesia,1
+Jawa Timur,East Java,Perindo,Partai Perindo,0
+Jawa Timur,East Java,PPP,Partai Persatuan Pembangunan,4
+Jawa Timur,East Java,PNA,PNA,0
+Jawa Timur,East Java,Gabthat,Gabthat,0
+Jawa Timur,East Java,PDA,PDA,0
+Jawa Timur,East Java,PA,PA,0
+Jawa Timur,East Java,PASA,PASA,0
+Jawa Timur,East Java,SIRA,SIRA,0
+Jawa Timur,East Java,Ummat,Partai Ummat,0
+Banten,Banten,PKB,Partai Kebangkitan Bangsa,10
+Banten,Banten,Gerindra,Partai Gerakan Indonesia Raya,14
+Banten,Banten,PDIP,Partai Demokrasi Indonesia Perjuangan,14
+Banten,Banten,Golkar,Partai Golongan Karya,14
+Banten,Banten,NasDem,Partai NasDem,10
+Banten,Banten,Buruh,Partai Buruh,0
+Banten,Banten,Gelora,Partai Gelombang Rakyat Indonesia,0
+Banten,Banten,PKS,Partai Keadilan Sejahtera,13
+Banten,Banten,PKN,Partai Kebangkitan Nusantara,0
+Banten,Banten,Hanura,Partai Hati Nurani Rakyat,0
+Banten,Banten,Garuda,Partai Garda Republik Indonesia,0
+Banten,Banten,PAN,Partai Amanat Nasional,7
+Banten,Banten,PBB,Partai Bulan Bintang,0
+Banten,Banten,Demokrat,Partai Demokrat,11
+Banten,Banten,PSI,Partai Solidaritas Indonesia,3
+Banten,Banten,Perindo,Partai Perindo,0
+Banten,Banten,PPP,Partai Persatuan Pembangunan,4
+Banten,Banten,PNA,PNA,0
+Banten,Banten,Gabthat,Gabthat,0
+Banten,Banten,PDA,PDA,0
+Banten,Banten,PA,PA,0
+Banten,Banten,PASA,PASA,0
+Banten,Banten,SIRA,SIRA,0
+Banten,Banten,Ummat,Partai Ummat,0
+Bali,Bali,PKB,Partai Kebangkitan Bangsa,0
+Bali,Bali,Gerindra,Partai Gerakan Indonesia Raya,10
+Bali,Bali,PDIP,Partai Demokrasi Indonesia Perjuangan,32
+Bali,Bali,Golkar,Partai Golongan Karya,7
+Bali,Bali,NasDem,Partai NasDem,2
+Bali,Bali,Buruh,Partai Buruh,0
+Bali,Bali,Gelora,Partai Gelombang Rakyat Indonesia,0
+Bali,Bali,PKS,Partai Keadilan Sejahtera,0
+Bali,Bali,PKN,Partai Kebangkitan Nusantara,0
+Bali,Bali,Hanura,Partai Hati Nurani Rakyat,0
+Bali,Bali,Garuda,Partai Garda Republik Indonesia,0
+Bali,Bali,PAN,Partai Amanat Nasional,0
+Bali,Bali,PBB,Partai Bulan Bintang,0
+Bali,Bali,Demokrat,Partai Demokrat,3
+Bali,Bali,PSI,Partai Solidaritas Indonesia,1
+Bali,Bali,Perindo,Partai Perindo,0
+Bali,Bali,PPP,Partai Persatuan Pembangunan,0
+Bali,Bali,PNA,PNA,0
+Bali,Bali,Gabthat,Gabthat,0
+Bali,Bali,PDA,PDA,0
+Bali,Bali,PA,PA,0
+Bali,Bali,PASA,PASA,0
+Bali,Bali,SIRA,SIRA,0
+Bali,Bali,Ummat,Partai Ummat,0
+Nusa Tenggara Barat,West Nusa Tenggara,PKB,Partai Kebangkitan Bangsa,6
+Nusa Tenggara Barat,West Nusa Tenggara,Gerindra,Partai Gerakan Indonesia Raya,10
+Nusa Tenggara Barat,West Nusa Tenggara,PDIP,Partai Demokrasi Indonesia Perjuangan,4
+Nusa Tenggara Barat,West Nusa Tenggara,Golkar,Partai Golongan Karya,10
+Nusa Tenggara Barat,West Nusa Tenggara,NasDem,Partai NasDem,4
+Nusa Tenggara Barat,West Nusa Tenggara,Buruh,Partai Buruh,0
+Nusa Tenggara Barat,West Nusa Tenggara,Gelora,Partai Gelombang Rakyat Indonesia,0
+Nusa Tenggara Barat,West Nusa Tenggara,PKS,Partai Keadilan Sejahtera,8
+Nusa Tenggara Barat,West Nusa Tenggara,PKN,Partai Kebangkitan Nusantara,0
+Nusa Tenggara Barat,West Nusa Tenggara,Hanura,Partai Hati Nurani Rakyat,1
+Nusa Tenggara Barat,West Nusa Tenggara,Garuda,Partai Garda Republik Indonesia,0
+Nusa Tenggara Barat,West Nusa Tenggara,PAN,Partai Amanat Nasional,4
+Nusa Tenggara Barat,West Nusa Tenggara,PBB,Partai Bulan Bintang,2
+Nusa Tenggara Barat,West Nusa Tenggara,Demokrat,Partai Demokrat,6
+Nusa Tenggara Barat,West Nusa Tenggara,PSI,Partai Solidaritas Indonesia,0
+Nusa Tenggara Barat,West Nusa Tenggara,Perindo,Partai Perindo,3
+Nusa Tenggara Barat,West Nusa Tenggara,PPP,Partai Persatuan Pembangunan,7
+Nusa Tenggara Barat,West Nusa Tenggara,PNA,PNA,0
+Nusa Tenggara Barat,West Nusa Tenggara,Gabthat,Gabthat,0
+Nusa Tenggara Barat,West Nusa Tenggara,PDA,PDA,0
+Nusa Tenggara Barat,West Nusa Tenggara,PA,PA,0
+Nusa Tenggara Barat,West Nusa Tenggara,PASA,PASA,0
+Nusa Tenggara Barat,West Nusa Tenggara,SIRA,SIRA,0
+Nusa Tenggara Barat,West Nusa Tenggara,Ummat,Partai Ummat,0
+Nusa Tenggara Timur,East Nusa Tenggara,PKB,Partai Kebangkitan Bangsa,7
+Nusa Tenggara Timur,East Nusa Tenggara,Gerindra,Partai Gerakan Indonesia Raya,9
+Nusa Tenggara Timur,East Nusa Tenggara,PDIP,Partai Demokrasi Indonesia Perjuangan,9
+Nusa Tenggara Timur,East Nusa Tenggara,Golkar,Partai Golongan Karya,9
+Nusa Tenggara Timur,East Nusa Tenggara,NasDem,Partai NasDem,8
+Nusa Tenggara Timur,East Nusa Tenggara,Buruh,Partai Buruh,0
+Nusa Tenggara Timur,East Nusa Tenggara,Gelora,Partai Gelombang Rakyat Indonesia,0
+Nusa Tenggara Timur,East Nusa Tenggara,PKS,Partai Keadilan Sejahtera,1
+Nusa Tenggara Timur,East Nusa Tenggara,PKN,Partai Kebangkitan Nusantara,0
+Nusa Tenggara Timur,East Nusa Tenggara,Hanura,Partai Hati Nurani Rakyat,4
+Nusa Tenggara Timur,East Nusa Tenggara,Garuda,Partai Garda Republik Indonesia,0
+Nusa Tenggara Timur,East Nusa Tenggara,PAN,Partai Amanat Nasional,4
+Nusa Tenggara Timur,East Nusa Tenggara,PBB,Partai Bulan Bintang,0
+Nusa Tenggara Timur,East Nusa Tenggara,Demokrat,Partai Demokrat,7
+Nusa Tenggara Timur,East Nusa Tenggara,PSI,Partai Solidaritas Indonesia,6
+Nusa Tenggara Timur,East Nusa Tenggara,Perindo,Partai Perindo,1
+Nusa Tenggara Timur,East Nusa Tenggara,PPP,Partai Persatuan Pembangunan,0
+Nusa Tenggara Timur,East Nusa Tenggara,PNA,PNA,0
+Nusa Tenggara Timur,East Nusa Tenggara,Gabthat,Gabthat,0
+Nusa Tenggara Timur,East Nusa Tenggara,PDA,PDA,0
+Nusa Tenggara Timur,East Nusa Tenggara,PA,PA,0
+Nusa Tenggara Timur,East Nusa Tenggara,PASA,PASA,0
+Nusa Tenggara Timur,East Nusa Tenggara,SIRA,SIRA,0
+Nusa Tenggara Timur,East Nusa Tenggara,Ummat,Partai Ummat,0
+Kalimantan Barat,West Kalimantan,PKB,Partai Kebangkitan Bangsa,5
+Kalimantan Barat,West Kalimantan,Gerindra,Partai Gerakan Indonesia Raya,9
+Kalimantan Barat,West Kalimantan,PDIP,Partai Demokrasi Indonesia Perjuangan,13
+Kalimantan Barat,West Kalimantan,Golkar,Partai Golongan Karya,9
+Kalimantan Barat,West Kalimantan,NasDem,Partai NasDem,10
+Kalimantan Barat,West Kalimantan,Buruh,Partai Buruh,0
+Kalimantan Barat,West Kalimantan,Gelora,Partai Gelombang Rakyat Indonesia,0
+Kalimantan Barat,West Kalimantan,PKS,Partai Keadilan Sejahtera,2
+Kalimantan Barat,West Kalimantan,PKN,Partai Kebangkitan Nusantara,0
+Kalimantan Barat,West Kalimantan,Hanura,Partai Hati Nurani Rakyat,4
+Kalimantan Barat,West Kalimantan,Garuda,Partai Garda Republik Indonesia,0
+Kalimantan Barat,West Kalimantan,PAN,Partai Amanat Nasional,5
+Kalimantan Barat,West Kalimantan,PBB,Partai Bulan Bintang,0
+Kalimantan Barat,West Kalimantan,Demokrat,Partai Demokrat,6
+Kalimantan Barat,West Kalimantan,PSI,Partai Solidaritas Indonesia,0
+Kalimantan Barat,West Kalimantan,Perindo,Partai Perindo,0
+Kalimantan Barat,West Kalimantan,PPP,Partai Persatuan Pembangunan,2
+Kalimantan Barat,West Kalimantan,PNA,PNA,0
+Kalimantan Barat,West Kalimantan,Gabthat,Gabthat,0
+Kalimantan Barat,West Kalimantan,PDA,PDA,0
+Kalimantan Barat,West Kalimantan,PA,PA,0
+Kalimantan Barat,West Kalimantan,PASA,PASA,0
+Kalimantan Barat,West Kalimantan,SIRA,SIRA,0
+Kalimantan Barat,West Kalimantan,Ummat,Partai Ummat,0
+Kalimantan Tengah,Central Kalimantan,PKB,Partai Kebangkitan Bangsa,4
+Kalimantan Tengah,Central Kalimantan,Gerindra,Partai Gerakan Indonesia Raya,6
+Kalimantan Tengah,Central Kalimantan,PDIP,Partai Demokrasi Indonesia Perjuangan,10
+Kalimantan Tengah,Central Kalimantan,Golkar,Partai Golongan Karya,8
+Kalimantan Tengah,Central Kalimantan,NasDem,Partai NasDem,5
+Kalimantan Tengah,Central Kalimantan,Buruh,Partai Buruh,0
+Kalimantan Tengah,Central Kalimantan,Gelora,Partai Gelombang Rakyat Indonesia,0
+Kalimantan Tengah,Central Kalimantan,PKS,Partai Keadilan Sejahtera,1
+Kalimantan Tengah,Central Kalimantan,PKN,Partai Kebangkitan Nusantara,0
+Kalimantan Tengah,Central Kalimantan,Hanura,Partai Hati Nurani Rakyat,0
+Kalimantan Tengah,Central Kalimantan,Garuda,Partai Garda Republik Indonesia,0
+Kalimantan Tengah,Central Kalimantan,PAN,Partai Amanat Nasional,4
+Kalimantan Tengah,Central Kalimantan,PBB,Partai Bulan Bintang,0
+Kalimantan Tengah,Central Kalimantan,Demokrat,Partai Demokrat,6
+Kalimantan Tengah,Central Kalimantan,PSI,Partai Solidaritas Indonesia,0
+Kalimantan Tengah,Central Kalimantan,Perindo,Partai Perindo,1
+Kalimantan Tengah,Central Kalimantan,PPP,Partai Persatuan Pembangunan,0
+Kalimantan Tengah,Central Kalimantan,PNA,PNA,0
+Kalimantan Tengah,Central Kalimantan,Gabthat,Gabthat,0
+Kalimantan Tengah,Central Kalimantan,PDA,PDA,0
+Kalimantan Tengah,Central Kalimantan,PA,PA,0
+Kalimantan Tengah,Central Kalimantan,PASA,PASA,0
+Kalimantan Tengah,Central Kalimantan,SIRA,SIRA,0
+Kalimantan Tengah,Central Kalimantan,Ummat,Partai Ummat,0
+Kalimantan Selatan,South Kalimantan,PKB,Partai Kebangkitan Bangsa,6
+Kalimantan Selatan,South Kalimantan,Gerindra,Partai Gerakan Indonesia Raya,7
+Kalimantan Selatan,South Kalimantan,PDIP,Partai Demokrasi Indonesia Perjuangan,3
+Kalimantan Selatan,South Kalimantan,Golkar,Partai Golongan Karya,13
+Kalimantan Selatan,South Kalimantan,NasDem,Partai NasDem,10
+Kalimantan Selatan,South Kalimantan,Buruh,Partai Buruh,0
+Kalimantan Selatan,South Kalimantan,Gelora,Partai Gelombang Rakyat Indonesia,0
+Kalimantan Selatan,South Kalimantan,PKS,Partai Keadilan Sejahtera,6
+Kalimantan Selatan,South Kalimantan,PKN,Partai Kebangkitan Nusantara,0
+Kalimantan Selatan,South Kalimantan,Hanura,Partai Hati Nurani Rakyat,0
+Kalimantan Selatan,South Kalimantan,Garuda,Partai Garda Republik Indonesia,0
+Kalimantan Selatan,South Kalimantan,PAN,Partai Amanat Nasional,6
+Kalimantan Selatan,South Kalimantan,PBB,Partai Bulan Bintang,0
+Kalimantan Selatan,South Kalimantan,Demokrat,Partai Demokrat,3
+Kalimantan Selatan,South Kalimantan,PSI,Partai Solidaritas Indonesia,0
+Kalimantan Selatan,South Kalimantan,Perindo,Partai Perindo,0
+Kalimantan Selatan,South Kalimantan,PPP,Partai Persatuan Pembangunan,1
+Kalimantan Selatan,South Kalimantan,PNA,PNA,0
+Kalimantan Selatan,South Kalimantan,Gabthat,Gabthat,0
+Kalimantan Selatan,South Kalimantan,PDA,PDA,0
+Kalimantan Selatan,South Kalimantan,PA,PA,0
+Kalimantan Selatan,South Kalimantan,PASA,PASA,0
+Kalimantan Selatan,South Kalimantan,SIRA,SIRA,0
+Kalimantan Selatan,South Kalimantan,Ummat,Partai Ummat,0
+Kalimantan Timur,East Kalimantan,PKB,Partai Kebangkitan Bangsa,6
+Kalimantan Timur,East Kalimantan,Gerindra,Partai Gerakan Indonesia Raya,10
+Kalimantan Timur,East Kalimantan,PDIP,Partai Demokrasi Indonesia Perjuangan,9
+Kalimantan Timur,East Kalimantan,Golkar,Partai Golongan Karya,15
+Kalimantan Timur,East Kalimantan,NasDem,Partai NasDem,3
+Kalimantan Timur,East Kalimantan,Buruh,Partai Buruh,0
+Kalimantan Timur,East Kalimantan,Gelora,Partai Gelombang Rakyat Indonesia,0
+Kalimantan Timur,East Kalimantan,PKS,Partai Keadilan Sejahtera,4
+Kalimantan Timur,East Kalimantan,PKN,Partai Kebangkitan Nusantara,0
+Kalimantan Timur,East Kalimantan,Hanura,Partai Hati Nurani Rakyat,0
+Kalimantan Timur,East Kalimantan,Garuda,Partai Garda Republik Indonesia,0
+Kalimantan Timur,East Kalimantan,PAN,Partai Amanat Nasional,4
+Kalimantan Timur,East Kalimantan,PBB,Partai Bulan Bintang,0
+Kalimantan Timur,East Kalimantan,Demokrat,Partai Demokrat,2
+Kalimantan Timur,East Kalimantan,PSI,Partai Solidaritas Indonesia,0
+Kalimantan Timur,East Kalimantan,Perindo,Partai Perindo,0
+Kalimantan Timur,East Kalimantan,PPP,Partai Persatuan Pembangunan,2
+Kalimantan Timur,East Kalimantan,PNA,PNA,0
+Kalimantan Timur,East Kalimantan,Gabthat,Gabthat,0
+Kalimantan Timur,East Kalimantan,PDA,PDA,0
+Kalimantan Timur,East Kalimantan,PA,PA,0
+Kalimantan Timur,East Kalimantan,PASA,PASA,0
+Kalimantan Timur,East Kalimantan,SIRA,SIRA,0
+Kalimantan Timur,East Kalimantan,Ummat,Partai Ummat,0
+Kalimantan Utara,North Kalimantan,PKB,Partai Kebangkitan Bangsa,2
+Kalimantan Utara,North Kalimantan,Gerindra,Partai Gerakan Indonesia Raya,6
+Kalimantan Utara,North Kalimantan,PDIP,Partai Demokrasi Indonesia Perjuangan,3
+Kalimantan Utara,North Kalimantan,Golkar,Partai Golongan Karya,6
+Kalimantan Utara,North Kalimantan,NasDem,Partai NasDem,2
+Kalimantan Utara,North Kalimantan,Buruh,Partai Buruh,0
+Kalimantan Utara,North Kalimantan,Gelora,Partai Gelombang Rakyat Indonesia,0
+Kalimantan Utara,North Kalimantan,PKS,Partai Keadilan Sejahtera,4
+Kalimantan Utara,North Kalimantan,PKN,Partai Kebangkitan Nusantara,0
+Kalimantan Utara,North Kalimantan,Hanura,Partai Hati Nurani Rakyat,3
+Kalimantan Utara,North Kalimantan,Garuda,Partai Garda Republik Indonesia,0
+Kalimantan Utara,North Kalimantan,PAN,Partai Amanat Nasional,2
+Kalimantan Utara,North Kalimantan,PBB,Partai Bulan Bintang,0
+Kalimantan Utara,North Kalimantan,Demokrat,Partai Demokrat,6
+Kalimantan Utara,North Kalimantan,PSI,Partai Solidaritas Indonesia,0
+Kalimantan Utara,North Kalimantan,Perindo,Partai Perindo,0
+Kalimantan Utara,North Kalimantan,PPP,Partai Persatuan Pembangunan,1
+Kalimantan Utara,North Kalimantan,PNA,PNA,0
+Kalimantan Utara,North Kalimantan,Gabthat,Gabthat,0
+Kalimantan Utara,North Kalimantan,PDA,PDA,0
+Kalimantan Utara,North Kalimantan,PA,PA,0
+Kalimantan Utara,North Kalimantan,PASA,PASA,0
+Kalimantan Utara,North Kalimantan,SIRA,SIRA,0
+Kalimantan Utara,North Kalimantan,Ummat,Partai Ummat,0
+Sulawesi Utara,North Sulawesi,PKB,Partai Kebangkitan Bangsa,1
+Sulawesi Utara,North Sulawesi,Gerindra,Partai Gerakan Indonesia Raya,4
+Sulawesi Utara,North Sulawesi,PDIP,Partai Demokrasi Indonesia Perjuangan,19
+Sulawesi Utara,North Sulawesi,Golkar,Partai Golongan Karya,6
+Sulawesi Utara,North Sulawesi,NasDem,Partai NasDem,6
+Sulawesi Utara,North Sulawesi,Buruh,Partai Buruh,0
+Sulawesi Utara,North Sulawesi,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sulawesi Utara,North Sulawesi,PKS,Partai Keadilan Sejahtera,1
+Sulawesi Utara,North Sulawesi,PKN,Partai Kebangkitan Nusantara,0
+Sulawesi Utara,North Sulawesi,Hanura,Partai Hati Nurani Rakyat,0
+Sulawesi Utara,North Sulawesi,Garuda,Partai Garda Republik Indonesia,0
+Sulawesi Utara,North Sulawesi,PAN,Partai Amanat Nasional,0
+Sulawesi Utara,North Sulawesi,PBB,Partai Bulan Bintang,0
+Sulawesi Utara,North Sulawesi,Demokrat,Partai Demokrat,6
+Sulawesi Utara,North Sulawesi,PSI,Partai Solidaritas Indonesia,1
+Sulawesi Utara,North Sulawesi,Perindo,Partai Perindo,1
+Sulawesi Utara,North Sulawesi,PPP,Partai Persatuan Pembangunan,0
+Sulawesi Utara,North Sulawesi,PNA,PNA,0
+Sulawesi Utara,North Sulawesi,Gabthat,Gabthat,0
+Sulawesi Utara,North Sulawesi,PDA,PDA,0
+Sulawesi Utara,North Sulawesi,PA,PA,0
+Sulawesi Utara,North Sulawesi,PASA,PASA,0
+Sulawesi Utara,North Sulawesi,SIRA,SIRA,0
+Sulawesi Utara,North Sulawesi,Ummat,Partai Ummat,0
+Gorontalo,Gorontalo,PKB,Partai Kebangkitan Bangsa,1
+Gorontalo,Gorontalo,Gerindra,Partai Gerakan Indonesia Raya,6
+Gorontalo,Gorontalo,PDIP,Partai Demokrasi Indonesia Perjuangan,7
+Gorontalo,Gorontalo,Golkar,Partai Golongan Karya,8
+Gorontalo,Gorontalo,NasDem,Partai NasDem,7
+Gorontalo,Gorontalo,Buruh,Partai Buruh,0
+Gorontalo,Gorontalo,Gelora,Partai Gelombang Rakyat Indonesia,0
+Gorontalo,Gorontalo,PKS,Partai Keadilan Sejahtera,5
+Gorontalo,Gorontalo,PKN,Partai Kebangkitan Nusantara,0
+Gorontalo,Gorontalo,Hanura,Partai Hati Nurani Rakyat,1
+Gorontalo,Gorontalo,Garuda,Partai Garda Republik Indonesia,0
+Gorontalo,Gorontalo,PAN,Partai Amanat Nasional,3
+Gorontalo,Gorontalo,PBB,Partai Bulan Bintang,0
+Gorontalo,Gorontalo,Demokrat,Partai Demokrat,3
+Gorontalo,Gorontalo,PSI,Partai Solidaritas Indonesia,0
+Gorontalo,Gorontalo,Perindo,Partai Perindo,0
+Gorontalo,Gorontalo,PPP,Partai Persatuan Pembangunan,4
+Gorontalo,Gorontalo,PNA,PNA,0
+Gorontalo,Gorontalo,Gabthat,Gabthat,0
+Gorontalo,Gorontalo,PDA,PDA,0
+Gorontalo,Gorontalo,PA,PA,0
+Gorontalo,Gorontalo,PASA,PASA,0
+Gorontalo,Gorontalo,SIRA,SIRA,0
+Gorontalo,Gorontalo,Ummat,Partai Ummat,0
+Sulawesi Tengah,Central Sulawesi,PKB,Partai Kebangkitan Bangsa,5
+Sulawesi Tengah,Central Sulawesi,Gerindra,Partai Gerakan Indonesia Raya,7
+Sulawesi Tengah,Central Sulawesi,PDIP,Partai Demokrasi Indonesia Perjuangan,7
+Sulawesi Tengah,Central Sulawesi,Golkar,Partai Golongan Karya,8
+Sulawesi Tengah,Central Sulawesi,NasDem,Partai NasDem,8
+Sulawesi Tengah,Central Sulawesi,Buruh,Partai Buruh,0
+Sulawesi Tengah,Central Sulawesi,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sulawesi Tengah,Central Sulawesi,PKS,Partai Keadilan Sejahtera,5
+Sulawesi Tengah,Central Sulawesi,PKN,Partai Kebangkitan Nusantara,0
+Sulawesi Tengah,Central Sulawesi,Hanura,Partai Hati Nurani Rakyat,1
+Sulawesi Tengah,Central Sulawesi,Garuda,Partai Garda Republik Indonesia,0
+Sulawesi Tengah,Central Sulawesi,PAN,Partai Amanat Nasional,2
+Sulawesi Tengah,Central Sulawesi,PBB,Partai Bulan Bintang,1
+Sulawesi Tengah,Central Sulawesi,Demokrat,Partai Demokrat,8
+Sulawesi Tengah,Central Sulawesi,PSI,Partai Solidaritas Indonesia,0
+Sulawesi Tengah,Central Sulawesi,Perindo,Partai Perindo,2
+Sulawesi Tengah,Central Sulawesi,PPP,Partai Persatuan Pembangunan,1
+Sulawesi Tengah,Central Sulawesi,PNA,PNA,0
+Sulawesi Tengah,Central Sulawesi,Gabthat,Gabthat,0
+Sulawesi Tengah,Central Sulawesi,PDA,PDA,0
+Sulawesi Tengah,Central Sulawesi,PA,PA,0
+Sulawesi Tengah,Central Sulawesi,PASA,PASA,0
+Sulawesi Tengah,Central Sulawesi,SIRA,SIRA,0
+Sulawesi Tengah,Central Sulawesi,Ummat,Partai Ummat,0
+Sulawesi Selatan,South Sulawesi,PKB,Partai Kebangkitan Bangsa,8
+Sulawesi Selatan,South Sulawesi,Gerindra,Partai Gerakan Indonesia Raya,13
+Sulawesi Selatan,South Sulawesi,PDIP,Partai Demokrasi Indonesia Perjuangan,6
+Sulawesi Selatan,South Sulawesi,Golkar,Partai Golongan Karya,14
+Sulawesi Selatan,South Sulawesi,NasDem,Partai NasDem,17
+Sulawesi Selatan,South Sulawesi,Buruh,Partai Buruh,0
+Sulawesi Selatan,South Sulawesi,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sulawesi Selatan,South Sulawesi,PKS,Partai Keadilan Sejahtera,7
+Sulawesi Selatan,South Sulawesi,PKN,Partai Kebangkitan Nusantara,0
+Sulawesi Selatan,South Sulawesi,Hanura,Partai Hati Nurani Rakyat,1
+Sulawesi Selatan,South Sulawesi,Garuda,Partai Garda Republik Indonesia,0
+Sulawesi Selatan,South Sulawesi,PAN,Partai Amanat Nasional,4
+Sulawesi Selatan,South Sulawesi,PBB,Partai Bulan Bintang,0
+Sulawesi Selatan,South Sulawesi,Demokrat,Partai Demokrat,7
+Sulawesi Selatan,South Sulawesi,PSI,Partai Solidaritas Indonesia,0
+Sulawesi Selatan,South Sulawesi,Perindo,Partai Perindo,0
+Sulawesi Selatan,South Sulawesi,PPP,Partai Persatuan Pembangunan,8
+Sulawesi Selatan,South Sulawesi,PNA,PNA,0
+Sulawesi Selatan,South Sulawesi,Gabthat,Gabthat,0
+Sulawesi Selatan,South Sulawesi,PDA,PDA,0
+Sulawesi Selatan,South Sulawesi,PA,PA,0
+Sulawesi Selatan,South Sulawesi,PASA,PASA,0
+Sulawesi Selatan,South Sulawesi,SIRA,SIRA,0
+Sulawesi Selatan,South Sulawesi,Ummat,Partai Ummat,0
+Sulawesi Barat,West Sulawesi,PKB,Partai Kebangkitan Bangsa,3
+Sulawesi Barat,West Sulawesi,Gerindra,Partai Gerakan Indonesia Raya,5
+Sulawesi Barat,West Sulawesi,PDIP,Partai Demokrasi Indonesia Perjuangan,5
+Sulawesi Barat,West Sulawesi,Golkar,Partai Golongan Karya,10
+Sulawesi Barat,West Sulawesi,NasDem,Partai NasDem,5
+Sulawesi Barat,West Sulawesi,Buruh,Partai Buruh,0
+Sulawesi Barat,West Sulawesi,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sulawesi Barat,West Sulawesi,PKS,Partai Keadilan Sejahtera,1
+Sulawesi Barat,West Sulawesi,PKN,Partai Kebangkitan Nusantara,0
+Sulawesi Barat,West Sulawesi,Hanura,Partai Hati Nurani Rakyat,2
+Sulawesi Barat,West Sulawesi,Garuda,Partai Garda Republik Indonesia,0
+Sulawesi Barat,West Sulawesi,PAN,Partai Amanat Nasional,5
+Sulawesi Barat,West Sulawesi,PBB,Partai Bulan Bintang,0
+Sulawesi Barat,West Sulawesi,Demokrat,Partai Demokrat,8
+Sulawesi Barat,West Sulawesi,PSI,Partai Solidaritas Indonesia,0
+Sulawesi Barat,West Sulawesi,Perindo,Partai Perindo,0
+Sulawesi Barat,West Sulawesi,PPP,Partai Persatuan Pembangunan,1
+Sulawesi Barat,West Sulawesi,PNA,PNA,0
+Sulawesi Barat,West Sulawesi,Gabthat,Gabthat,0
+Sulawesi Barat,West Sulawesi,PDA,PDA,0
+Sulawesi Barat,West Sulawesi,PA,PA,0
+Sulawesi Barat,West Sulawesi,PASA,PASA,0
+Sulawesi Barat,West Sulawesi,SIRA,SIRA,0
+Sulawesi Barat,West Sulawesi,Ummat,Partai Ummat,0
+Sulawesi Tenggara,Southeast Sulawesi,PKB,Partai Kebangkitan Bangsa,3
+Sulawesi Tenggara,Southeast Sulawesi,Gerindra,Partai Gerakan Indonesia Raya,5
+Sulawesi Tenggara,Southeast Sulawesi,PDIP,Partai Demokrasi Indonesia Perjuangan,6
+Sulawesi Tenggara,Southeast Sulawesi,Golkar,Partai Golongan Karya,6
+Sulawesi Tenggara,Southeast Sulawesi,NasDem,Partai NasDem,6
+Sulawesi Tenggara,Southeast Sulawesi,Buruh,Partai Buruh,0
+Sulawesi Tenggara,Southeast Sulawesi,Gelora,Partai Gelombang Rakyat Indonesia,0
+Sulawesi Tenggara,Southeast Sulawesi,PKS,Partai Keadilan Sejahtera,4
+Sulawesi Tenggara,Southeast Sulawesi,PKN,Partai Kebangkitan Nusantara,0
+Sulawesi Tenggara,Southeast Sulawesi,Hanura,Partai Hati Nurani Rakyat,1
+Sulawesi Tenggara,Southeast Sulawesi,Garuda,Partai Garda Republik Indonesia,0
+Sulawesi Tenggara,Southeast Sulawesi,PAN,Partai Amanat Nasional,3
+Sulawesi Tenggara,Southeast Sulawesi,PBB,Partai Bulan Bintang,4
+Sulawesi Tenggara,Southeast Sulawesi,Demokrat,Partai Demokrat,4
+Sulawesi Tenggara,Southeast Sulawesi,PSI,Partai Solidaritas Indonesia,0
+Sulawesi Tenggara,Southeast Sulawesi,Perindo,Partai Perindo,0
+Sulawesi Tenggara,Southeast Sulawesi,PPP,Partai Persatuan Pembangunan,3
+Sulawesi Tenggara,Southeast Sulawesi,PNA,PNA,0
+Sulawesi Tenggara,Southeast Sulawesi,Gabthat,Gabthat,0
+Sulawesi Tenggara,Southeast Sulawesi,PDA,PDA,0
+Sulawesi Tenggara,Southeast Sulawesi,PA,PA,0
+Sulawesi Tenggara,Southeast Sulawesi,PASA,PASA,0
+Sulawesi Tenggara,Southeast Sulawesi,SIRA,SIRA,0
+Sulawesi Tenggara,Southeast Sulawesi,Ummat,Partai Ummat,0
+Maluku,Maluku,PKB,Partai Kebangkitan Bangsa,4
+Maluku,Maluku,Gerindra,Partai Gerakan Indonesia Raya,5
+Maluku,Maluku,PDIP,Partai Demokrasi Indonesia Perjuangan,8
+Maluku,Maluku,Golkar,Partai Golongan Karya,4
+Maluku,Maluku,NasDem,Partai NasDem,6
+Maluku,Maluku,Buruh,Partai Buruh,0
+Maluku,Maluku,Gelora,Partai Gelombang Rakyat Indonesia,0
+Maluku,Maluku,PKS,Partai Keadilan Sejahtera,4
+Maluku,Maluku,PKN,Partai Kebangkitan Nusantara,0
+Maluku,Maluku,Hanura,Partai Hati Nurani Rakyat,3
+Maluku,Maluku,Garuda,Partai Garda Republik Indonesia,0
+Maluku,Maluku,PAN,Partai Amanat Nasional,3
+Maluku,Maluku,PBB,Partai Bulan Bintang,0
+Maluku,Maluku,Demokrat,Partai Demokrat,4
+Maluku,Maluku,PSI,Partai Solidaritas Indonesia,0
+Maluku,Maluku,Perindo,Partai Perindo,2
+Maluku,Maluku,PPP,Partai Persatuan Pembangunan,2
+Maluku,Maluku,PNA,PNA,0
+Maluku,Maluku,Gabthat,Gabthat,0
+Maluku,Maluku,PDA,PDA,0
+Maluku,Maluku,PA,PA,0
+Maluku,Maluku,PASA,PASA,0
+Maluku,Maluku,SIRA,SIRA,0
+Maluku,Maluku,Ummat,Partai Ummat,0
+Maluku Utara,North Maluku,PKB,Partai Kebangkitan Bangsa,4
+Maluku Utara,North Maluku,Gerindra,Partai Gerakan Indonesia Raya,4
+Maluku Utara,North Maluku,PDIP,Partai Demokrasi Indonesia Perjuangan,5
+Maluku Utara,North Maluku,Golkar,Partai Golongan Karya,8
+Maluku Utara,North Maluku,NasDem,Partai NasDem,5
+Maluku Utara,North Maluku,Buruh,Partai Buruh,0
+Maluku Utara,North Maluku,Gelora,Partai Gelombang Rakyat Indonesia,0
+Maluku Utara,North Maluku,PKS,Partai Keadilan Sejahtera,5
+Maluku Utara,North Maluku,PKN,Partai Kebangkitan Nusantara,0
+Maluku Utara,North Maluku,Hanura,Partai Hati Nurani Rakyat,5
+Maluku Utara,North Maluku,Garuda,Partai Garda Republik Indonesia,1
+Maluku Utara,North Maluku,PAN,Partai Amanat Nasional,3
+Maluku Utara,North Maluku,PBB,Partai Bulan Bintang,1
+Maluku Utara,North Maluku,Demokrat,Partai Demokrat,3
+Maluku Utara,North Maluku,PSI,Partai Solidaritas Indonesia,0
+Maluku Utara,North Maluku,Perindo,Partai Perindo,1
+Maluku Utara,North Maluku,PPP,Partai Persatuan Pembangunan,0
+Maluku Utara,North Maluku,PNA,PNA,0
+Maluku Utara,North Maluku,Gabthat,Gabthat,0
+Maluku Utara,North Maluku,PDA,PDA,0
+Maluku Utara,North Maluku,PA,PA,0
+Maluku Utara,North Maluku,PASA,PASA,0
+Maluku Utara,North Maluku,SIRA,SIRA,0
+Maluku Utara,North Maluku,Ummat,Partai Ummat,0
+Papua,Papua,PKB,Partai Kebangkitan Bangsa,3
+Papua,Papua,Gerindra,Partai Gerakan Indonesia Raya,3
+Papua,Papua,PDIP,Partai Demokrasi Indonesia Perjuangan,7
+Papua,Papua,Golkar,Partai Golongan Karya,10
+Papua,Papua,NasDem,Partai NasDem,7
+Papua,Papua,Buruh,Partai Buruh,0
+Papua,Papua,Gelora,Partai Gelombang Rakyat Indonesia,0
+Papua,Papua,PKS,Partai Keadilan Sejahtera,3
+Papua,Papua,PKN,Partai Kebangkitan Nusantara,0
+Papua,Papua,Hanura,Partai Hati Nurani Rakyat,0
+Papua,Papua,Garuda,Partai Garda Republik Indonesia,0
+Papua,Papua,PAN,Partai Amanat Nasional,3
+Papua,Papua,PBB,Partai Bulan Bintang,0
+Papua,Papua,Demokrat,Partai Demokrat,3
+Papua,Papua,PSI,Partai Solidaritas Indonesia,2
+Papua,Papua,Perindo,Partai Perindo,3
+Papua,Papua,PPP,Partai Persatuan Pembangunan,1
+Papua,Papua,PNA,PNA,0
+Papua,Papua,Gabthat,Gabthat,0
+Papua,Papua,PDA,PDA,0
+Papua,Papua,PA,PA,0
+Papua,Papua,PASA,PASA,0
+Papua,Papua,SIRA,SIRA,0
+Papua,Papua,Ummat,Partai Ummat,0
+Papua Barat,West Papua,PKB,Partai Kebangkitan Bangsa,3
+Papua Barat,West Papua,Gerindra,Partai Gerakan Indonesia Raya,3
+Papua Barat,West Papua,PDIP,Partai Demokrasi Indonesia Perjuangan,7
+Papua Barat,West Papua,Golkar,Partai Golongan Karya,7
+Papua Barat,West Papua,NasDem,Partai NasDem,5
+Papua Barat,West Papua,Buruh,Partai Buruh,0
+Papua Barat,West Papua,Gelora,Partai Gelombang Rakyat Indonesia,0
+Papua Barat,West Papua,PKS,Partai Keadilan Sejahtera,1
+Papua Barat,West Papua,PKN,Partai Kebangkitan Nusantara,0
+Papua Barat,West Papua,Hanura,Partai Hati Nurani Rakyat,0
+Papua Barat,West Papua,Garuda,Partai Garda Republik Indonesia,0
+Papua Barat,West Papua,PAN,Partai Amanat Nasional,3
+Papua Barat,West Papua,PBB,Partai Bulan Bintang,0
+Papua Barat,West Papua,Demokrat,Partai Demokrat,3
+Papua Barat,West Papua,PSI,Partai Solidaritas Indonesia,0
+Papua Barat,West Papua,Perindo,Partai Perindo,2
+Papua Barat,West Papua,PPP,Partai Persatuan Pembangunan,1
+Papua Barat,West Papua,PNA,PNA,0
+Papua Barat,West Papua,Gabthat,Gabthat,0
+Papua Barat,West Papua,PDA,PDA,0
+Papua Barat,West Papua,PA,PA,0
+Papua Barat,West Papua,PASA,PASA,0
+Papua Barat,West Papua,SIRA,SIRA,0
+Papua Barat,West Papua,Ummat,Partai Ummat,0
+Papua Selatan,South Papua,PKB,Partai Kebangkitan Bangsa,3
+Papua Selatan,South Papua,Gerindra,Partai Gerakan Indonesia Raya,5
+Papua Selatan,South Papua,PDIP,Partai Demokrasi Indonesia Perjuangan,7
+Papua Selatan,South Papua,Golkar,Partai Golongan Karya,4
+Papua Selatan,South Papua,NasDem,Partai NasDem,6
+Papua Selatan,South Papua,Buruh,Partai Buruh,0
+Papua Selatan,South Papua,Gelora,Partai Gelombang Rakyat Indonesia,0
+Papua Selatan,South Papua,PKS,Partai Keadilan Sejahtera,3
+Papua Selatan,South Papua,PKN,Partai Kebangkitan Nusantara,0
+Papua Selatan,South Papua,Hanura,Partai Hati Nurani Rakyat,0
+Papua Selatan,South Papua,Garuda,Partai Garda Republik Indonesia,0
+Papua Selatan,South Papua,PAN,Partai Amanat Nasional,1
+Papua Selatan,South Papua,PBB,Partai Bulan Bintang,0
+Papua Selatan,South Papua,Demokrat,Partai Demokrat,1
+Papua Selatan,South Papua,PSI,Partai Solidaritas Indonesia,1
+Papua Selatan,South Papua,Perindo,Partai Perindo,2
+Papua Selatan,South Papua,PPP,Partai Persatuan Pembangunan,2
+Papua Selatan,South Papua,PNA,PNA,0
+Papua Selatan,South Papua,Gabthat,Gabthat,0
+Papua Selatan,South Papua,PDA,PDA,0
+Papua Selatan,South Papua,PA,PA,0
+Papua Selatan,South Papua,PASA,PASA,0
+Papua Selatan,South Papua,SIRA,SIRA,0
+Papua Selatan,South Papua,Ummat,Partai Ummat,0
+Papua Tengah,Central Papua,PKB,Partai Kebangkitan Bangsa,3
+Papua Tengah,Central Papua,Gerindra,Partai Gerakan Indonesia Raya,4
+Papua Tengah,Central Papua,PDIP,Partai Demokrasi Indonesia Perjuangan,11
+Papua Tengah,Central Papua,Golkar,Partai Golongan Karya,3
+Papua Tengah,Central Papua,NasDem,Partai NasDem,5
+Papua Tengah,Central Papua,Buruh,Partai Buruh,0
+Papua Tengah,Central Papua,Gelora,Partai Gelombang Rakyat Indonesia,0
+Papua Tengah,Central Papua,PKS,Partai Keadilan Sejahtera,2
+Papua Tengah,Central Papua,PKN,Partai Kebangkitan Nusantara,1
+Papua Tengah,Central Papua,Hanura,Partai Hati Nurani Rakyat,3
+Papua Tengah,Central Papua,Garuda,Partai Garda Republik Indonesia,1
+Papua Tengah,Central Papua,PAN,Partai Amanat Nasional,3
+Papua Tengah,Central Papua,PBB,Partai Bulan Bintang,2
+Papua Tengah,Central Papua,Demokrat,Partai Demokrat,2
+Papua Tengah,Central Papua,PSI,Partai Solidaritas Indonesia,2
+Papua Tengah,Central Papua,Perindo,Partai Perindo,2
+Papua Tengah,Central Papua,PPP,Partai Persatuan Pembangunan,1
+Papua Tengah,Central Papua,PNA,PNA,0
+Papua Tengah,Central Papua,Gabthat,Gabthat,0
+Papua Tengah,Central Papua,PDA,PDA,0
+Papua Tengah,Central Papua,PA,PA,0
+Papua Tengah,Central Papua,PASA,PASA,0
+Papua Tengah,Central Papua,SIRA,SIRA,0
+Papua Tengah,Central Papua,Ummat,Partai Ummat,0
+Papua Pegunungan,Highland Papua,PKB,Partai Kebangkitan Bangsa,1
+Papua Pegunungan,Highland Papua,Gerindra,Partai Gerakan Indonesia Raya,3
+Papua Pegunungan,Highland Papua,PDIP,Partai Demokrasi Indonesia Perjuangan,4
+Papua Pegunungan,Highland Papua,Golkar,Partai Golongan Karya,3
+Papua Pegunungan,Highland Papua,NasDem,Partai NasDem,11
+Papua Pegunungan,Highland Papua,Buruh,Partai Buruh,0
+Papua Pegunungan,Highland Papua,Gelora,Partai Gelombang Rakyat Indonesia,1
+Papua Pegunungan,Highland Papua,PKS,Partai Keadilan Sejahtera,5
+Papua Pegunungan,Highland Papua,PKN,Partai Kebangkitan Nusantara,2
+Papua Pegunungan,Highland Papua,Hanura,Partai Hati Nurani Rakyat,0
+Papua Pegunungan,Highland Papua,Garuda,Partai Garda Republik Indonesia,1
+Papua Pegunungan,Highland Papua,PAN,Partai Amanat Nasional,2
+Papua Pegunungan,Highland Papua,PBB,Partai Bulan Bintang,1
+Papua Pegunungan,Highland Papua,Demokrat,Partai Demokrat,5
+Papua Pegunungan,Highland Papua,PSI,Partai Solidaritas Indonesia,2
+Papua Pegunungan,Highland Papua,Perindo,Partai Perindo,4
+Papua Pegunungan,Highland Papua,PPP,Partai Persatuan Pembangunan,0
+Papua Pegunungan,Highland Papua,PNA,PNA,0
+Papua Pegunungan,Highland Papua,Gabthat,Gabthat,0
+Papua Pegunungan,Highland Papua,PDA,PDA,0
+Papua Pegunungan,Highland Papua,PA,PA,0
+Papua Pegunungan,Highland Papua,PASA,PASA,0
+Papua Pegunungan,Highland Papua,SIRA,SIRA,0
+Papua Pegunungan,Highland Papua,Ummat,Partai Ummat,0
+Papua Barat Daya,Southwest Papua,PKB,Partai Kebangkitan Bangsa,1
+Papua Barat Daya,Southwest Papua,Gerindra,Partai Gerakan Indonesia Raya,3
+Papua Barat Daya,Southwest Papua,PDIP,Partai Demokrasi Indonesia Perjuangan,5
+Papua Barat Daya,Southwest Papua,Golkar,Partai Golongan Karya,8
+Papua Barat Daya,Southwest Papua,NasDem,Partai NasDem,4
+Papua Barat Daya,Southwest Papua,Buruh,Partai Buruh,0
+Papua Barat Daya,Southwest Papua,Gelora,Partai Gelombang Rakyat Indonesia,0
+Papua Barat Daya,Southwest Papua,PKS,Partai Keadilan Sejahtera,1
+Papua Barat Daya,Southwest Papua,PKN,Partai Kebangkitan Nusantara,0
+Papua Barat Daya,Southwest Papua,Hanura,Partai Hati Nurani Rakyat,3
+Papua Barat Daya,Southwest Papua,Garuda,Partai Garda Republik Indonesia,0
+Papua Barat Daya,Southwest Papua,PAN,Partai Amanat Nasional,1
+Papua Barat Daya,Southwest Papua,PBB,Partai Bulan Bintang,0
+Papua Barat Daya,Southwest Papua,Demokrat,Partai Demokrat,5
+Papua Barat Daya,Southwest Papua,PSI,Partai Solidaritas Indonesia,1
+Papua Barat Daya,Southwest Papua,Perindo,Partai Perindo,3
+Papua Barat Daya,Southwest Papua,PPP,Partai Persatuan Pembangunan,0
+Papua Barat Daya,Southwest Papua,PNA,PNA,0
+Papua Barat Daya,Southwest Papua,Gabthat,Gabthat,0
+Papua Barat Daya,Southwest Papua,PDA,PDA,0
+Papua Barat Daya,Southwest Papua,PA,PA,0
+Papua Barat Daya,Southwest Papua,PASA,PASA,0
+Papua Barat Daya,Southwest Papua,SIRA,SIRA,0
+Papua Barat Daya,Southwest Papua,Ummat,Partai Ummat,0

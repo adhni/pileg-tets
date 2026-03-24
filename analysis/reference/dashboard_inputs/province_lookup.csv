@@ -1,0 +1,151 @@
+source_dataset,province_raw,province
+DPRD.csv,Aceh,Aceh
+DPRD2.csv,Aceh,Aceh
+dpd_votes.csv,ACEH,Aceh
+dpr_all.csv,ACEH,Aceh
+DPRD.csv,North Sumatra,Sumatera Utara
+DPRD2.csv,North Sumatra,Sumatera Utara
+dpd_votes.csv,SUMATERA UTARA,Sumatera Utara
+dpr_all.csv,SUMATERA UTARA,Sumatera Utara
+DPRD.csv,West Sumatra,Sumatera Barat
+DPRD2.csv,West Sumatra,Sumatera Barat
+dpd_votes.csv,SUMATERA BARAT,Sumatera Barat
+dpr_all.csv,SUMATERA BARAT,Sumatera Barat
+DPRD.csv,Riau,Riau
+DPRD2.csv,Riau,Riau
+dpd_votes.csv,RIAU,Riau
+dpr_all.csv,RIAU,Riau
+DPRD.csv,Riau Islands,Kepulauan Riau
+DPRD2.csv,Riau Islands,Kepulauan Riau
+dpd_votes.csv,KEPULAUAN RIAU,Kepulauan Riau
+dpr_all.csv,KEPULAUAN RIAU,Kepulauan Riau
+DPRD.csv,Jambi,Jambi
+DPRD2.csv,Jambi,Jambi
+dpd_votes.csv,JAMBI,Jambi
+dpr_all.csv,JAMBI,Jambi
+DPRD.csv,South Sumatra,Sumatera Selatan
+DPRD2.csv,South Sumatra,Sumatera Selatan
+dpd_votes.csv,SUMATERA SELATAN,Sumatera Selatan
+dpr_all.csv,SUMATERA SELATAN,Sumatera Selatan
+DPRD.csv,Bangka Belitung,Kepulauan Bangka Belitung
+DPRD2.csv,Bangka Belitung,Kepulauan Bangka Belitung
+dpd_votes.csv,KEPULAUAN BANGKA BELITUNG,Kepulauan Bangka Belitung
+dpr_all.csv,KEPULAUAN BANGKA BELITUNG,Kepulauan Bangka Belitung
+DPRD.csv,Bengkulu,Bengkulu
+DPRD2.csv,Bengkulu,Bengkulu
+dpd_votes.csv,BENGKULU,Bengkulu
+dpr_all.csv,BENGKULU,Bengkulu
+DPRD.csv,Lampung,Lampung
+DPRD2.csv,Lampung,Lampung
+dpd_votes.csv,LAMPUNG,Lampung
+dpr_all.csv,LAMPUNG,Lampung
+DPRD.csv,Jakarta,DKI Jakarta
+dpd_votes.csv,DKI JAKARTA,DKI Jakarta
+dpr_all.csv,DKI JAKARTA,DKI Jakarta
+DPRD.csv,West Java,Jawa Barat
+DPRD2.csv,West Java,Jawa Barat
+dpd_votes.csv,JAWA BARAT,Jawa Barat
+dpr_all.csv,JAWA BARAT,Jawa Barat
+DPRD.csv,Central Java,Jawa Tengah
+DPRD2.csv,Central Java,Jawa Tengah
+dpd_votes.csv,JAWA TENGAH,Jawa Tengah
+dpr_all.csv,JAWA TENGAH,Jawa Tengah
+DPRD.csv,Yogyakarta,Daerah Istimewa Yogyakarta
+DPRD2.csv,Yogyakarta,Daerah Istimewa Yogyakarta
+dpd_votes.csv,DAERAH ISTIMEWA YOGYAKARTA,Daerah Istimewa Yogyakarta
+dpr_all.csv,DAERAH ISTIMEWA YOGYAKARTA,Daerah Istimewa Yogyakarta
+DPRD.csv,East Java,Jawa Timur
+DPRD2.csv,East Java,Jawa Timur
+dpd_votes.csv,JAWA TIMUR,Jawa Timur
+dpr_all.csv,JAWA TIMUR,Jawa Timur
+DPRD.csv,Banten,Banten
+DPRD2.csv,Banten,Banten
+dpd_votes.csv,BANTEN,Banten
+dpr_all.csv,BANTEN,Banten
+DPRD.csv,Bali,Bali
+DPRD2.csv,Bali,Bali
+dpd_votes.csv,BALI,Bali
+dpr_all.csv,BALI,Bali
+DPRD.csv,West Nusa Tenggara,Nusa Tenggara Barat
+DPRD2.csv,West Nusa Tenggara,Nusa Tenggara Barat
+dpd_votes.csv,NUSA TENGGARA BARAT,Nusa Tenggara Barat
+dpr_all.csv,NUSA TENGGARA BARAT,Nusa Tenggara Barat
+DPRD.csv,East Nusa Tenggara,Nusa Tenggara Timur
+DPRD2.csv,East Nusa Tenggara,Nusa Tenggara Timur
+dpd_votes.csv,NUSA TENGGARA TIMUR,Nusa Tenggara Timur
+dpr_all.csv,NUSA TENGGARA TIMUR,Nusa Tenggara Timur
+DPRD.csv,West Kalimantan,Kalimantan Barat
+DPRD2.csv,West Kalimantan,Kalimantan Barat
+dpd_votes.csv,KALIMANTAN BARAT,Kalimantan Barat
+dpr_all.csv,KALIMANTAN BARAT,Kalimantan Barat
+DPRD.csv,Central Kalimantan,Kalimantan Tengah
+DPRD2.csv,Central Kalimantan,Kalimantan Tengah
+dpd_votes.csv,KALIMANTAN TENGAH,Kalimantan Tengah
+dpr_all.csv,KALIMANTAN TENGAH,Kalimantan Tengah
+DPRD.csv,South Kalimantan,Kalimantan Selatan
+DPRD2.csv,South Kalimantan,Kalimantan Selatan
+dpd_votes.csv,KALIMANTAN SELATAN,Kalimantan Selatan
+dpr_all.csv,KALIMANTAN SELATAN,Kalimantan Selatan
+DPRD.csv,East Kalimantan,Kalimantan Timur
+DPRD2.csv,East Kalimantan,Kalimantan Timur
+dpd_votes.csv,KALIMANTAN TIMUR,Kalimantan Timur
+dpr_all.csv,KALIMANTAN TMUR,Kalimantan Timur
+DPRD.csv,North Kalimantan,Kalimantan Utara
+DPRD2.csv,North Kalimantan,Kalimantan Utara
+dpd_votes.csv,KALIMANTAN UTARA,Kalimantan Utara
+dpr_all.csv,KALIMANTAN UTARA,Kalimantan Utara
+DPRD.csv,North Sulawesi,Sulawesi Utara
+DPRD2.csv,North Sulawesi,Sulawesi Utara
+dpd_votes.csv,SULAWESI UTARA,Sulawesi Utara
+dpr_all.csv,SULAWESI UTARA,Sulawesi Utara
+DPRD.csv,Gorontalo,Gorontalo
+DPRD2.csv,Gorontalo,Gorontalo
+dpd_votes.csv,GORONTALO,Gorontalo
+dpr_all.csv,GORONTALO,Gorontalo
+DPRD.csv,Central Sulawesi,Sulawesi Tengah
+DPRD2.csv,Central Sulawesi,Sulawesi Tengah
+dpd_votes.csv,SULAWESI TENGAH,Sulawesi Tengah
+dpr_all.csv,SULAWESI TENGAH,Sulawesi Tengah
+DPRD.csv,South Sulawesi,Sulawesi Selatan
+DPRD2.csv,South Sulawesi,Sulawesi Selatan
+dpd_votes.csv,SULAWESI SELATAN,Sulawesi Selatan
+dpr_all.csv,SULAWESI SELATAN,Sulawesi Selatan
+DPRD.csv,West Sulawesi,Sulawesi Barat
+DPRD2.csv,West Sulawesi,Sulawesi Barat
+dpd_votes.csv,SULAWESI BARAT,Sulawesi Barat
+dpr_all.csv,SULAWESI BARAT,Sulawesi Barat
+DPRD.csv,Southeast Sulawesi,Sulawesi Tenggara
+DPRD2.csv,Southeast Sulawesi,Sulawesi Tenggara
+dpd_votes.csv,SULAWESI TENGGARA,Sulawesi Tenggara
+dpr_all.csv,SULAWESI TENGGARA,Sulawesi Tenggara
+DPRD.csv,Maluku,Maluku
+DPRD2.csv,Maluku,Maluku
+dpd_votes.csv,MALUKU,Maluku
+dpr_all.csv,MALUKU,Maluku
+DPRD.csv,North Maluku,Maluku Utara
+DPRD2.csv,North Maluku,Maluku Utara
+dpd_votes.csv,MALUKU UTARA,Maluku Utara
+dpr_all.csv,MALUKU UTARA,Maluku Utara
+DPRD.csv,Papua,Papua
+DPRD2.csv,Papua,Papua
+dpd_votes.csv,PAPUA,Papua
+dpr_all.csv,P A P U A,Papua
+DPRD.csv,West Papua,Papua Barat
+DPRD2.csv,West Papua,Papua Barat
+dpd_votes.csv,PAPUA BARAT,Papua Barat
+dpr_all.csv,PAPUA BARAT,Papua Barat
+DPRD.csv,South Papua,Papua Selatan
+DPRD2.csv,South Papua,Papua Selatan
+dpd_votes.csv,PAPUA SELATAN,Papua Selatan
+dpr_all.csv,PAPUA SELATAN,Papua Selatan
+DPRD.csv,Central Papua,Papua Tengah
+DPRD2.csv,Central Papua,Papua Tengah
+dpd_votes.csv,PAPUA TENGAH,Papua Tengah
+dpr_all.csv,PAPUA TENGAH,Papua Tengah
+DPRD.csv,Highland Papua,Papua Pegunungan
+DPRD2.csv,Highland Papua,Papua Pegunungan
+dpd_votes.csv,PAPUA PEGUNUNGAN,Papua Pegunungan
+dpr_all.csv,PAPUA PEGUNUNGAN,Papua Pegunungan
+DPRD.csv,Southwest Papua,Papua Barat Daya
+DPRD2.csv,Southwest Papua,Papua Barat Daya
+dpr_all.csv,PAPUA BARAT DAYA,Papua Barat Daya

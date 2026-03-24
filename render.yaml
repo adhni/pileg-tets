@@ -1,0 +1,37 @@
+services:
+  - type: web
+    runtime: static
+    name: pileg-reports
+    buildCommand: python3 analysis/python/publish_render_site.py
+    staticPublishPath: ./analysis/python_outputs/published_site
+    autoDeployTrigger: commit
+    previews:
+      generation: automatic
+    buildFilter:
+      paths:
+        - analysis/python/**
+        - analysis/reference/**
+        - assets/logos/**
+        - render.yaml
+        - README.md
+        - requirements.txt
+      ignoredPaths:
+        - analysis/python_outputs/**
+        - analysis/reports/**
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+    routes:
+      - type: redirect
+        source: /dpr
+        destination: /dpr/
+      - type: redirect
+        source: /pileg-seats
+        destination: /pileg-seats/
+      - type: redirect
+        source: /pilpres-vs-pileg
+        destination: /pilpres-vs-pileg/

@@ -1,0 +1,25 @@
+party_code,party_name,provincial_seats,provincial_seats_total_row,provincial_total_matches,kabkot_seats,kabkot_seats_total_row,kabkot_total_matches,kabkot_to_provincial_ratio,ratio_defined
+PKB,Partai Kebangkitan Bangsa,220,220,true,1833,1833,true,8.331818,true
+Gerindra,Partai Gerakan Indonesia Raya,322,323,false,2120,2120,true,6.583851,true
+PDIP,Partai Demokrasi Indonesia Perjuangan,389,389,true,2810,2810,true,7.223650,true
+Golkar,Partai Golongan Karya,364,365,false,2521,2521,true,6.925824,true
+NasDem,Partai NasDem,265,265,true,1849,1849,true,6.977358,true
+Buruh,Partai Buruh,0,0,true,11,11,true,,false
+Gelora,Partai Gelombang Rakyat Indonesia,1,1,true,72,72,true,72.000000,true
+PKS,Partai Keadilan Sejahtera,213,210,false,1312,1312,true,6.159624,true
+PKN,Partai Kebangkitan Nusantara,4,4,true,52,52,true,13.000000,true
+Hanura,Partai Hati Nurani Rakyat,42,42,true,486,486,true,11.571429,true
+Garuda,Partai Garda Republik Indonesia,3,3,true,34,34,true,11.333333,true
+PAN,Partai Amanat Nasional,159,160,false,1236,1236,true,7.773585,true
+PBB,Partai Bulan Bintang,12,12,true,164,164,true,13.666667,true
+Demokrat,Partai Demokrat,206,206,true,1479,1479,true,7.179612,true
+PSI,Partai Solidaritas Indonesia,33,33,true,149,149,true,4.515152,true
+Perindo,Partai Perindo,31,31,true,349,349,true,11.258065,true
+PPP,Partai Persatuan Pembangunan,82,83,false,850,850,true,10.365854,true
+PNA,PNA,1,1,true,21,21,true,21.000000,true
+Gabthat,Gabthat,0,0,true,0,0,true,,false
+PDA,PDA,1,1,true,7,7,true,7.000000,true
+PA,PA,20,20,true,116,116,true,5.800000,true
+PASA,PASA,4,3,false,16,16,true,4.000000,true
+SIRA,SIRA,0,0,true,3,3,true,,false
+Ummat,Partai Ummat,0,0,true,20,20,true,,false

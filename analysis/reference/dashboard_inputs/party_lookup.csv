@@ -1,0 +1,25 @@
+party_code,party_name,party_scope,logo_path
+PKB,Partai Kebangkitan Bangsa,national,assets/logos/PKB.svg
+Gerindra,Partai Gerakan Indonesia Raya,national,assets/logos/Gerindra.svg
+PDIP,Partai Demokrasi Indonesia Perjuangan,national,assets/logos/PDI_P.svg
+Golkar,Partai Golongan Karya,national,assets/logos/Golkar.svg
+NasDem,Partai NasDem,national,assets/logos/NasDem.png
+Buruh,Partai Buruh,national,assets/logos/Buruh.svg
+Gelora,Partai Gelombang Rakyat Indonesia,national,assets/logos/Gelora.png
+PKS,Partai Keadilan Sejahtera,national,assets/logos/PKS.svg
+PKN,Partai Kebangkitan Nusantara,national,assets/logos/PKN.svg
+Hanura,Partai Hati Nurani Rakyat,national,assets/logos/Hanura.svg
+Garuda,Partai Garda Republik Indonesia,national,assets/logos/Garuda.png
+PAN,Partai Amanat Nasional,national,assets/logos/PAN.svg
+PBB,Partai Bulan Bintang,national,assets/logos/PBB.svg
+Demokrat,Partai Demokrat,national,assets/logos/Demokrat.svg
+PSI,Partai Solidaritas Indonesia,national,assets/logos/PSI.svg
+Perindo,Partai Perindo,national,assets/logos/Perindo.png
+PPP,Partai Persatuan Pembangunan,national,assets/logos/PPP.svg
+PNA,PNA,local_aceh,
+Gabthat,Gabthat,local_aceh,
+PDA,PDA,local_aceh,
+PA,PA,local_aceh,
+PASA,PASA,local_aceh,
+SIRA,SIRA,local_aceh,
+Ummat,Partai Ummat,national,assets/logos/Ummat.svg

@@ -53,14 +53,8 @@ That command rebuilds:
 - `analysis/python/build_pilpres_vs_pileg_dashboard.py`
   Builds the separate Pilpres-vs-Pileg coalition alignment dashboard.
 
-## Notes
+- `analysis/python/publish_render_site.py`
+  Rebuilds the three published dashboards, packages them into one static site, and writes the Render publish directory.
 
-- The current Python scripts use only the standard library plus `matplotlib`.
-- For DPR analysis, vote views include all parties, while seat and winner outputs default to the legal 4% national parliamentary-threshold model.
-- Raw all-party seat simulations are still exported for comparison so threshold-driven replacement winners can be inspected directly.
-- The seat-adjustment scenario dashboard uses existing repo data only; it takes inspiration from the archived Quarto scenario framing but does not reuse the notebook's hardcoded vote table.
-- The Pilpres-vs-Pileg dashboard uses an optional local CSV at `Pilpres V Pileg/election_results.csv` because the repo does not yet have a prepared province-level Pilpres layer.
-- `analysis/python/run_all.py` skips the Pilpres-vs-Pileg dashboard automatically when that optional local CSV is absent.
-- `Papua Barat Daya` is expected to be absent from the DPD source.
-- `DKI Jakarta` is expected to be absent from the DPRD kabupaten/kota source.
-- Legacy R notebooks are archived under `archive/r_reference/` and are no longer part of the active pipeline.
+- `render.yaml`
+  Render Blueprint for publishing the combined public site.
