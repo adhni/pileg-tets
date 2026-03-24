@@ -1332,4 +1332,28 @@ def build_html(payload: dict) -> str:
     return template.replace("__PAYLOAD__", safe_json(payload))
 
 
-d
+def main() -> None:
+    try:
+        payload = make_payload()
+    except FileNotFoundError as exc:
+        print(
+            "Skipping Pilpres vs Pileg dashboard build because no source CSV is available:",
+            exc,
+        )
+        return
+    html = build_html(payload)
+    output_path = OUTPUT_DIR / "index.html"
+    output_path.write_text(html, encoding="utf-8")
+    (OUTPUT_DIR / "dashboard_metadata.json").write_text(
+        json.dumps(payload["meta"], ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    (OUTPUT_DIR / "README.txt").write_text(
+        "Open index.html in a browser. This standalone dashboard compares province-level Pilpres vote shares with coalition Pileg percentages from the Pilpres V Pileg source folder.\n",
+        encoding="utf-8",
+    )
+    print("Wrote Pilpres vs Pileg dashboard to", output_path)
+
+
+if __name__ == "__main__":
+    main()
