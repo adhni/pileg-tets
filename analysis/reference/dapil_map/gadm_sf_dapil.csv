@@ -1,0 +1,499 @@
+GID_2,GID_0,COUNTRY,GID_1,NAME_1,NL_NAME_1,NAME_2,VARNAME_2,NL_NAME_2,TYPE_2,ENGTYPE_2,CC_2,HASC_2,DAPIL
+IDN.1.2_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehBarat,NA,NA,Kabupaten,Regency,1107,ID.AC.AB,Aceh I
+IDN.1.1_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehBaratDaya,NA,NA,Kabupaten,Regency,1112,ID.AC.AD,Aceh I
+IDN.1.3_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehBesar,NA,NA,Kabupaten,Regency,1108,ID.AC.AR,Aceh I
+IDN.1.4_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehJaya,NA,NA,Kabupaten,Regency,1116,ID.AC.AJ,Aceh I
+IDN.1.5_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehSelatan,NA,NA,Kabupaten,Regency,1103,ID.AC.AS,Aceh I
+IDN.1.6_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehSingkil,NA,NA,Kabupaten,Regency,1102,ID.AC.AN,Aceh I
+IDN.1.7_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehTamiang,NA,NA,Kabupaten,Regency,1114,ID.AC.AM,Aceh II
+IDN.1.8_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehTengah,NA,NA,Kabupaten,Regency,1106,ID.AC.AT,Aceh II
+IDN.1.9_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehTenggara,NA,NA,Kabupaten,Regency,1104,ID.AC.AG,Aceh I
+IDN.1.10_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehTimur,NA,NA,Kabupaten,Regency,1105,ID.AC.AI,Aceh II
+IDN.1.11_1,IDN,Indonesia,IDN.1_1,Aceh,NA,AcehUtara,NA,NA,Kabupaten,Regency,1111,ID.AC.AU,Aceh II
+IDN.1.12_1,IDN,Indonesia,IDN.1_1,Aceh,NA,BandaAceh,NA,NA,Kota,City,1171,ID.AC.BA,Aceh I
+IDN.1.13_1,IDN,Indonesia,IDN.1_1,Aceh,NA,BenerMeriah,NA,NA,Kabupaten,Regency,1117,ID.AC.BM,Aceh II
+IDN.1.14_1,IDN,Indonesia,IDN.1_1,Aceh,NA,Bireuen,NA,NA,Kabupaten,Regency,1110,ID.AC.BI,Aceh II
+IDN.1.15_1,IDN,Indonesia,IDN.1_1,Aceh,NA,GayoLues,NA,NA,Kabupaten,Regency,1113,ID.AC.GL,Aceh I
+IDN.1.16_1,IDN,Indonesia,IDN.1_1,Aceh,NA,Langsa,NA,NA,Kota,City,1173,ID.AC.LA,Aceh II
+IDN.1.17_1,IDN,Indonesia,IDN.1_1,Aceh,NA,Lhokseumawe,NA,NA,Kota,City,1174,ID.AC.LH,Aceh II
+IDN.1.18_1,IDN,Indonesia,IDN.1_1,Aceh,NA,NaganRaya,NA,NA,Kabupaten,Regency,1115,ID.AC.NR,Aceh I
+IDN.1.20_1,IDN,Indonesia,IDN.1_1,Aceh,NA,Pidie,NA,NA,Kabupaten,Regency,1109,ID.AC.PD,Aceh I
+IDN.1.19_1,IDN,Indonesia,IDN.1_1,Aceh,NA,PidieJaya,NA,NA,Kabupaten,Regency,1118,ID.AC.PJ,Aceh I
+IDN.1.21_1,IDN,Indonesia,IDN.1_1,Aceh,NA,Sabang,NA,NA,Kota,City,1172,ID.AC.SA,Aceh I
+IDN.1.22_1,IDN,Indonesia,IDN.1_1,Aceh,NA,Simeulue,NA,NA,Kabupaten,Regency,1101,ID.AC.SI,Aceh I
+IDN.1.23_1,IDN,Indonesia,IDN.1_1,Aceh,NA,Subulussalam,NA,NA,Kota,City,1175,ID.AC.SU,Aceh I
+IDN.2.1_1,IDN,Indonesia,IDN.2_1,Bali,NA,Badung,NA,NA,Kabupaten,Regency,5103,ID.BA.BD,Bali
+IDN.2.2_1,IDN,Indonesia,IDN.2_1,Bali,NA,Bangli,NA,NA,Kabupaten,Regency,5106,ID.BA.BN,Bali
+IDN.2.3_1,IDN,Indonesia,IDN.2_1,Bali,NA,Buleleng,NA,NA,Kabupaten,Regency,5108,ID.BA.BL,Bali
+IDN.2.4_1,IDN,Indonesia,IDN.2_1,Bali,NA,Denpasar,NA,NA,Kota,City,5171,ID.BA.DE,Bali
+IDN.2.5_1,IDN,Indonesia,IDN.2_1,Bali,NA,Gianyar,NA,NA,Kabupaten,Regency,5104,ID.BA.GI,Bali
+IDN.2.6_1,IDN,Indonesia,IDN.2_1,Bali,NA,Jembrana,NA,NA,Kabupaten,Regency,5101,ID.BA.JE,Bali
+IDN.2.7_1,IDN,Indonesia,IDN.2_1,Bali,NA,Karangasem,NA,NA,Kabupaten,Regency,5107,ID.BA.KA,Bali
+IDN.2.8_1,IDN,Indonesia,IDN.2_1,Bali,NA,Klungkung,NA,NA,Kabupaten,Regency,5105,ID.BA.KL,Bali
+IDN.2.9_1,IDN,Indonesia,IDN.2_1,Bali,NA,Tabanan,NA,NA,Kabupaten,Regency,5102,ID.BA.TA,Bali
+IDN.3.4_1,IDN,Indonesia,IDN.3_1,BangkaBelitung,NA,Bangka,NA,NA,Kabupaten,Regency,1901,ID.BB.BA,Kepulauan Bangka Belitung
+IDN.3.1_1,IDN,Indonesia,IDN.3_1,BangkaBelitung,NA,BangkaBarat,NA,NA,Kabupaten,Regency,1903,ID.BB.BB,Kepulauan Bangka Belitung
+IDN.3.2_1,IDN,Indonesia,IDN.3_1,BangkaBelitung,NA,BangkaSelatan,NA,NA,Kabupaten,Regency,1905,ID.BB.BS,Kepulauan Bangka Belitung
+IDN.3.3_1,IDN,Indonesia,IDN.3_1,BangkaBelitung,NA,BangkaTengah,NA,NA,Kabupaten,Regency,1904,ID.BB.BG,Kepulauan Bangka Belitung
+IDN.3.6_1,IDN,Indonesia,IDN.3_1,BangkaBelitung,NA,Belitung,NA,NA,Kabupaten,Regency,1902,ID.BB.BE,Kepulauan Bangka Belitung
+IDN.3.5_1,IDN,Indonesia,IDN.3_1,BangkaBelitung,NA,BelitungTimur,NA,NA,Kabupaten,Regency,1906,ID.BB.BT,Kepulauan Bangka Belitung
+IDN.3.7_1,IDN,Indonesia,IDN.3_1,BangkaBelitung,NA,Pangkalpinang,NA,NA,Kota,City,1971,ID.BB.PP,Kepulauan Bangka Belitung
+IDN.4.1_1,IDN,Indonesia,IDN.4_1,Banten,NA,Cilegon,NA,NA,Kota,City,3672,ID.BT.CL,Banten II
+IDN.4.2_1,IDN,Indonesia,IDN.4_1,Banten,NA,KotaSerang,NA,NA,Kota,City,3673,ID.BT.SK,Banten II
+IDN.4.3_1,IDN,Indonesia,IDN.4_1,Banten,NA,KotaTangerang,NA,NA,Kota,City,3671,ID.BT.TM,Banten III
+IDN.4.4_1,IDN,Indonesia,IDN.4_1,Banten,NA,Lebak,NA,NA,Kabupaten,Regency,3602,ID.BT.LE,Banten I
+IDN.4.5_1,IDN,Indonesia,IDN.4_1,Banten,NA,Pandeglang,NA,NA,Kabupaten,Regency,3601,ID.BT.PA,Banten I
+IDN.4.6_1,IDN,Indonesia,IDN.4_1,Banten,NA,Serang,NA,NA,Kabupaten,Regency,3604,ID.BT.SR,Banten II
+IDN.4.8_1,IDN,Indonesia,IDN.4_1,Banten,NA,Tangerang,NA,NA,Kabupaten,Regency,3603,ID.BT.TG,Banten III
+IDN.4.7_1,IDN,Indonesia,IDN.4_1,Banten,NA,TangerangSelatan,NA,NA,Kota,City,3674,ID.BT.TS,Banten III
+IDN.5.4_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,Bengkulu,NA,NA,Kota,City,1771,ID.BE.BE,Bengkulu
+IDN.5.1_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,BengkuluSelatan,NA,NA,Kabupaten,Regency,1701,ID.BE.BS,Bengkulu
+IDN.5.2_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,BengkuluTengah,NA,NA,Kabupaten,Regency,1709,ID.BE.BN,Bengkulu
+IDN.5.3_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,BengkuluUtara,NA,NA,Kabupaten,Regency,1703,ID.BE.BT,Bengkulu
+IDN.5.5_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,Kaur,NA,NA,Kabupaten,Regency,1704,ID.BE.KA,Bengkulu
+IDN.5.6_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,Kepahiang,NA,NA,Kabupaten,Regency,1708,ID.BE.KE,Bengkulu
+IDN.5.7_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,Lebong,NA,NA,Kabupaten,Regency,1707,ID.BE.LE,Bengkulu
+IDN.5.8_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,Mukomuko,NA,NA,Kabupaten,Regency,1706,ID.BE.MU,Bengkulu
+IDN.5.9_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,RejangLebong,NA,NA,Kabupaten,Regency,1702,ID.BE.RL,Bengkulu
+IDN.5.10_1,IDN,Indonesia,IDN.5_1,Bengkulu,NA,Seluma,NA,NA,Kabupaten,Regency,1705,ID.BE.SE,Bengkulu
+IDN.6.1_1,IDN,Indonesia,IDN.6_1,Gorontalo,NA,Boalemo,NA,NA,Kabupaten,Regency,7501,ID.GO.BO,Gorontalo
+IDN.6.2_1,IDN,Indonesia,IDN.6_1,Gorontalo,NA,BoneBolango,NA,NA,Kabupaten,Regency,7504,ID.GO.BB,Gorontalo
+IDN.6.3_1,IDN,Indonesia,IDN.6_1,Gorontalo,NA,DanauLimboto,NA,NA,Kabupaten,Regency,7502,ID.GO.GO,Gorontalo
+IDN.6.5_1,IDN,Indonesia,IDN.6_1,Gorontalo,NA,Gorontalo,NA,NA,Kabupaten,Regency,7502,ID.GO.GO,Gorontalo
+IDN.6.4_1,IDN,Indonesia,IDN.6_1,Gorontalo,NA,GorontaloUtara,NA,NA,Kabupaten,Regency,7505,ID.GO.GU,Gorontalo
+IDN.6.6_1,IDN,Indonesia,IDN.6_1,Gorontalo,NA,KotaGorontalo,NA,NA,Kota,City,7571,ID.GO.GM,Gorontalo
+IDN.6.7_1,IDN,Indonesia,IDN.6_1,Gorontalo,NA,Pohuwato,NA,NA,Kabupaten,Regency,7503,ID.GO.PO,Gorontalo
+IDN.7.1_1,IDN,Indonesia,IDN.7_1,JakartaRaya,NA,JakartaBarat,NA,NA,Kota,City,3174,ID.JK.JB,DKI Jakarta III
+IDN.7.2_1,IDN,Indonesia,IDN.7_1,JakartaRaya,NA,JakartaPusat,NA,NA,Kota,City,3173,ID.JK.JP,DKI Jakarta II
+IDN.7.3_1,IDN,Indonesia,IDN.7_1,JakartaRaya,NA,JakartaSelatan,NA,NA,Kota,City,3171,ID.JK.JS,DKI Jakarta II
+IDN.7.4_1,IDN,Indonesia,IDN.7_1,JakartaRaya,NA,JakartaTimur,NA,NA,Kota,City,3172,ID.JK.JT,DKI Jakarta I
+IDN.7.5_1,IDN,Indonesia,IDN.7_1,JakartaRaya,NA,JakartaUtara,NA,NA,Kota,City,3175,ID.JK.JU,DKI Jakarta III
+IDN.7.6_1,IDN,Indonesia,IDN.7_1,JakartaRaya,NA,KepulauanSeribu,NA,NA,Kabupaten,Regency,3101,ID.JK.KS,DKI Jakarta III
+IDN.8.1_1,IDN,Indonesia,IDN.8_1,Jambi,NA,BatangHari,NA,NA,Kabupaten,Regency,1504,ID.JA.BA,Jambi
+IDN.8.2_1,IDN,Indonesia,IDN.8_1,Jambi,NA,Bungo,NA,NA,Kabupaten,Regency,1509,ID.JA.BT,Jambi
+IDN.8.3_1,IDN,Indonesia,IDN.8_1,Jambi,NA,Jambi,NA,NA,Kota,City,1571,ID.JA.JA,Jambi
+IDN.8.4_1,IDN,Indonesia,IDN.8_1,Jambi,NA,Kerinci,NA,NA,Kabupaten,Regency,1501,ID.JA.KR,Jambi
+IDN.8.5_1,IDN,Indonesia,IDN.8_1,Jambi,NA,Merangin,NA,NA,Kabupaten,Regency,1502,ID.JA.SB,Jambi
+IDN.8.6_1,IDN,Indonesia,IDN.8_1,Jambi,NA,MuaroJambi,NA,NA,Kabupaten,Regency,1505,ID.JA.MJ,Jambi
+IDN.8.7_1,IDN,Indonesia,IDN.8_1,Jambi,NA,Sarolangun,NA,NA,Kabupaten,Regency,1503,ID.JA.SA,Jambi
+IDN.8.8_1,IDN,Indonesia,IDN.8_1,Jambi,NA,SungaiPenuh,NA,NA,Kota,City,1572,ID.JA.SP,Jambi
+IDN.8.9_1,IDN,Indonesia,IDN.8_1,Jambi,NA,TanjungJabungB,NA,NA,Kabupaten,Regency,1507,ID.JA.TJ,Jambi
+IDN.8.10_1,IDN,Indonesia,IDN.8_1,Jambi,NA,TanjungJabungT,NA,NA,Kabupaten,Regency,1506,ID.JA.TT,Jambi
+IDN.8.11_1,IDN,Indonesia,IDN.8_1,Jambi,NA,Tebo,NA,NA,Kabupaten,Regency,1508,ID.JA.TE,Jambi
+IDN.9.2_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Bandung,NA,NA,Kabupaten,Regency,3204,ID.JR.BU,Jawa Barat II
+IDN.9.1_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,BandungBarat,NA,NA,Kabupaten,Regency,3217,ID.JR.BB,Jawa Barat II
+IDN.9.3_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Banjar,NA,NA,Kota,City,3279,ID.JR.BA,Jawa Barat X
+IDN.9.4_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Bekasi,NA,NA,Kabupaten,Regency,3216,ID.JR.BS,Jawa Barat VII
+IDN.9.5_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Bogor,NA,NA,Kabupaten,Regency,3201,ID.JR.BR,Jawa Barat V
+IDN.9.6_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Ciamis,NA,NA,Kabupaten,Regency,3207,ID.JR.CS,Jawa Barat X
+IDN.9.7_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Cianjur,NA,NA,Kabupaten,Regency,3203,ID.JR.CJ,Jawa Barat III
+IDN.9.8_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Cimahi,NA,NA,Kota,City,3277,ID.JR.CI,Jawa Barat I
+IDN.9.9_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Cirebon,NA,NA,Kabupaten,Regency,3209,ID.JR.CR,Jawa Barat VIII
+IDN.9.10_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Depok,NA,NA,Kota,City,3276,ID.JR.DE,Jawa Barat VI
+IDN.9.11_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Garut,NA,NA,Kabupaten,Regency,3205,ID.JR.GA,Jawa Barat XI
+IDN.9.12_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Indramayu,NA,NA,Kabupaten,Regency,3212,ID.JR.IN,Jawa Barat VIII
+IDN.9.13_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Karawang,NA,NA,Kabupaten,Regency,3215,ID.JR.KA,Jawa Barat VII
+IDN.9.14_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,KotaBandung,NA,NA,Kota,City,3273,ID.JR.BN,Jawa Barat I
+IDN.9.15_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,KotaBekasi,NA,NA,Kota,City,3275,ID.JR.BK,Jawa Barat VI
+IDN.9.16_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,KotaBogor,NA,NA,Kota,City,3271,ID.JR.BG,Jawa Barat III
+IDN.9.17_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,KotaCirebon,NA,NA,Kota,City,3274,ID.JR.CM,Jawa Barat VIII
+IDN.9.18_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,KotaSukabumi,NA,NA,Kota,City,3272,ID.JR.SM,Jawa Barat IV
+IDN.9.19_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,KotaTasikmalaya,NA,NA,Kota,City,3278,ID.JR.TM,Jawa Barat XI
+IDN.9.20_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Kuningan,NA,NA,Kabupaten,Regency,3208,ID.JR.KU,Jawa Barat X
+IDN.9.21_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Majalengka,NA,NA,Kabupaten,Regency,3210,ID.JR.MA,Jawa Barat IX
+IDN.9.22_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Purwakarta,NA,NA,Kabupaten,Regency,3214,ID.JR.PU,Jawa Barat VII
+IDN.9.23_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Subang,NA,NA,Kabupaten,Regency,3213,ID.JR.SB,Jawa Barat IX
+IDN.9.24_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Sukabumi,NA,NA,Kabupaten,Regency,3202,ID.JR.SR,Jawa Barat IV
+IDN.9.25_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Sumedang,NA,NA,Kabupaten,Regency,3211,ID.JR.SD,Jawa Barat IX
+IDN.9.26_1,IDN,Indonesia,IDN.9_1,JawaBarat,NA,Tasikmalaya,NA,NA,Kabupaten,Regency,3206,ID.JR.TA,Jawa Barat XI
+IDN.10.1_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Banjarnegara,NA,NA,Kabupaten,Regency,3304,ID.JT.BN,Jawa Tengah VII
+IDN.10.2_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Banyumas,NA,NA,Kabupaten,Regency,3302,ID.JT.BY,Jawa Tengah VIII
+IDN.10.3_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Batang,NA,NA,Kabupaten,Regency,3325,ID.JT.BT,Jawa Tengah X
+IDN.10.4_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Blora,NA,NA,Kabupaten,Regency,3316,ID.JT.BL,Jawa Tengah III
+IDN.10.5_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Boyolali,NA,NA,Kabupaten,Regency,3309,ID.JT.BO,Jawa Tengah V
+IDN.10.6_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Brebes,NA,NA,Kabupaten,Regency,3329,ID.JT.BR,Jawa Tengah IX
+IDN.10.7_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Cilacap,NA,NA,Kabupaten,Regency,3301,ID.JT.CI,Jawa Tengah VIII
+IDN.10.8_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Demak,NA,NA,Kabupaten,Regency,3321,ID.JT.DE,Jawa Tengah II
+IDN.10.9_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Grobogan,NA,NA,Kabupaten,Regency,3315,ID.JT.GR,Jawa Tengah III
+IDN.10.10_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Jepara,NA,NA,Kabupaten,Regency,3320,ID.JT.JE,Jawa Tengah II
+IDN.10.11_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Karanganyar,NA,NA,Kabupaten,Regency,3313,ID.JT.KA,Jawa Tengah IV
+IDN.10.12_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Kebumen,NA,NA,Kabupaten,Regency,3305,ID.JT.KB,Jawa Tengah VII
+IDN.10.13_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Kendal,NA,NA,Kabupaten,Regency,3324,ID.JT.KN,Jawa Tengah I
+IDN.10.14_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Klaten,NA,NA,Kabupaten,Regency,3310,ID.JT.KL,Jawa Tengah V
+IDN.10.15_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,KotaMagelang,NA,NA,Kota,City,3371,ID.JT.MM,Jawa Tengah VI
+IDN.10.16_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,KotaPekalongan,NA,NA,Kota,City,3375,ID.JT.PM,Jawa Tengah X
+IDN.10.17_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,KotaSemarang,NA,NA,Kota,City,3374,ID.JT.SM,Jawa Tengah I
+IDN.10.18_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,KotaTegal,NA,NA,Kota,City,3376,ID.JT.TM,Jawa Tengah IX
+IDN.10.19_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Kudus,NA,NA,Kabupaten,Regency,3319,ID.JT.KU,Jawa Tengah II
+IDN.10.20_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Magelang,NA,NA,Kabupaten,Regency,3308,ID.JT.MR,Jawa Tengah VI
+IDN.10.21_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Pati,NA,NA,Kabupaten,Regency,3318,ID.JT.PA,Jawa Tengah III
+IDN.10.22_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Pekalongan,NA,NA,Kabupaten,Regency,3326,ID.JT.PR,Jawa Tengah X
+IDN.10.23_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Pemalang,NA,NA,Kabupaten,Regency,3327,ID.JT.PL,Jawa Tengah X
+IDN.10.24_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Purbalingga,NA,NA,Kabupaten,Regency,3303,ID.JT.PB,Jawa Tengah VII
+IDN.10.25_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Purworejo,NA,NA,Kabupaten,Regency,3306,ID.JT.PW,Jawa Tengah VI
+IDN.10.26_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Rembang,NA,NA,Kabupaten,Regency,3317,ID.JT.RE,Jawa Tengah III
+IDN.10.27_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Salatiga,NA,NA,Kota,City,3373,ID.JT.SA,Jawa Tengah I
+IDN.10.28_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Semarang,NA,NA,Kabupaten,Regency,3322,ID.JT.SR,Jawa Tengah I
+IDN.10.29_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Sragen,NA,NA,Kabupaten,Regency,3314,ID.JT.SG,Jawa Tengah IV
+IDN.10.30_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Sukoharjo,NA,NA,Kabupaten,Regency,3311,ID.JT.SH,Jawa Tengah V
+IDN.10.31_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Surakarta,NA,NA,Kota,City,3372,ID.JT.SK,Jawa Tengah V
+IDN.10.32_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Tegal,NA,NA,Kabupaten,Regency,3328,ID.JT.TR,Jawa Tengah IX
+IDN.10.33_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Temanggung,NA,NA,Kabupaten,Regency,3323,ID.JT.TG,Jawa Tengah VI
+IDN.10.35_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Wonogiri,NA,NA,Kabupaten,Regency,3312,ID.JT.WG,Jawa Tengah IV
+IDN.10.36_1,IDN,Indonesia,IDN.10_1,JawaTengah,NA,Wonosobo,NA,NA,Kabupaten,Regency,3307,ID.JT.WS,Jawa Tengah VI
+IDN.11.1_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Bangkalan,NA,NA,Kabupaten,Regency,3526,ID.JI.BK,Jawa Timur XI
+IDN.11.2_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Banyuwangi,NA,NA,Kabupaten,Regency,3510,ID.JI.BW,Jawa Timur III
+IDN.11.3_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Batu,NA,NA,Kota,City,3579,ID.JI.BA,Jawa Timur V
+IDN.11.4_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Blitar,NA,NA,Kabupaten,Regency,3505,ID.JI.BR,Jawa Timur VI
+IDN.11.5_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Bojonegoro,NA,NA,Kabupaten,Regency,3522,ID.JI.BJ,Jawa Timur IX
+IDN.11.6_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Bondowoso,NA,NA,Kabupaten,Regency,3511,ID.JI.BD,Jawa Timur III
+IDN.11.7_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Gresik,NA,NA,Kabupaten,Regency,3525,ID.JI.GR,Jawa Timur X
+IDN.11.8_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Jember,NA,NA,Kabupaten,Regency,3509,ID.JI.JE,Jawa Timur IV
+IDN.11.9_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Jombang,NA,NA,Kabupaten,Regency,3517,ID.JI.JO,Jawa Timur VIII
+IDN.11.10_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Kediri,NA,NA,Kabupaten,Regency,3506,ID.JI.KR,Jawa Timur VI
+IDN.11.11_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,KotaBlitar,NA,NA,Kota,City,3572,ID.JI.BM,Jawa Timur VI
+IDN.11.12_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,KotaKediri,NA,NA,Kota,City,3571,ID.JI.KM,Jawa Timur VI
+IDN.11.13_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,KotaMadiun,NA,NA,Kota,City,3577,ID.JI.MD,Jawa Timur VIII
+IDN.11.14_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,KotaMalang,NA,NA,Kota,City,3573,ID.JI.ML,Jawa Timur V
+IDN.11.15_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,KotaMojokerto,NA,NA,Kota,City,3576,ID.JI.MJ,Jawa Timur VIII
+IDN.11.16_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,KotaPasuruan,NA,NA,Kota,City,3575,ID.JI.PS,Jawa Timur II
+IDN.11.17_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,KotaProbolinggo,NA,NA,Kota,City,3574,ID.JI.PB,Jawa Timur II
+IDN.11.18_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Lamongan,NA,NA,Kabupaten,Regency,3524,ID.JI.LA,Jawa Timur X
+IDN.11.19_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Lumajang,NA,NA,Kabupaten,Regency,3508,ID.JI.LU,Jawa Timur IV
+IDN.11.20_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Madiun,NA,NA,Kabupaten,Regency,3519,ID.JI.MN,Jawa Timur VIII
+IDN.11.21_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Magetan,NA,NA,Kabupaten,Regency,3520,ID.JI.MT,Jawa Timur VII
+IDN.11.22_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Malang,NA,NA,Kabupaten,Regency,3507,ID.JI.MG,Jawa Timur V
+IDN.11.23_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Mojokerto,NA,NA,Kabupaten,Regency,3516,ID.JI.MK,Jawa Timur VIII
+IDN.11.24_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Nganjuk,NA,NA,Kabupaten,Regency,3518,ID.JI.NJ,Jawa Timur VIII
+IDN.11.25_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Ngawi,NA,NA,Kabupaten,Regency,3521,ID.JI.NW,Jawa Timur VII
+IDN.11.26_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Pacitan,NA,NA,Kabupaten,Regency,3501,ID.JI.PC,Jawa Timur VII
+IDN.11.27_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Pamekasan,NA,NA,Kabupaten,Regency,3528,ID.JI.PK,Jawa Timur XI
+IDN.11.28_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Pasuruan,NA,NA,Kabupaten,Regency,3514,ID.JI.PR,Jawa Timur II
+IDN.11.29_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Ponorogo,NA,NA,Kabupaten,Regency,3502,ID.JI.PG,Jawa Timur VII
+IDN.11.30_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Probolinggo,NA,NA,Kabupaten,Regency,3513,ID.JI.PL,Jawa Timur II
+IDN.11.31_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Sampang,NA,NA,Kabupaten,Regency,3527,ID.JI.SA,Jawa Timur XI
+IDN.11.32_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Sidoarjo,NA,NA,Kabupaten,Regency,3515,ID.JI.SD,Jawa Timur I
+IDN.11.33_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Situbondo,NA,NA,Kabupaten,Regency,3512,ID.JI.SB,Jawa Timur III
+IDN.11.34_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Sumenep,NA,NA,Kabupaten,Regency,3529,ID.JI.SM,Jawa Timur XI
+IDN.11.35_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Surabaya,NA,NA,Kota,City,3578,ID.JI.SR,Jawa Timur I
+IDN.11.36_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Trenggalek,NA,NA,Kabupaten,Regency,3503,ID.JI.TR,Jawa Timur VII
+IDN.11.37_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Tuban,NA,NA,Kabupaten,Regency,3523,ID.JI.TB,Jawa Timur IX
+IDN.11.38_1,IDN,Indonesia,IDN.11_1,JawaTimur,NA,Tulungagung,NA,NA,Kabupaten,Regency,3504,ID.JI.TG,Jawa Timur VI
+IDN.12.1_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Bengkayang,NA,NA,Kabupaten,Regency,6102,ID.KB.BE,Kalimantan Barat I
+IDN.12.2_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,KapuasHulu,NA,NA,Kabupaten,Regency,6108,ID.KB.KH,Kalimantan Barat II
+IDN.12.3_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,KayongUtara,NA,NA,Kabupaten,Regency,6111,ID.KB.KU,Kalimantan Barat I
+IDN.12.4_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Ketapang,NA,NA,Kabupaten,Regency,6106,ID.KB.KP,Kalimantan Barat I
+IDN.12.5_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,KotaPontianak,NA,NA,Kota,City,6171,ID.KB.PN,Kalimantan Barat I
+IDN.12.6_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,KubuRaya,NA,NA,Kabupaten,Regency,6112,ID.KB.KR,Kalimantan Barat I
+IDN.12.7_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Landak,NA,NA,Kabupaten,Regency,6103,ID.KB.LA,Kalimantan Barat I
+IDN.12.8_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Melawi,NA,NA,Kabupaten,Regency,6110,ID.KB.ME,Kalimantan Barat II
+IDN.12.9_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Pontianak,NA,NA,Kabupaten,Regency,6104,ID.KB.PR,Kalimantan Barat I
+IDN.12.10_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Sambas,NA,NA,Kabupaten,Regency,6101,ID.KB.SM,Kalimantan Barat I
+IDN.12.11_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Sanggau,NA,NA,Kabupaten,Regency,6105,ID.KB.SN,Kalimantan Barat II
+IDN.12.12_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Sekadau,NA,NA,Kabupaten,Regency,6109,ID.KB.SE,Kalimantan Barat II
+IDN.12.13_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Singkawang,NA,NA,Kota,City,6172,ID.KB.SK,Kalimantan Barat I
+IDN.12.14_1,IDN,Indonesia,IDN.12_1,KalimantanBarat,NA,Sintang,NA,NA,Kabupaten,Regency,6107,ID.KB.SI,Kalimantan Barat II
+IDN.13.1_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,Balangan,NA,NA,Kabupaten,Regency,6311,ID.KS.BA,Kalimantan Selatan I
+IDN.13.3_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,Banjar,NA,NA,Kabupaten,Regency,6303,ID.KS.BN,Kalimantan Selatan I
+IDN.13.2_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,BanjarBaru,NA,NA,Kota,City,6372,ID.KS.BB,Kalimantan Selatan II
+IDN.13.4_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,Banjarmasin,NA,NA,Kota,City,6371,ID.KS.BM,Kalimantan Selatan II
+IDN.13.5_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,BaritoKuala,NA,NA,Kabupaten,Regency,6304,ID.KS.BK,Kalimantan Selatan I
+IDN.13.6_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,HuluSungaiSelatan,NA,NA,Kabupaten,Regency,6306,ID.KS.HS,Kalimantan Selatan I
+IDN.13.7_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,HuluSungaiTengah,NA,NA,Kabupaten,Regency,6307,ID.KS.HT,Kalimantan Selatan I
+IDN.13.8_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,HuluSungaiUtara,NA,NA,Kabupaten,Regency,6308,ID.KS.HU,Kalimantan Selatan I
+IDN.13.9_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,KotaBaru,NA,NA,Kabupaten,Regency,6302,ID.KS.KB,Kalimantan Selatan II
+IDN.13.10_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,Tabalong,NA,NA,Kabupaten,Regency,6309,ID.KS.TB,Kalimantan Selatan I
+IDN.13.11_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,TanahBumbu,NA,NA,Kabupaten,Regency,6310,ID.KS.TN,Kalimantan Selatan II
+IDN.13.12_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,TanahLaut,NA,NA,Kabupaten,Regency,6301,ID.KS.TL,Kalimantan Selatan II
+IDN.13.13_1,IDN,Indonesia,IDN.13_1,KalimantanSelatan,NA,Tapin,NA,NA,Kabupaten,Regency,6305,ID.KS.TP,Kalimantan Selatan I
+IDN.14.1_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,BaritoSelatan,NA,NA,Kabupaten,Regency,6204,ID.KT.BS,Kalimantan Tengah
+IDN.14.2_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,BaritoTimur,NA,NA,Kabupaten,Regency,6212,ID.KT.BT,Kalimantan Tengah
+IDN.14.3_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,BaritoUtara,NA,NA,Kabupaten,Regency,6205,ID.KT.BU,Kalimantan Tengah
+IDN.14.4_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,GunungMas,NA,NA,Kabupaten,Regency,6211,ID.KT.GM,Kalimantan Tengah
+IDN.14.5_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,Kapuas,NA,NA,Kabupaten,Regency,6203,ID.KT.KA,Kalimantan Tengah
+IDN.14.6_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,Katingan,NA,NA,Kabupaten,Regency,6209,ID.KT.KG,Kalimantan Tengah
+IDN.14.7_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,KotawaringinBarat,NA,NA,Kabupaten,Regency,6201,ID.KT.KB,Kalimantan Tengah
+IDN.14.8_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,KotawaringinTimur,NA,NA,Kabupaten,Regency,6202,ID.KT.KT,Kalimantan Tengah
+IDN.14.9_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,Lamandau,NA,NA,Kabupaten,Regency,6207,ID.KT.LA,Kalimantan Tengah
+IDN.14.10_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,MurungRaya,NA,NA,Kabupaten,Regency,6213,ID.KT.MR,Kalimantan Tengah
+IDN.14.11_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,PalangkaRaya,NA,NA,Kota,City,6271,ID.KT.PR,Kalimantan Tengah
+IDN.14.12_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,PulangPisau,NA,NA,Kabupaten,Regency,6210,ID.KT.PP,Kalimantan Tengah
+IDN.14.13_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,Seruyan,NA,NA,Kabupaten,Regency,6208,ID.KT.SE,Kalimantan Tengah
+IDN.14.14_1,IDN,Indonesia,IDN.14_1,KalimantanTengah,NA,Sukamara,NA,NA,Kabupaten,Regency,6206,ID.KT.SU,Kalimantan Tengah
+IDN.34.1_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,Balikpapan,NA,NA,Kota,City,6471,ID.KM.BA,Kalimantan Timur
+IDN.34.2_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,Berau,NA,NA,Kabupaten,Regency,6405,ID.KM.BE,Kalimantan Timur
+IDN.34.3_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,Bontang,NA,NA,Kota,City,6474,ID.KM.BO,Kalimantan Timur
+IDN.34.5_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,KutaiBarat,NA,NA,Kabupaten,Regency,6402,ID.KM.KB,Kalimantan Timur
+IDN.34.6_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,KutaiKartanegara,NA,NA,Kabupaten,Regency,6403,ID.KM.KU,Kalimantan Timur
+IDN.34.7_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,KutaiTimur,NA,NA,Kabupaten,Regency,6404,ID.KM.KT,Kalimantan Timur
+IDN.34.10_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,Paser,NA,NA,Kabupaten,Regency,6401,ID.KM.PA,Kalimantan Timur
+IDN.34.11_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,PenajamPaserUtara,NA,NA,Kabupaten,Regency,6409,ID.KM.PP,Kalimantan Timur
+IDN.34.12_1,IDN,Indonesia,IDN.34_1,KalimantanTimur,NA,Samarinda,NA,NA,Kota,City,6472,ID.KM.SA,Kalimantan Timur
+IDN.35.4,IDN,Indonesia,IDN.35_1,KalimantanUtara,NA,Bulungan,NA,NA,NA,NA,NA,NA,Kalimantan Utara
+IDN.35.8,IDN,Indonesia,IDN.35_1,KalimantanUtara,NA,Malinau,NA,NA,NA,NA,NA,NA,Kalimantan Utara
+IDN.35.9,IDN,Indonesia,IDN.35_1,KalimantanUtara,NA,Nunukan,NA,NA,NA,NA,NA,NA,Kalimantan Utara
+IDN.35.13,IDN,Indonesia,IDN.35_1,KalimantanUtara,NA,TanaTidung,NA,NA,NA,NA,NA,NA,Kalimantan Utara
+IDN.35.14,IDN,Indonesia,IDN.35_1,KalimantanUtara,NA,Tarakan,NA,NA,NA,NA,NA,NA,Kalimantan Utara
+IDN.16.1_1,IDN,Indonesia,IDN.16_1,KepulauanRiau,NA,Batam,NA,NA,Kota,City,2171,ID.KR.BA,Kepulauan Riau
+IDN.16.2_1,IDN,Indonesia,IDN.16_1,KepulauanRiau,NA,Bintan,NA,NA,Kabupaten,Regency,2102,ID.KR.KR,Kepulauan Riau
+IDN.16.3_1,IDN,Indonesia,IDN.16_1,KepulauanRiau,NA,Karimun,NA,NA,Kabupaten,Regency,2101,ID.KR.KA,Kepulauan Riau
+IDN.16.4_1,IDN,Indonesia,IDN.16_1,KepulauanRiau,NA,KepulauanAnambas,NA,NA,Kabupaten,Regency,2105,ID.KR.KM,Kepulauan Riau
+IDN.16.5_1,IDN,Indonesia,IDN.16_1,KepulauanRiau,NA,Lingga,NA,NA,Kabupaten,Regency,2104,ID.KR.LI,Kepulauan Riau
+IDN.16.6_1,IDN,Indonesia,IDN.16_1,KepulauanRiau,NA,Natuna,NA,NA,Kabupaten,Regency,2103,ID.KR.NT,Kepulauan Riau
+IDN.16.7_1,IDN,Indonesia,IDN.16_1,KepulauanRiau,NA,Tanjungpinang,NA,NA,Kota,City,2172,ID.KR.TP,Kepulauan Riau
+IDN.17.1_1,IDN,Indonesia,IDN.17_1,Lampung,NA,BandarLampung,NA,NA,Kota,City,1871,ID.LA.BL,Lampung I
+IDN.17.2_1,IDN,Indonesia,IDN.17_1,Lampung,NA,LampungBarat,NA,NA,Kabupaten,Regency,1801,ID.LA.LB,Lampung I
+IDN.17.3_1,IDN,Indonesia,IDN.17_1,Lampung,NA,LampungSelatan,NA,NA,Kabupaten,Regency,1803,ID.LA.LP,Lampung I
+IDN.17.4_1,IDN,Indonesia,IDN.17_1,Lampung,NA,LampungTengah,NA,NA,Kabupaten,Regency,1805,ID.LA.LT,Lampung II
+IDN.17.5_1,IDN,Indonesia,IDN.17_1,Lampung,NA,LampungTimur,NA,NA,Kabupaten,Regency,1804,ID.LA.LI,Lampung II
+IDN.17.6_1,IDN,Indonesia,IDN.17_1,Lampung,NA,LampungUtara,NA,NA,Kabupaten,Regency,1806,ID.LA.LU,Lampung II
+IDN.17.7_1,IDN,Indonesia,IDN.17_1,Lampung,NA,Mesuji,NA,NA,Kabupaten,Regency,1811,ID.LA.MJ,Lampung II
+IDN.17.8_1,IDN,Indonesia,IDN.17_1,Lampung,NA,Metro,NA,NA,Kota,City,1872,ID.LA.ME,Lampung I
+IDN.17.9_1,IDN,Indonesia,IDN.17_1,Lampung,NA,Pesawaran,NA,NA,Kabupaten,Regency,1809,ID.LA.PA,Lampung I
+IDN.17.10_1,IDN,Indonesia,IDN.17_1,Lampung,NA,Pringsewu,NA,NA,Kabupaten,Regency,1810,ID.LA.PG,Lampung I
+IDN.17.11_1,IDN,Indonesia,IDN.17_1,Lampung,NA,Tanggamus,NA,NA,Kabupaten,Regency,1802,ID.LA.TG,Lampung I
+IDN.17.12_1,IDN,Indonesia,IDN.17_1,Lampung,NA,TulangBawangBarat,NA,NA,Kabupaten,Regency,1812,ID.LA.TR,Lampung II
+IDN.17.13_1,IDN,Indonesia,IDN.17_1,Lampung,NA,Tulangbawang,NA,NA,Kabupaten,Regency,1808,ID.LA.TL,Lampung II
+IDN.17.14_1,IDN,Indonesia,IDN.17_1,Lampung,NA,WayKanan,NA,NA,Kabupaten,Regency,1807,ID.LA.WK,Lampung II
+IDN.19.1_1,IDN,Indonesia,IDN.19_1,Maluku,NA,Ambon,NA,NA,Kota,City,8171,ID.MA.AM,Maluku
+IDN.19.3_1,IDN,Indonesia,IDN.19_1,Maluku,NA,Buru,NA,NA,Kabupaten,Regency,8104,ID.MA.BR,Maluku
+IDN.19.2_1,IDN,Indonesia,IDN.19_1,Maluku,NA,BuruSelatan,NA,NA,Kabupaten,Regency,8109,ID.MA.BS,Maluku
+IDN.19.4_1,IDN,Indonesia,IDN.19_1,Maluku,NA,KepulauanAru,NA,NA,Kabupaten,Regency,8105,ID.MA.KA,Maluku
+IDN.19.5_1,IDN,Indonesia,IDN.19_1,Maluku,NA,MalukuBaratDaya,NA,NA,Kabupaten,Regency,8108,ID.MA.MD,Maluku
+IDN.19.6_1,IDN,Indonesia,IDN.19_1,Maluku,NA,MalukuTengah,NA,NA,Kabupaten,Regency,8103,ID.MA.MT,Maluku
+IDN.19.8_1,IDN,Indonesia,IDN.19_1,Maluku,NA,MalukuTenggara,NA,NA,Kabupaten,Regency,8102,ID.MA.MN,Maluku
+IDN.19.7_1,IDN,Indonesia,IDN.19_1,Maluku,NA,MalukuTenggaraBarat,NA,NA,Kabupaten,Regency,8101,ID.MA.MB,Maluku
+IDN.19.9_1,IDN,Indonesia,IDN.19_1,Maluku,NA,SeramBagianBarat,NA,NA,Kabupaten,Regency,8106,ID.MA.SB,Maluku
+IDN.19.10_1,IDN,Indonesia,IDN.19_1,Maluku,NA,SeramBagianTimur,NA,NA,Kabupaten,Regency,8107,ID.MA.ST,Maluku
+IDN.19.11_1,IDN,Indonesia,IDN.19_1,Maluku,NA,Tual,NA,NA,Kota,City,8172,ID.MA.TU,Maluku
+IDN.18.1_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,HalmaheraBarat,NA,NA,Kabupaten,Regency,8201,ID.MU.HB,Maluku Utara
+IDN.18.2_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,HalmaheraSelatan,NA,NA,Kabupaten,Regency,8204,ID.MU.HS,Maluku Utara
+IDN.18.3_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,HalmaheraTengah,NA,NA,Kabupaten,Regency,8202,ID.MU.HT,Maluku Utara
+IDN.18.4_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,HalmaheraTimur,NA,NA,Kabupaten,Regency,8206,ID.MU.HI,Maluku Utara
+IDN.18.5_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,HalmaheraUtara,NA,NA,Kabupaten,Regency,8205,ID.MU.HR,Maluku Utara
+IDN.18.6_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,KepulauanSula,NA,NA,Kabupaten,Regency,8203,ID.MU.KS,Maluku Utara
+IDN.18.7_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,PulauMorotai,NA,NA,Kabupaten,Regency,8207,ID.MU.PM,Maluku Utara
+IDN.18.8_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,Ternate,NA,NA,Kota,City,8271,ID.MU.TE,Maluku Utara
+IDN.18.9_1,IDN,Indonesia,IDN.18_1,MalukuUtara,NA,TidoreKepulauan,NA,NA,Kota,City,8272,ID.MU.TK,Maluku Utara
+IDN.20.1_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,Bima,NA,NA,Kabupaten,Regency,5206,ID.NB.BI,Nusa Tenggara Barat I
+IDN.20.2_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,Dompu,NA,NA,Kabupaten,Regency,5205,ID.NB.DO,Nusa Tenggara Barat I
+IDN.20.3_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,KotaBima,NA,NA,Kota,City,5272,ID.NB.BM,Nusa Tenggara Barat I
+IDN.20.4_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,LombokBarat,NA,NA,Kabupaten,Regency,5201,ID.NB.LR,Nusa Tenggara Barat II
+IDN.20.5_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,LombokTengah,NA,NA,Kabupaten,Regency,5202,ID.NB.LT,Nusa Tenggara Barat II
+IDN.20.6_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,LombokTimur,NA,NA,Kabupaten,Regency,5203,ID.NB.LI,Nusa Tenggara Barat II
+IDN.20.7_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,LombokUtara,NA,NA,Kabupaten,Regency,5208,ID.NB.LU,Nusa Tenggara Barat II
+IDN.20.8_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,Mataram,NA,NA,Kota,City,5271,ID.NB.MA,Nusa Tenggara Barat II
+IDN.20.10_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,Sumbawa,NA,NA,Kabupaten,Regency,5204,ID.NB.SU,Nusa Tenggara Barat I
+IDN.20.9_1,IDN,Indonesia,IDN.20_1,NusaTenggaraBarat,NA,SumbawaBarat,NA,NA,Kabupaten,Regency,5207,ID.NB.SB,Nusa Tenggara Barat I
+IDN.21.1_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Alor,NA,NA,Kabupaten,Regency,5307,ID.NT.AL,Nusa Tenggara Timur I
+IDN.21.2_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Belu,NA,NA,Kabupaten,Regency,5306,ID.NT.BE,Nusa Tenggara Timur II
+IDN.21.3_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Ende,NA,NA,Kabupaten,Regency,5311,ID.NT.EN,Nusa Tenggara Timur I
+IDN.21.4_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,FloresTimur,NA,NA,Kabupaten,Regency,5309,ID.NT.FT,Nusa Tenggara Timur I
+IDN.21.5_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,KotaKupang,NA,NA,Kota,City,5371,ID.NT.KM,Nusa Tenggara Timur II
+IDN.21.6_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Kupang,NA,NA,Kabupaten,Regency,5303,ID.NT.KP,Nusa Tenggara Timur II
+IDN.21.7_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Lembata,NA,NA,Kabupaten,Regency,5308,ID.NT.LE,Nusa Tenggara Timur I
+IDN.21.10_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Manggarai,NA,NA,Kabupaten,Regency,5313,ID.NT.MG,Nusa Tenggara Timur I
+IDN.21.8_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,ManggaraiBarat,NA,NA,Kabupaten,Regency,5315,ID.NT.MB,Nusa Tenggara Timur I
+IDN.21.9_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,ManggaraiTimur,NA,NA,Kabupaten,Regency,5319,ID.NT.MT,Nusa Tenggara Timur I
+IDN.21.11_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Nagekeo,NA,NA,Kabupaten,Regency,5318,ID.NT.NK,Nusa Tenggara Timur I
+IDN.21.12_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Ngada,NA,NA,Kabupaten,Regency,5312,ID.NT.ND,Nusa Tenggara Timur I
+IDN.21.13_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,RoteNdao,NA,NA,Kabupaten,Regency,5314,ID.NT.RN,Nusa Tenggara Timur II
+IDN.21.14_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,SabuRaijua,NA,NA,Kabupaten,Regency,5320,ID.NT.SJ,Nusa Tenggara Timur II
+IDN.21.15_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,Sikka,NA,NA,Kabupaten,Regency,5310,ID.NT.SI,Nusa Tenggara Timur I
+IDN.21.17_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,SumbaBarat,NA,NA,Kabupaten,Regency,5301,ID.NT.SR,Nusa Tenggara Timur II
+IDN.21.16_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,SumbaBaratDaya,NA,NA,Kabupaten,Regency,5317,ID.NT.SD,Nusa Tenggara Timur II
+IDN.21.18_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,SumbaTengah,NA,NA,Kabupaten,Regency,5316,ID.NT.SG,Nusa Tenggara Timur II
+IDN.21.19_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,SumbaTimur,NA,NA,Kabupaten,Regency,5302,ID.NT.ST,Nusa Tenggara Timur II
+IDN.21.20_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,TimorTengahSelatan,NA,NA,Kabupaten,Regency,5304,ID.NT.TS,Nusa Tenggara Timur II
+IDN.21.21_1,IDN,Indonesia,IDN.21_1,NusaTenggaraTimur,NA,TimorTengahUtara,NA,NA,Kabupaten,Regency,5305,ID.NT.TU,Nusa Tenggara Timur II
+IDN.23.1_1,IDN,Indonesia,IDN.23_1,Papua,NA,Asmat,NA,NA,Kabupaten,Regency,9415,ID.PA.AS,Papua Selatan
+IDN.23.2_1,IDN,Indonesia,IDN.23_1,Papua,NA,BiakNumfor,NA,NA,Kabupaten,Regency,9409,ID.PA.BN,Papua
+IDN.23.3_1,IDN,Indonesia,IDN.23_1,Papua,NA,BovenDigoel,NA,NA,Kabupaten,Regency,9413,ID.PA.BD,Papua Selatan
+IDN.23.4_1,IDN,Indonesia,IDN.23_1,Papua,NA,Deiyai,NA,NA,Kabupaten,Regency,9436,ID.PA.DE,Papua Tengah
+IDN.23.5_1,IDN,Indonesia,IDN.23_1,Papua,NA,Dogiyai,NA,NA,Kabupaten,Regency,9434,ID.PA.DG,Papua Tengah
+IDN.23.6_1,IDN,Indonesia,IDN.23_1,Papua,NA,IntanJaya,NA,NA,Kabupaten,Regency,9435,ID.PA.IJ,Papua Tengah
+IDN.23.7_1,IDN,Indonesia,IDN.23_1,Papua,NA,Jayapura,NA,NA,Kabupaten,Regency,9403,ID.PA.JR,Papua
+IDN.23.8_1,IDN,Indonesia,IDN.23_1,Papua,NA,Jayawijaya,NA,NA,Kabupaten,Regency,9402,ID.PA.JW,Papua Pegunungan
+IDN.23.9_1,IDN,Indonesia,IDN.23_1,Papua,NA,Keerom,NA,NA,Kabupaten,Regency,9420,ID.PA.KE,Papua
+IDN.23.10_1,IDN,Indonesia,IDN.23_1,Papua,NA,KepulauanYapen,NA,NA,Kabupaten,Regency,9408,ID.PA.YW,Papua
+IDN.23.11_1,IDN,Indonesia,IDN.23_1,Papua,NA,KotaJayapura,NA,NA,Kota,City,9471,ID.PA.JM,Papua
+IDN.23.12_1,IDN,Indonesia,IDN.23_1,Papua,NA,LannyJaya,NA,NA,Kabupaten,Regency,9430,ID.PA.LJ,Papua Pegunungan
+IDN.23.13_1,IDN,Indonesia,IDN.23_1,Papua,NA,MamberamoRaya,NA,NA,Kabupaten,Regency,9428,ID.PA.MR,Papua
+IDN.23.14_1,IDN,Indonesia,IDN.23_1,Papua,NA,MamberamoTengah,NA,NA,Kabupaten,Regency,9431,ID.PA.MT,Papua Pegunungan
+IDN.23.15_1,IDN,Indonesia,IDN.23_1,Papua,NA,Mappi,NA,NA,Kabupaten,Regency,9414,ID.PA.MP,Papua Selatan
+IDN.23.16_1,IDN,Indonesia,IDN.23_1,Papua,NA,Merauke,NA,NA,Kabupaten,Regency,9401,ID.PA.ME,Papua Selatan
+IDN.23.17_1,IDN,Indonesia,IDN.23_1,Papua,NA,Mimika,NA,NA,Kabupaten,Regency,9412,ID.PA.MI,Papua Tengah
+IDN.23.18_1,IDN,Indonesia,IDN.23_1,Papua,NA,Nabire,NA,NA,Kabupaten,Regency,9404,ID.PA.NB,Papua Tengah
+IDN.23.19_1,IDN,Indonesia,IDN.23_1,Papua,NA,Nduga,NA,NA,Kabupaten,Regency,9429,ID.PA.ND,Papua Pegunungan
+IDN.23.20_1,IDN,Indonesia,IDN.23_1,Papua,NA,Paniai,NA,NA,Kabupaten,Regency,9410,ID.PA.PN,Papua Tengah
+IDN.23.21_1,IDN,Indonesia,IDN.23_1,Papua,NA,PegununganBintang,NA,NA,Kabupaten,Regency,9417,ID.PA.PB,Papua Pegunungan
+IDN.23.23_1,IDN,Indonesia,IDN.23_1,Papua,NA,Puncak,NA,NA,Kabupaten,Regency,9433,ID.PA.PU,Papua Tengah
+IDN.23.22_1,IDN,Indonesia,IDN.23_1,Papua,NA,PuncakJaya,NA,NA,Kabupaten,Regency,9411,ID.PA.PC,Papua Tengah
+IDN.23.24_1,IDN,Indonesia,IDN.23_1,Papua,NA,Sarmi,NA,NA,Kabupaten,Regency,9419,ID.PA.SR,Papua
+IDN.23.25_1,IDN,Indonesia,IDN.23_1,Papua,NA,Supiori,NA,NA,Kabupaten,Regency,9427,ID.PA.SU,Papua
+IDN.23.26_1,IDN,Indonesia,IDN.23_1,Papua,NA,Tolikara,NA,NA,Kabupaten,Regency,9418,ID.PA.TO,Papua Pegunungan
+IDN.23.27_1,IDN,Indonesia,IDN.23_1,Papua,NA,Waropen,NA,NA,Kabupaten,Regency,9426,ID.PA.WR,Papua
+IDN.23.28_1,IDN,Indonesia,IDN.23_1,Papua,NA,Yahukimo,NA,NA,Kabupaten,Regency,9416,ID.PA.YA,Papua Pegunungan
+IDN.23.29_1,IDN,Indonesia,IDN.23_1,Papua,NA,Yalimo,NA,NA,Kabupaten,Regency,9432,ID.PA.YL,Papua Pegunungan
+IDN.22.1_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,Fakfak,NA,NA,Kabupaten,Regency,9101,ID.IB.FA,Papua Barat
+IDN.22.2_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,Kaimana,NA,NA,Kabupaten,Regency,9102,ID.IB.KA,Papua Barat
+IDN.22.3_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,KotaSorong,NA,NA,Kota,City,9171,ID.IB.SG,Papua Barat Daya
+IDN.22.4_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,Manokwari,NA,NA,Kabupaten,Regency,9105,ID.IB.MA,Papua Barat
+IDN.22.5_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,Maybrat,NA,NA,Kabupaten,Regency,9110,ID.IB.MB,Papua Barat Daya
+IDN.22.6_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,RajaAmpat,NA,NA,Kabupaten,Regency,9108,ID.IB.RA,Papua Barat Daya
+IDN.22.8_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,Sorong,NA,NA,Kabupaten,Regency,9107,ID.IB.SR,Papua Barat Daya
+IDN.22.7_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,SorongSelatan,NA,NA,Kabupaten,Regency,9106,ID.IB.SL,Papua Barat Daya
+IDN.22.9_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,Tambrauw,NA,NA,Kabupaten,Regency,9109,ID.IB.TM,Papua Barat Daya
+IDN.22.10_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,TelukBintuni,NA,NA,Kabupaten,Regency,9104,ID.IB.TK,Papua Barat
+IDN.22.11_1,IDN,Indonesia,IDN.22_1,PapuaBarat,NA,TelukWondama,NA,NA,Kabupaten,Regency,9103,ID.IB.TW,Papua Barat
+IDN.24.1_1,IDN,Indonesia,IDN.24_1,Riau,NA,Bengkalis,NA,NA,Kabupaten,Regency,1408,ID.RI.BK,Riau I
+IDN.24.2_1,IDN,Indonesia,IDN.24_1,Riau,NA,Dumai,NA,NA,Kota,City,1473,ID.RI.DU,Riau I
+IDN.24.3_1,IDN,Indonesia,IDN.24_1,Riau,NA,IndragiriHilir,NA,NA,Kabupaten,Regency,1403,ID.RI.II,Riau II
+IDN.24.4_1,IDN,Indonesia,IDN.24_1,Riau,NA,IndragiriHulu,NA,NA,Kabupaten,Regency,1402,ID.RI.IU,Riau II
+IDN.24.5_1,IDN,Indonesia,IDN.24_1,Riau,NA,Kampar,NA,NA,Kabupaten,Regency,1406,ID.RI.KA,Riau II
+IDN.24.6_1,IDN,Indonesia,IDN.24_1,Riau,NA,KepulauanMeranti,NA,NA,Kabupaten,Regency,1410,ID.RI.KM,Riau I
+IDN.24.7_1,IDN,Indonesia,IDN.24_1,Riau,NA,KuantanSingingi,NA,NA,Kabupaten,Regency,1401,ID.RI.KS,Riau II
+IDN.24.8_1,IDN,Indonesia,IDN.24_1,Riau,NA,Pekanbaru,NA,NA,Kota,City,1471,ID.RI.PB,Riau I
+IDN.24.9_1,IDN,Indonesia,IDN.24_1,Riau,NA,Pelalawan,NA,NA,Kabupaten,Regency,1404,ID.RI.PE,Riau II
+IDN.24.10_1,IDN,Indonesia,IDN.24_1,Riau,NA,RokanHilir,NA,NA,Kabupaten,Regency,1409,ID.RI.RI,Riau I
+IDN.24.11_1,IDN,Indonesia,IDN.24_1,Riau,NA,RokanHulu,NA,NA,Kabupaten,Regency,1407,ID.RI.RH,Riau I
+IDN.24.12_1,IDN,Indonesia,IDN.24_1,Riau,NA,Siak,NA,NA,Kabupaten,Regency,1405,ID.RI.SI,Riau I
+IDN.25.1_1,IDN,Indonesia,IDN.25_1,SulawesiBarat,NA,Majene,NA,NA,Kabupaten,Regency,7601,ID.SR.MJ,Sulawesi Barat
+IDN.25.2_1,IDN,Indonesia,IDN.25_1,SulawesiBarat,NA,Mamasa,NA,NA,Kabupaten,Regency,7603,ID.SR.MA,Sulawesi Barat
+IDN.25.4_1,IDN,Indonesia,IDN.25_1,SulawesiBarat,NA,Mamuju,NA,NA,Kabupaten,Regency,7604,ID.SR.MM,Sulawesi Barat
+IDN.25.3_1,IDN,Indonesia,IDN.25_1,SulawesiBarat,NA,MamujuUtara,NA,NA,Kabupaten,Regency,7605,ID.SR.MU,Sulawesi Barat
+IDN.25.5_1,IDN,Indonesia,IDN.25_1,SulawesiBarat,NA,PolewaliMandar,NA,NA,Kabupaten,Regency,7602,ID.SR.PM,Sulawesi Barat
+IDN.26.1_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Bantaeng,NA,NA,Kabupaten,Regency,7303,ID.SE.BT,Sulawesi Selatan I
+IDN.26.2_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Barru,NA,NA,Kabupaten,Regency,7310,ID.SE.BR,Sulawesi Selatan II
+IDN.26.3_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Bone,NA,NA,Kabupaten,Regency,7311,ID.SE.BO,Sulawesi Selatan II
+IDN.26.4_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Bulukumba,NA,NA,Kabupaten,Regency,7302,ID.SE.BU,Sulawesi Selatan II
+IDN.26.5_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Enrekang,NA,NA,Kabupaten,Regency,7316,ID.SE.EN,Sulawesi Selatan III
+IDN.26.6_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Gowa,NA,NA,Kabupaten,Regency,7306,ID.SE.GO,Sulawesi Selatan I
+IDN.26.7_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Jeneponto,NA,NA,Kabupaten,Regency,7304,ID.SE.JE,Sulawesi Selatan I
+IDN.26.8_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,KepulauanSelayar,NA,NA,Kabupaten,Regency,7301,ID.SE.SE,Sulawesi Selatan I
+IDN.26.11_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Luwu,NA,NA,Kabupaten,Regency,7317,ID.SE.LW,Sulawesi Selatan III
+IDN.26.9_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,LuwuTimur,NA,NA,Kabupaten,Regency,7325,ID.SE.LT,Sulawesi Selatan III
+IDN.26.10_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,LuwuUtara,NA,NA,Kabupaten,Regency,7322,ID.SE.LU,Sulawesi Selatan III
+IDN.26.12_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Makassar,NA,NA,Kota,City,7371,ID.SE.UP,Sulawesi Selatan I
+IDN.26.13_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Maros,NA,NA,Kabupaten,Regency,7308,ID.SE.MR,Sulawesi Selatan II
+IDN.26.14_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Palopo,NA,NA,Kota,City,7373,ID.SE.PA,Sulawesi Selatan III
+IDN.26.15_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,PangkajeneDanKepulauan,NA,NA,Kabupaten,Regency,7309,ID.SE.PK,Sulawesi Selatan II
+IDN.26.16_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Parepare,NA,NA,Kota,City,7372,ID.SE.PP,Sulawesi Selatan II
+IDN.26.17_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Pinrang,NA,NA,Kabupaten,Regency,7315,ID.SE.PI,Sulawesi Selatan III
+IDN.26.18_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,SidenrengRappang,NA,NA,Kabupaten,Regency,7314,ID.SE.SR,Sulawesi Selatan III
+IDN.26.19_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Sinjai,NA,NA,Kabupaten,Regency,7307,ID.SE.SI,Sulawesi Selatan II
+IDN.26.20_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Soppeng,NA,NA,Kabupaten,Regency,7312,ID.SE.SO,Sulawesi Selatan II
+IDN.26.21_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Takalar,NA,NA,Kabupaten,Regency,7305,ID.SE.TA,Sulawesi Selatan I
+IDN.26.22_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,TanaToraja,NA,NA,Kabupaten,Regency,7318,ID.SE.TN,Sulawesi Selatan III
+IDN.26.23_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,TorajaUtara,NA,NA,Kabupaten,Regency,7326,ID.SE.TU,Sulawesi Selatan III
+IDN.26.24_1,IDN,Indonesia,IDN.26_1,SulawesiSelatan,NA,Wajo,NA,NA,Kabupaten,Regency,7313,ID.SE.WA,Sulawesi Selatan II
+IDN.27.2_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Banggai,NA,NA,Kabupaten,Regency,7202,ID.ST.BA,Sulawesi Tengah
+IDN.27.1_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,BanggaiKepulauan,NA,NA,Kabupaten,Regency,7201,ID.ST.BK,Sulawesi Tengah
+IDN.27.3_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Buol,NA,NA,Kabupaten,Regency,7207,ID.ST.BT,Sulawesi Tengah
+IDN.27.4_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Donggala,NA,NA,Kabupaten,Regency,7205,ID.ST.DG,Sulawesi Tengah
+IDN.27.5_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Morowali,NA,NA,Kabupaten,Regency,7203,ID.ST.MO,Sulawesi Tengah
+IDN.27.6_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Palu,NA,NA,Kota,City,7271,ID.ST.PA,Sulawesi Tengah
+IDN.27.7_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,ParigiMoutong,NA,NA,Kabupaten,Regency,7208,ID.ST.PM,Sulawesi Tengah
+IDN.27.8_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Poso,NA,NA,Kabupaten,Regency,7204,ID.ST.PO,Sulawesi Tengah
+IDN.27.9_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Sigi,NA,NA,Kabupaten,Regency,7210,ID.ST.SG,Sulawesi Tengah
+IDN.27.10_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,TojoUna-Una,NA,NA,Kabupaten,Regency,7209,ID.ST.TU,Sulawesi Tengah
+IDN.27.11_1,IDN,Indonesia,IDN.27_1,SulawesiTengah,NA,Toli-Toli,NA,NA,Kabupaten,Regency,7206,ID.ST.TT,Sulawesi Tengah
+IDN.28.1_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Bau-Bau,NA,NA,Kota,City,7472,ID.SG.BA,Sulawesi Tenggara
+IDN.28.2_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Bombana,NA,NA,Kabupaten,Regency,7406,ID.SG.BO,Sulawesi Tenggara
+IDN.28.4_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Buton,NA,NA,Kabupaten,Regency,7401,ID.SG.BN,Sulawesi Tenggara
+IDN.28.3_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,ButonUtara,NA,NA,Kabupaten,Regency,7409,ID.SG.BT,Sulawesi Tenggara
+IDN.28.5_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Kendari,NA,NA,Kota,City,7471,ID.SG.KM,Sulawesi Tenggara
+IDN.28.7_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Kolaka,NA,NA,Kabupaten,Regency,7404,ID.SG.KO,Sulawesi Tenggara
+IDN.28.6_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,KolakaUtara,NA,NA,Kabupaten,Regency,7408,ID.SG.KU,Sulawesi Tenggara
+IDN.28.10_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Konawe,NA,NA,Kabupaten,Regency,7403,ID.SG.KN,Sulawesi Tenggara
+IDN.28.8_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,KonaweSelatan,NA,NA,Kabupaten,Regency,7405,ID.SG.KS,Sulawesi Tenggara
+IDN.28.9_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,KonaweUtara,NA,NA,Kabupaten,Regency,7410,ID.SG.KW,Sulawesi Tenggara
+IDN.28.11_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Muna,NA,NA,Kabupaten,Regency,7402,ID.SG.MU,Sulawesi Tenggara
+IDN.28.12_1,IDN,Indonesia,IDN.28_1,SulawesiTenggara,NA,Wakatobi,NA,NA,Kabupaten,Regency,7407,ID.SG.WA,Sulawesi Tenggara
+IDN.29.1_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,Bitung,NA,NA,Kota,City,7172,ID.SW.BI,Sulawesi Utara
+IDN.29.5_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,BolaangMongondow,NA,NA,Kabupaten,Regency,7101,ID.SW.BO,Sulawesi Utara
+IDN.29.2_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,BolaangMongondowSelatan,NA,NA,Kabupaten,Regency,7110,ID.SW.BS,Sulawesi Utara
+IDN.29.3_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,BolaangMongondowTimur,NA,NA,Kabupaten,Regency,7111,ID.SW.BT,Sulawesi Utara
+IDN.29.4_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,BolaangMongondowUtara,NA,NA,Kabupaten,Regency,7107,ID.SW.BU,Sulawesi Utara
+IDN.29.6_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,KepulauanSangihe,NA,NA,Kabupaten,Regency,7103,ID.SW.SG,Sulawesi Utara
+IDN.29.7_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,KepulauanTalaud,NA,NA,Kabupaten,Regency,7104,ID.SW.KS,Sulawesi Utara
+IDN.29.8_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,Kotamobagu,NA,NA,Kota,City,7174,ID.SW.KM,Sulawesi Utara
+IDN.29.9_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,Manado,NA,NA,Kota,City,7171,ID.SW.MA,Sulawesi Utara
+IDN.29.13_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,Minahasa,NA,NA,Kabupaten,Regency,7102,ID.SW.MI,Sulawesi Utara
+IDN.29.10_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,MinahasaSelatan,NA,NA,Kabupaten,Regency,7105,ID.SW.ML,Sulawesi Utara
+IDN.29.11_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,MinahasaTenggara,NA,NA,Kabupaten,Regency,7109,ID.SW.MT,Sulawesi Utara
+IDN.29.12_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,MinahasaUtara,NA,NA,Kabupaten,Regency,7106,ID.SW.MU,Sulawesi Utara
+IDN.29.14_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,SiauTagulandangBiaro,NA,NA,Kabupaten,Regency,7108,ID.SW.SB,Sulawesi Utara
+IDN.29.15_1,IDN,Indonesia,IDN.29_1,SulawesiUtara,NA,Tomohon,NA,NA,Kota,City,7173,ID.SW.TO,Sulawesi Utara
+IDN.30.1_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Agam,NA,NA,Kabupaten,Regency,1307,ID.SB.AG,Sumatera Barat II
+IDN.30.2_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Bukittinggi,NA,NA,Kota,City,1375,ID.SB.BU,Sumatera Barat II
+IDN.30.4_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Dharmasraya,NA,NA,Kabupaten,Regency,1311,ID.SB.DH,Sumatera Barat I
+IDN.30.5_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,KepulauanMentawai,NA,NA,Kabupaten,Regency,1301,ID.SB.KM,Sumatera Barat I
+IDN.30.6_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,KotaSolok,NA,NA,Kota,City,1372,ID.SB.SM,Sumatera Barat I
+IDN.30.7_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,LimaPuluhKota,NA,NA,Kabupaten,Regency,1308,ID.SB.LP,Sumatera Barat II
+IDN.30.10_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Padang,NA,NA,Kota,City,1371,ID.SB.PD,Sumatera Barat I
+IDN.30.8_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,PadangPanjang,NA,NA,Kota,City,1374,ID.SB.PJ,Sumatera Barat I
+IDN.30.9_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,PadangPariaman,NA,NA,Kabupaten,Regency,1306,ID.SB.PP,Sumatera Barat II
+IDN.30.11_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Pariaman,NA,NA,Kota,City,1377,ID.SB.PA,Sumatera Barat II
+IDN.30.13_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Pasaman,NA,NA,Kabupaten,Regency,1309,ID.SB.PM,Sumatera Barat II
+IDN.30.12_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,PasamanBarat,NA,NA,Kabupaten,Regency,1312,ID.SB.PB,Sumatera Barat II
+IDN.30.14_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Payakumbuh,NA,NA,Kota,City,1376,ID.SB.PY,Sumatera Barat II
+IDN.30.15_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,PesisirSelatan,NA,NA,Kabupaten,Regency,1302,ID.SB.PS,Sumatera Barat I
+IDN.30.16_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Sawahlunto,NA,NA,Kota,City,1373,ID.SB.SL,Sumatera Barat I
+IDN.30.17_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Sijunjung,NA,NA,Kabupaten,Regency,1304,ID.SB.SS,Sumatera Barat I
+IDN.30.19_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,Solok,NA,NA,Kabupaten,Regency,1303,ID.SB.SR,Sumatera Barat I
+IDN.30.18_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,SolokSelatan,NA,NA,Kabupaten,Regency,1310,ID.SB.SK,Sumatera Barat I
+IDN.30.20_1,IDN,Indonesia,IDN.30_1,SumateraBarat,NA,TanahDatar,NA,NA,Kabupaten,Regency,1305,ID.SB.TD,Sumatera Barat I
+IDN.31.1_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,BanyuAsin,NA,NA,Kabupaten,Regency,1607,ID.SL.BA,Sumatera Selatan I
+IDN.31.2_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,EmpatLawang,NA,NA,Kabupaten,Regency,1611,ID.SL.EL,Sumatera Selatan II
+IDN.31.3_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,Lahat,NA,NA,Kabupaten,Regency,1604,ID.SL.LT,Sumatera Selatan II
+IDN.31.4_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,Lubuklinggau,NA,NA,Kota,City,1674,ID.SL.LL,Sumatera Selatan I
+IDN.31.5_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,MuaraEnim,NA,NA,Kabupaten,Regency,1603,ID.SL.ME,Sumatera Selatan II
+IDN.31.6_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,MusiBanyuasin,NA,NA,Kabupaten,Regency,1606,ID.SL.MB,Sumatera Selatan I
+IDN.31.7_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,MusiRawas,NA,NA,Kabupaten,Regency,1605,ID.SL.MR,Sumatera Selatan I
+IDN.31.8_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,OganIlir,NA,NA,Kabupaten,Regency,1610,ID.SL.OI,Sumatera Selatan II
+IDN.31.9_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,OganKomeringIlir,NA,NA,Kabupaten,Regency,1602,ID.SL.OH,Sumatera Selatan II
+IDN.31.12_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,OganKomeringUlu,NA,NA,Kabupaten,Regency,1601,ID.SL.OU,Sumatera Selatan II
+IDN.31.10_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,OganKomeringUluSelatan,NA,NA,Kabupaten,Regency,1608,ID.SL.OS,Sumatera Selatan II
+IDN.31.11_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,OganKomeringUluTimur,NA,NA,Kabupaten,Regency,1609,ID.SL.OT,Sumatera Selatan II
+IDN.31.13_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,PagarAlam,NA,NA,Kota,City,1673,ID.SL.PG,Sumatera Selatan II
+IDN.31.14_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,Palembang,NA,NA,Kota,City,1671,ID.SL.PA,Sumatera Selatan I
+IDN.31.15_1,IDN,Indonesia,IDN.31_1,SumateraSelatan,NA,Prabumulih,NA,NA,Kota,City,1672,ID.SL.PR,Sumatera Selatan II
+IDN.32.1_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Asahan,NA,NA,Kabupaten,Regency,1208,ID.SU.AN,Sumatera Utara III
+IDN.32.2_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,BatuBara,NA,NA,Kabupaten,Regency,1219,ID.SU.BB,Sumatera Utara III
+IDN.32.3_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Dairi,NA,NA,Kabupaten,Regency,1210,ID.SU.DA,Sumatera Utara III
+IDN.32.4_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,DeliSerdang,NA,NA,Kabupaten,Regency,1212,ID.SU.DS,Sumatera Utara I
+IDN.32.5_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Gunungsitoli,NA,NA,Kota,City,1278,ID.SU.GS,Sumatera Utara II
+IDN.32.6_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,HumbangHasundutan,NA,NA,Kabupaten,Regency,1215,ID.SU.HH,Sumatera Utara II
+IDN.32.7_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Karo,NA,NA,Kabupaten,Regency,1211,ID.SU.KA,Sumatera Utara III
+IDN.32.8_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,KotaBinjai,NA,NA,Kota,City,1276,ID.SU.BI,Sumatera Utara III
+IDN.32.9_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,KotaMedan,NA,NA,Kota,City,1275,ID.SU.ME,Sumatera Utara I
+IDN.32.10_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,KotaTanjungbalai,NA,NA,Kota,City,1272,ID.SU.TB,Sumatera Utara III
+IDN.32.13_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Labuhanbatu,NA,NA,Kabupaten,Regency,1207,ID.SU.LH,Sumatera Utara II
+IDN.32.11_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,LabuhanbatuSelatan,NA,NA,Kabupaten,Regency,1222,ID.SU.LS,Sumatera Utara II
+IDN.32.12_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,LabuhanbatuUtara,NA,NA,Kabupaten,Regency,1223,ID.SU.LU,Sumatera Utara II
+IDN.32.15_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Langkat,NA,NA,Kabupaten,Regency,1213,ID.SU.LA,Sumatera Utara III
+IDN.32.16_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,MandailingNatal,NA,NA,Kabupaten,Regency,1202,ID.SU.MN,Sumatera Utara II
+IDN.32.20_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Nias,NA,NA,Kabupaten,Regency,1201,ID.SU.NA,Sumatera Utara II
+IDN.32.17_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,NiasBarat,NA,NA,Kabupaten,Regency,1225,ID.SU.NB,Sumatera Utara II
+IDN.32.18_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,NiasSelatan,NA,NA,Kabupaten,Regency,1214,ID.SU.NS,Sumatera Utara II
+IDN.32.19_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,NiasUtara,NA,NA,Kabupaten,Regency,1224,ID.SU.NU,Sumatera Utara II
+IDN.32.22_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,PadangLawas,NA,NA,Kabupaten,Regency,1221,ID.SU.PL,Sumatera Utara II
+IDN.32.21_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,PadangLawasUtara,NA,NA,Kabupaten,Regency,1220,ID.SU.PU,Sumatera Utara II
+IDN.32.23_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Padangsidimpuan,NA,NA,Kota,City,1277,ID.SU.PD,Sumatera Utara II
+IDN.32.24_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,PakpakBarat,NA,NA,Kabupaten,Regency,1216,ID.SU.PB,Sumatera Utara III
+IDN.32.25_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Pematangsiantar,NA,NA,Kota,City,1273,ID.SU.PS,Sumatera Utara III
+IDN.32.26_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Samosir,NA,NA,Kabupaten,Regency,1217,ID.SU.SA,Sumatera Utara III
+IDN.32.27_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,SerdangBedagai,NA,NA,Kabupaten,Regency,1218,ID.SU.SD,Sumatera Utara I
+IDN.32.28_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Sibolga,NA,NA,Kota,City,1271,ID.SU.SB,Sumatera Utara II
+IDN.32.29_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Simalungun,NA,NA,Kabupaten,Regency,1209,ID.SU.SM,Sumatera Utara III
+IDN.32.30_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,TapanuliSelatan,NA,NA,Kabupaten,Regency,1203,ID.SU.TP,Sumatera Utara II
+IDN.32.31_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,TapanuliTengah,NA,NA,Kabupaten,Regency,1204,ID.SU.TT,Sumatera Utara II
+IDN.32.32_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,TapanuliUtara,NA,NA,Kabupaten,Regency,1205,ID.SU.TU,Sumatera Utara II
+IDN.32.33_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,Tebingtinggi,NA,NA,Kota,City,1274,ID.SU.TG,Sumatera Utara I
+IDN.32.34_1,IDN,Indonesia,IDN.32_1,SumateraUtara,NA,TobaSamosir,NA,NA,Kabupaten,Regency,1206,ID.SU.TR,Sumatera Utara II
+IDN.33.1_1,IDN,Indonesia,IDN.33_1,Yogyakarta,NA,Bantul,NA,NA,Kabupaten,Regency,3402,ID.YO.BA,Daerah Istimewa Yogyakarta
+IDN.33.2_1,IDN,Indonesia,IDN.33_1,Yogyakarta,NA,GunungKidul,NA,NA,Kabupaten,Regency,3403,ID.YO.GK,Daerah Istimewa Yogyakarta
+IDN.33.3_1,IDN,Indonesia,IDN.33_1,Yogyakarta,NA,KotaYogyakarta,NA,NA,Kota,City,3471,ID.YO.YO,Daerah Istimewa Yogyakarta
+IDN.33.4_1,IDN,Indonesia,IDN.33_1,Yogyakarta,NA,KulonProgo,NA,NA,Kabupaten,Regency,3401,ID.YO.KP,Daerah Istimewa Yogyakarta
+IDN.33.5_1,IDN,Indonesia,IDN.33_1,Yogyakarta,NA,Sleman,NA,NA,Kabupaten,Regency,3404,ID.YO.SL,Daerah Istimewa Yogyakarta
