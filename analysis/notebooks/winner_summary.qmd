@@ -1,0 +1,475 @@
+---
+title: "Estimated DPR Winners by Party"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+execute:
+  warning: false
+  message: false
+  echo: false
+---
+
+```{r setup}
+library(tidyverse)
+library(scales)
+
+data_path <- file.path("..", "..", "data", "processed", "dpr_all.csv")
+raw <- read_csv(data_path, show_col_types = FALSE)
+
+normalize_province <- function(x) {
+  standardised <- x %>%
+    stringr::str_to_upper() %>%
+    stringr::str_replace_all("\\s+", " ") %>%
+    stringr::str_trim()
+
+  case_when(
+    standardised == "P A P U A" ~ "PAPUA",
+    standardised == "KALIMANTAN TMUR" ~ "KALIMANTAN TIMUR",
+    TRUE ~ standardised
+  )
+}
+
+clean <- raw %>%
+  mutate(
+    PartyVote = as.numeric(PartyVote),
+    CandidateVote = as.numeric(CandidateVote),
+    ProvinceNorm = normalize_province(Province)
+  )
+
+party_dapil_stats <- clean %>%
+  group_by(ProvinceNorm, District, PartyName) %>%
+  summarise(
+    PartyBallots = first(PartyVote),
+    CandidateVotes = sum(CandidateVote, na.rm = TRUE),
+    TotalVotes = PartyBallots + CandidateVotes,
+    CandidateCount = n(),
+    .groups = "drop"
+  )
+
+seat_per_dapil <- party_dapil_stats %>%
+  group_by(ProvinceNorm, District) %>%
+  summarise(EstimatedSeats = max(CandidateCount, na.rm = TRUE), .groups = "drop")
+
+allocate_seats <- function(df) {
+  seats <- unique(df$Seats)[1]
+  if (is.na(seats) || seats <= 0) {
+    return(df %>% mutate(SeatsWon = 0L))
+  }
+
+  quotients <- map2_dfr(
+    df$PartyName,
+    df$TotalVotes,
+    ~ tibble(PartyName = .x, Quotient = .y / seq(1, by = 2, length.out = seats))
+  )
+
+  winners <- quotients %>%
+    arrange(desc(Quotient)) %>%
+    slice_head(n = seats) %>%
+    count(PartyName, name = "SeatsWon")
+
+  df %>%
+    left_join(winners, by = "PartyName") %>%
+    mutate(SeatsWon = replace_na(SeatsWon, 0L))
+}
+
+seat_results <- party_dapil_stats %>%
+  left_join(seat_per_dapil, by = c("ProvinceNorm", "District")) %>%
+  rename(Seats = EstimatedSeats) %>%
+  group_by(ProvinceNorm, District) %>%
+  group_modify(~ allocate_seats(.x)) %>%
+  ungroup()
+
+candidate_rankings <- clean %>%
+  group_by(ProvinceNorm, District, PartyName) %>%
+  arrange(desc(CandidateVote), CandidateName) %>%
+  mutate(ListPosition = row_number()) %>%
+  ungroup()
+
+winners <- candidate_rankings %>%
+  left_join(seat_results %>% select(ProvinceNorm, District, PartyName, SeatsWon, TotalVotes),
+            by = c("ProvinceNorm", "District", "PartyName")) %>%
+  mutate(SeatsWon = replace_na(SeatsWon, 0L)) %>%
+  filter(ListPosition <= SeatsWon, SeatsWon > 0) %>%
+  mutate(
+    VoteShareParty = if_else(TotalVotes > 0, CandidateVote / TotalVotes, NA_real_),
+    Province = ProvinceNorm
+  ) %>%
+  select(Province, District, PartyName, CandidateName, CandidateVote, VoteShareParty)
+
+winners_by_party <- seat_results %>%
+  group_by(PartyName) %>%
+  summarise(EstimatedSeats = sum(SeatsWon, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(EstimatedSeats))
+
+total_seats_original <- sum(winners_by_party$EstimatedSeats, na.rm = TRUE)
+
+coalition_threshold <- 0.04
+coalition_label <- "Non-Parliamentary Coalition"
+
+party_vote_share <- party_dapil_stats %>%
+  group_by(PartyName) %>%
+  summarise(TotalVotesNational = sum(TotalVotes, na.rm = TRUE), .groups = "drop") %>%
+  mutate(Share = TotalVotesNational / sum(TotalVotesNational, na.rm = TRUE))
+
+coalition_parties <- party_vote_share %>%
+  filter(Share < coalition_threshold) %>%
+  arrange(desc(Share)) %>%
+  pull(PartyName)
+
+party_dapil_coalition <- party_dapil_stats %>%
+  mutate(PartyName = if_else(PartyName %in% coalition_parties, coalition_label, PartyName)) %>%
+  group_by(ProvinceNorm, District, PartyName) %>%
+  summarise(
+    PartyBallots = sum(PartyBallots, na.rm = TRUE),
+    CandidateVotes = sum(CandidateVotes, na.rm = TRUE),
+    TotalVotes = sum(TotalVotes, na.rm = TRUE),
+    CandidateCount = sum(CandidateCount, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+seat_results_coalition <- party_dapil_coalition %>%
+  left_join(seat_per_dapil, by = c("ProvinceNorm", "District")) %>%
+  rename(Seats = EstimatedSeats) %>%
+  group_by(ProvinceNorm, District) %>%
+  group_modify(~ allocate_seats(.x)) %>%
+  ungroup()
+
+coalition_seats_by_dapil <- seat_results_coalition %>%
+  filter(PartyName == coalition_label) %>%
+  transmute(ProvinceNorm, District, CoalitionSeats = SeatsWon)
+
+coalition_internal_seat_results <- party_dapil_stats %>%
+  filter(PartyName %in% coalition_parties) %>%
+  left_join(coalition_seats_by_dapil, by = c("ProvinceNorm", "District")) %>%
+  filter(!is.na(CoalitionSeats), CoalitionSeats > 0) %>%
+  # re-run Sainte-Laguë within each dapil using only coalition parties
+  mutate(Seats = CoalitionSeats) %>%
+  group_by(ProvinceNorm, District) %>%
+  group_modify(~ allocate_seats(.x)) %>%
+  ungroup() %>%
+  select(-Seats)
+
+non_coalition_winners <- candidate_rankings %>%
+  filter(!(PartyName %in% coalition_parties)) %>%
+  left_join(
+    seat_results_coalition %>%
+      filter(PartyName != coalition_label) %>%
+      select(ProvinceNorm, District, PartyName, SeatsWon, TotalVotes),
+    by = c("ProvinceNorm", "District", "PartyName")
+  ) %>%
+  mutate(SeatsWon = replace_na(SeatsWon, 0L)) %>%
+  filter(ListPosition <= SeatsWon, SeatsWon > 0) %>%
+  mutate(
+    CoalitionParty = PartyName,
+    VoteShare = if_else(TotalVotes > 0, CandidateVote / TotalVotes, NA_real_),
+    Province = ProvinceNorm,
+    OriginalParty = PartyName
+  ) %>%
+  select(Province, District, CoalitionParty, OriginalParty, CandidateName, CandidateVote, VoteShare)
+
+coalition_winners <- candidate_rankings %>%
+  filter(PartyName %in% coalition_parties) %>%
+  left_join(
+    coalition_internal_seat_results %>%
+      select(ProvinceNorm, District, PartyName, SeatsWon, TotalVotes),
+    by = c("ProvinceNorm", "District", "PartyName")
+  ) %>%
+  mutate(SeatsWon = replace_na(SeatsWon, 0L)) %>%
+  filter(ListPosition <= SeatsWon, SeatsWon > 0) %>%
+  mutate(
+    CoalitionParty = coalition_label,
+    VoteShare = if_else(TotalVotes > 0, CandidateVote / TotalVotes, NA_real_),
+    Province = ProvinceNorm,
+    OriginalParty = PartyName
+  ) %>%
+  select(Province, District, CoalitionParty, OriginalParty, CandidateName, CandidateVote, VoteShare)
+
+winners_coalition <- bind_rows(non_coalition_winners, coalition_winners)
+
+winners_by_party_coalition <- seat_results_coalition %>%
+  group_by(PartyName) %>%
+  summarise(EstimatedSeats = sum(SeatsWon, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(EstimatedSeats))
+
+total_seats_coalition <- sum(winners_by_party_coalition$EstimatedSeats, na.rm = TRUE)
+
+coalition_breakdown <- coalition_internal_seat_results %>%
+  group_by(OriginalParty = PartyName) %>%
+  summarise(EstimatedSeats = sum(SeatsWon, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(EstimatedSeats))
+
+presidential_map <- c(
+  "Partai Kebangkitan Bangsa" = "Anies",
+  "Partai Keadilan Sejahtera" = "Anies",
+  "Partai NasDem" = "Anies",
+  "Partai Ummat" = "Anies",
+  "Partai Golongan Karya" = "Prabowo",
+  "Partai Gerakan Indonesia Raya" = "Prabowo",
+  "Partai Amanat Nasional" = "Prabowo",
+  "Partai Bulan Bintang" = "Prabowo",
+  "Partai Demokrat" = "Prabowo",
+  "Partai Gelombang Rakyat Indonesia" = "Prabowo",
+  "Partai Garda Republik Indonesia" = "Prabowo",
+  "Partai Solidaritas Indonesia" = "Prabowo",
+  "Partai Demokrasi Indonesia Perjuangan" = "Ganjar",
+  "Partai Hati Nurani Rakyat" = "Ganjar",
+  "Partai Persatuan Pembangunan" = "Ganjar",
+  "PARTAI PERINDO" = "Ganjar",
+  "Partai Buruh" = "Independent",
+  "Partai Kebangkitan Nusantara" = "Independent"
+)
+
+add_presidential_coalition <- function(df, party_col = "PartyName", new_col = "PresidentialBloc") {
+  df %>% mutate({{ new_col }} := presidential_map[.data[[party_col]]])
+}
+
+presidential_dapil_stats <- party_dapil_stats %>%
+  add_presidential_coalition(party_col = "PartyName", new_col = "PresidentialBloc") %>%
+  mutate(PresidentialBloc = replace_na(PresidentialBloc, "Other")) %>%
+  group_by(ProvinceNorm, District, PresidentialBloc) %>%
+  summarise(
+    PartyBallots = sum(PartyBallots, na.rm = TRUE),
+    CandidateVotes = sum(CandidateVotes, na.rm = TRUE),
+    TotalVotes = sum(TotalVotes, na.rm = TRUE),
+    CandidateCount = sum(CandidateCount, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(PartyName = PresidentialBloc)
+
+seat_results_presidential <- presidential_dapil_stats %>%
+  left_join(seat_per_dapil, by = c("ProvinceNorm", "District")) %>%
+  rename(Seats = EstimatedSeats) %>%
+  group_by(ProvinceNorm, District) %>%
+  group_modify(~ allocate_seats(.x)) %>%
+  ungroup()
+
+presidential_internal_seat_results <- party_dapil_stats %>%
+  add_presidential_coalition(party_col = "PartyName", new_col = "PresidentialBloc") %>%
+  mutate(PresidentialBloc = replace_na(PresidentialBloc, "Other")) %>%
+  left_join(
+    seat_results_presidential %>%
+      select(ProvinceNorm, District, PresidentialBloc, BlocSeats = SeatsWon, TotalVotesBloc = TotalVotes),
+    by = c("ProvinceNorm", "District", "PresidentialBloc")
+  ) %>%
+  filter(!is.na(BlocSeats), BlocSeats > 0) %>%
+  mutate(Seats = BlocSeats) %>%
+  group_by(ProvinceNorm, District, PresidentialBloc) %>%
+  group_modify(~ allocate_seats(.x)) %>%
+  ungroup() %>%
+  select(-Seats)
+
+winners_presidential <- candidate_rankings %>%
+  add_presidential_coalition(party_col = "PartyName", new_col = "PresidentialBloc") %>%
+  mutate(PresidentialBloc = replace_na(PresidentialBloc, "Other")) %>%
+  left_join(
+    presidential_internal_seat_results %>%
+      select(ProvinceNorm, District, PartyName, PresidentialBloc, SeatsWon, TotalVotes),
+    by = c("ProvinceNorm", "District", "PartyName", "PresidentialBloc")
+  ) %>%
+  mutate(SeatsWon = replace_na(SeatsWon, 0L)) %>%
+  filter(ListPosition <= SeatsWon, SeatsWon > 0) %>%
+  mutate(
+    VoteShare = if_else(TotalVotes > 0, CandidateVote / TotalVotes, NA_real_),
+    Province = ProvinceNorm
+  ) %>%
+  select(Province, District, PresidentialBloc, PartyName, CandidateName, CandidateVote, VoteShare)
+
+winners_by_presidential <- seat_results_presidential %>%
+  group_by(PresidentialBloc) %>%
+  summarise(EstimatedSeats = sum(SeatsWon, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(EstimatedSeats))
+
+total_seats_presidential <- sum(winners_by_presidential$EstimatedSeats, na.rm = TRUE)
+
+bloc_party_breakdown <- presidential_internal_seat_results %>%
+  group_by(PresidentialBloc, PartyName) %>%
+  summarise(EstimatedSeats = sum(SeatsWon, na.rm = TRUE), .groups = "drop") %>%
+  arrange(PresidentialBloc, desc(EstimatedSeats))
+
+party_seat_comparison <- winners_by_party %>%
+  select(PartyName, original_seats = EstimatedSeats) %>%
+  full_join(
+    presidential_internal_seat_results %>%
+      group_by(PartyName) %>%
+      summarise(coalition_seats = sum(SeatsWon, na.rm = TRUE), .groups = "drop"),
+    by = "PartyName"
+  ) %>%
+  mutate(across(c(original_seats, coalition_seats), replace_na, 0L)) %>%
+  mutate(delta = coalition_seats - original_seats) %>%
+  arrange(desc(coalition_seats))
+```
+
+## Estimated Winner Snapshot
+
+```{r}
+winners %>%
+  slice_head(n = 20) %>%
+  mutate(
+    CandidateVote = comma(CandidateVote),
+    VoteShareParty = percent(VoteShareParty, accuracy = 0.1)
+  ) %>%
+  relocate(PartyName, CandidateName, Province, District)
+```
+
+## Seats by Party
+
+Total seats distributed: `r total_seats_original`.
+
+```{r}
+winners_by_party %>%
+  mutate(PartyName = forcats::fct_reorder(PartyName, EstimatedSeats, .desc = TRUE)) %>%
+  ggplot(aes(x = PartyName, y = EstimatedSeats, fill = PartyName)) +
+  geom_col() +
+  scale_fill_brewer(palette = "Paired") +
+  labs(
+    title = "Estimated Seat Winners by Party",
+    x = "Party",
+    y = "Estimated seats"
+  ) +
+  theme_minimal(base_size = 12) +
+  guides(fill = "none")
+```
+
+## Party Totals
+
+```{r}
+winners_by_party
+```
+
+## Coalition Scenario: Sub-4% Parties Unite
+
+The parties below fall under the 4% national vote-share bar and are treated as one bloc in this illustrative rerun of the Sainte-Laguë allocation.
+
+```{r}
+party_vote_share %>%
+  filter(PartyName %in% coalition_parties) %>%
+  arrange(desc(Share)) %>%
+  mutate(
+    Share = percent(Share, accuracy = 0.1),
+    TotalVotesNational = comma(TotalVotesNational)
+  )
+```
+
+```{r}
+winners_by_party_coalition %>%
+  mutate(
+    PartyName = forcats::fct_reorder(PartyName, EstimatedSeats, .desc = TRUE),
+    grouping = if_else(PartyName == coalition_label, coalition_label, "Parliamentary Parties")
+  ) %>%
+  ggplot(aes(x = PartyName, y = EstimatedSeats, fill = grouping)) +
+  geom_col() +
+  scale_fill_manual(
+    values = c("Parliamentary Parties" = "#5dade2", coalition_label = "#d98880"),
+    breaks = c("Parliamentary Parties", coalition_label)
+  ) +
+  labs(
+    title = "Seat Allocation with a Unified Non-Parliamentary Bloc",
+    x = "Party",
+    y = "Estimated seats",
+    fill = NULL
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "top")
+```
+
+Total seats in this scenario: `r total_seats_coalition`.
+
+```{r}
+coalition_breakdown %>%
+  mutate(OriginalParty = forcats::fct_reorder(OriginalParty, EstimatedSeats, .desc = TRUE)) %>%
+  ggplot(aes(x = OriginalParty, y = EstimatedSeats, fill = OriginalParty)) +
+  geom_col() +
+  scale_fill_brewer(palette = "Set3") +
+  labs(
+    title = "Seats Won Inside the Coalition",
+    x = "Party",
+    y = "Estimated seats"
+  ) +
+  theme_minimal(base_size = 12) +
+  guides(fill = "none")
+```
+
+```{r}
+coalition_breakdown
+```
+
+## Presidential Coalition Scenario
+
+Parties are grouped by the presidential ticket they backed during the 2024 race.
+
+```{r}
+tibble(Party = names(presidential_map), PresidentialBloc = unname(presidential_map)) %>%
+  arrange(PresidentialBloc, Party)
+```
+
+Total seats across blocs: `r total_seats_presidential`.
+
+```{r}
+winners_by_presidential %>%
+  mutate(PresidentialBloc = forcats::fct_reorder(PresidentialBloc, EstimatedSeats, .desc = TRUE)) %>%
+  ggplot(aes(x = PresidentialBloc, y = EstimatedSeats, fill = PresidentialBloc)) +
+  geom_col() +
+  scale_fill_manual(values = c(
+    "Anies" = "#1b998b",
+    "Prabowo" = "#ff7f0e",
+    "Ganjar" = "#c93a3a",
+    "Independent" = "#7d3c98",
+    "Other" = "#95a5a6"
+  )) +
+  labs(
+    title = "Seat Allocation by Presidential Coalition",
+    x = "Presidential bloc",
+    y = "Estimated seats"
+  ) +
+  theme_minimal(base_size = 12) +
+  guides(fill = "none")
+```
+
+```{r}
+bloc_party_breakdown %>%
+  group_by(PresidentialBloc) %>%
+  mutate(PartyFacet = forcats::fct_reorder(PartyName, EstimatedSeats, .desc = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = PartyFacet, y = EstimatedSeats, fill = PartyName)) +
+  geom_col() +
+  facet_wrap(~ PresidentialBloc, scales = "free_x") +
+  scale_fill_brewer(palette = "Set2") +
+  labs(
+    title = "Party Contributions Inside Each Bloc",
+    x = "Party",
+    y = "Estimated seats"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  guides(fill = "none")
+```
+
+```{r}
+winners_presidential %>%
+  group_by(PresidentialBloc) %>%
+  slice_head(n = 10) %>%
+  ungroup() %>%
+  mutate(
+    CandidateVote = comma(CandidateVote),
+    VoteShare = percent(VoteShare, accuracy = 0.1)
+  ) %>%
+  arrange(PresidentialBloc, desc(as.numeric(gsub(",", "", CandidateVote))))
+```
+
+### Party Seat Counts Under Presidential Blocs
+
+```{r}
+party_seat_comparison %>%
+  mutate(
+    original_seats = comma(original_seats),
+    coalition_seats = comma(coalition_seats),
+    delta = scales::number(delta, suffix = " seats", big.mark = ",", style_positive = "plus")
+  ) %>%
+  rename(
+    `Party` = PartyName,
+    `Original Seats` = original_seats,
+    `Coalition Seats` = coalition_seats,
+    `Change` = delta
+  )
+```

@@ -1,0 +1,136 @@
+---
+title: "Candidate Vote Concentration in DPR Election Data"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r setup}
+library(tidyverse)
+
+dpr_path <- file.path("..", "..", "data", "processed", "dpr_all.csv")
+dpr <- read_csv(dpr_path, show_col_types = FALSE)
+
+dpr_summary <- dpr %>%
+  group_by(Province, District, PartyNumber, PartyName) %>%
+  summarise(
+    party_ballots = first(PartyVote),
+    total_candidate_votes = sum(CandidateVote, na.rm = TRUE),
+    total_ballots = party_ballots + total_candidate_votes,
+    top_candidate_votes = max(CandidateVote, na.rm = TRUE),
+    top_candidate_name = CandidateName[which.max(CandidateVote)],
+    .groups = "drop"
+  ) %>%
+  mutate(
+    top_share = top_candidate_votes / total_candidate_votes,
+    party_ballot_share = party_ballots / total_ballots
+  )
+```
+
+## Data Snapshot
+
+```{r}
+dpr |> glimpse()
+```
+
+```{r}
+dpr_summary |>
+  summarise(
+    districts = n(),
+    mean_top_share = mean(top_share, na.rm = TRUE),
+    median_top_share = median(top_share, na.rm = TRUE),
+    mean_party_ballot_share = mean(party_ballot_share, na.rm = TRUE),
+    median_party_ballot_share = median(party_ballot_share, na.rm = TRUE)
+  )
+```
+
+> Across `r format(n_distinct(dpr_summary$Province), big.mark = ",")` provinces and `r nrow(dpr_summary)` party–district combinations, the median top candidate captures half of the candidate votes, while party-only ballots typically account for about a quarter of a party's total support.
+
+## Where One Candidate Dominates
+
+The chart below shows how concentrated candidate votes are within a party list. A value near 1 means almost every candidate vote went to a single person.
+
+```{r}
+dpr_summary |>
+  ggplot(aes(x = top_share)) +
+  geom_histogram(binwidth = 0.05, color = "white", fill = "#2e86ab") +
+  labs(
+    x = "Share of candidate votes won by the strongest candidate",
+    y = "Number of party–district slates",
+    title = "Many party lists rely on a single vote magnet"
+  )
+```
+
+```{r}
+dominant_candidates <- dpr_summary |>
+  arrange(desc(top_share)) |>
+  slice_head(n = 10) |>
+  mutate(top_share = scales::percent(top_share, accuracy = 0.1))
+
+dominant_candidates |>
+  select(Province, District, PartyName, top_candidate_name, top_candidate_votes, total_candidate_votes, top_share)
+```
+
+> The most extreme cases come from Papua and Kalimantan districts where every recorded candidate vote went to one individual. These slates tend to have only a handful of active candidates, so the top name effectively monopolises support.
+
+## Party Logos on the Ballot Matter Too
+
+Some districts cast a high share of party-only ballots, implying that voters preferred to back the party brand instead of an individual candidate.
+
+```{r}
+party_brand_loyalty <- dpr_summary |>
+  arrange(desc(party_ballot_share)) |>
+  slice_head(n = 10) |>
+  mutate(party_ballot_share = scales::percent(party_ballot_share, accuracy = 0.1))
+
+party_brand_loyalty |>
+  select(Province, District, PartyName, party_ballots, total_ballots, party_ballot_share)
+```
+
+```{r}
+dpr_summary |>
+  ggplot(aes(x = party_ballot_share)) +
+  geom_histogram(binwidth = 0.05, color = "white", fill = "#f18f01") +
+  labs(
+    x = "Party ballots as a share of total party support",
+    y = "Number of party–district slates",
+    title = "Party-only voting is common but rarely exceeds 70%"
+  )
+```
+
+> Central Java (particularly for Partai Kebangkitan Nusantara and Partai Hati Nurani Rakyat) and Banten show unusually high party-ballot reliance, suggesting these parties lean on organisational strength or recognition rather than individual personalities.
+
+## Do Personal Votes Crowd Out Party Votes?
+
+If a slate relies heavily on a single popular figure, does that coincide with fewer party-only ballots? The scatter plot compares both shares.
+
+```{r}
+correlation <- cor(dpr_summary$top_share, dpr_summary$party_ballot_share, use = "complete.obs")
+correlation
+```
+
+```{r}
+dpr_summary |>
+  ggplot(aes(x = top_share, y = party_ballot_share)) +
+  geom_point(alpha = 0.25, size = 1, color = "#5d639e") +
+  geom_smooth(method = "loess", se = FALSE, color = "#1b998b") +
+  labs(
+    x = "Share of candidate votes for the top name",
+    y = "Share of party-only ballots",
+    title = "Slight inverse link between personality and party brand"
+  )
+```
+
+> The correlation of `r round(correlation, 3)` indicates a weak negative relationship: party slates dominated by one candidate tend to have a smaller share of party-only ballots. This hints that charismatic candidates can draw votes away from the party logo, but the effect is limited—many high-concentration slates still retain a sizable party vote.
+
+## Takeaways
+
+- Concentration at the top is common: half of the slates see their leading candidate collect at least 50% of all candidate votes.
+- Papua-heavy districts produce the starkest monopolies, with single candidates receiving every recorded candidate ballot.
+- Certain parties in Central Java and Banten benefit from strong party branding, with more than two-thirds of their support coming from party-only ballots.
+- Candidate dominance and party-ballot reliance are mildly inversely related, suggesting parties may need to balance between promoting star figures and maintaining organisational loyalty.
