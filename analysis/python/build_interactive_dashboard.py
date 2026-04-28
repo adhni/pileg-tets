@@ -512,14 +512,14 @@ def build_html(payload: dict) -> str:
   <title>Interactive DPR Vote Dashboard</title>
   <style>
     :root {
-      --paper: #f3efe5;
+      --paper: #f7f8fa;
       --ink: #1c2733;
       --muted: #5f6b76;
       --line: rgba(28, 39, 51, 0.12);
-      --panel: rgba(255,255,255,0.85);
-      --shadow: 0 18px 40px rgba(28,39,51,0.08);
-      --accent: #0f766e;
-      --accent-2: #b45309;
+      --panel: rgba(255,255,255,0.94);
+      --shadow: 0 14px 34px rgba(28,39,51,0.07);
+      --accent: #2563eb;
+      --accent-2: #0f766e;
       --accent-3: #9f1239;
     }
     * { box-sizing: border-box; }
@@ -527,10 +527,7 @@ def build_html(payload: dict) -> str:
       margin: 0;
       color: var(--ink);
       font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at top left, rgba(15,118,110,0.16), transparent 32%),
-        radial-gradient(circle at top right, rgba(180,83,9,0.14), transparent 26%),
-        linear-gradient(180deg, #f6f1e8 0%, #fbf8f2 52%, #f5efe3 100%);
+      background: linear-gradient(180deg, #f8fafc 0%, #f4f6f8 46%, #f7f8fa 100%);
       min-height: 100vh;
     }
     .skip-link {
@@ -590,13 +587,13 @@ def build_html(payload: dict) -> str:
       flex-wrap: wrap;
       align-items: flex-start;
       gap: 8px;
-      margin-bottom: 16px;
-      padding: 12px;
+      margin-bottom: 14px;
+      padding: 10px 12px;
       border: 1px solid var(--line);
-      border-radius: 16px;
-      background: rgba(255,255,255,.82);
+      border-radius: 8px;
+      background: rgba(255,255,255,.78);
       color: var(--muted);
-      font-size: .88rem;
+      font-size: .84rem;
       line-height: 1.4;
     }
     .glossary-title {
@@ -612,9 +609,9 @@ def build_html(payload: dict) -> str:
       color: var(--ink);
     }
     .glossary-chip {
-      padding: 6px 8px;
+      padding: 5px 8px;
       border: 1px solid rgba(28,39,51,.10);
-      border-radius: 999px;
+      border-radius: 8px;
       background: rgba(255,255,255,.72);
     }
     .sr-only {
@@ -631,48 +628,46 @@ def build_html(payload: dict) -> str:
     .hero {
       position: relative;
       overflow: hidden;
-      background: linear-gradient(135deg, rgba(15,118,110,.96), rgba(17,94,89,.92) 54%, rgba(180,83,9,.88));
-      color: white;
-      border-radius: 28px;
-      padding: 30px 30px 28px;
-      box-shadow: 0 26px 54px rgba(0,0,0,.14);
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
+      gap: 22px;
+      align-items: start;
+      background: #ffffff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: var(--shadow);
       margin-bottom: 18px;
     }
     .hero::after {
-      content: "";
-      position: absolute;
-      inset: auto -90px -100px auto;
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      background: rgba(255,255,255,.08);
+      content: none;
     }
     .hero h1 {
-      margin: 0 0 8px;
-      font-size: clamp(2rem, 4vw, 3.1rem);
-      line-height: 1.03;
-      max-width: 820px;
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      line-height: 1.06;
+      max-width: 760px;
     }
     .hero p {
       margin: 0;
-      max-width: 820px;
+      max-width: 780px;
       line-height: 1.6;
       font-size: 1rem;
-      color: rgba(255,255,255,.92);
+      color: var(--muted);
     }
     .hero-meta {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr;
       gap: 10px;
-      margin-top: 16px;
+      align-self: stretch;
     }
     .finder-shell {
-      margin-top: 22px;
+      margin-top: 20px;
       padding: 16px;
-      border-radius: 18px;
-      background: rgba(255,255,255,.12);
-      border: 1px solid rgba(255,255,255,.15);
-      backdrop-filter: blur(8px);
+      border-radius: 10px;
+      background: #f8fafc;
+      border: 1px solid var(--line);
     }
     .finder-grid {
       display: grid;
@@ -688,35 +683,35 @@ def build_html(payload: dict) -> str:
     .finder-note {
       margin: 10px 0 0;
       font-size: .86rem;
-      color: rgba(255,255,255,.82);
+      color: var(--muted);
       line-height: 1.5;
     }
     .finder-support {
       display: grid;
       gap: 12px;
-      margin-top: 14px;
+      grid-column: 1 / -1;
+      margin-top: -4px;
     }
     .finder-panel {
-      border-radius: 18px;
-      border: 1px solid rgba(255,255,255,.16);
-      background: rgba(255,255,255,.10);
-      padding: 14px 16px;
-      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: #fbfcfd;
+      padding: 12px 14px;
     }
     .finder-panel h2,
     .finder-panel h3 {
       margin: 0 0 8px;
       font-size: 1rem;
-      color: white;
+      color: var(--ink);
     }
     .finder-panel p {
       margin: 0;
-      color: rgba(255,255,255,.88);
+      color: var(--muted);
       font-size: .9rem;
       line-height: 1.55;
     }
     .finder-panel .small-note {
-      color: rgba(255,255,255,.8);
+      color: var(--muted);
     }
     .finder-suggestion-grid {
       display: grid;
@@ -725,10 +720,10 @@ def build_html(payload: dict) -> str:
     }
     .finder-suggestion {
       appearance: none;
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: 16px;
-      background: rgba(255,255,255,.12);
-      color: white;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #ffffff;
+      color: var(--ink);
       padding: 12px 14px;
       text-align: left;
       cursor: pointer;
@@ -741,34 +736,45 @@ def build_html(payload: dict) -> str:
     .finder-suggestion span {
       display: block;
       margin-top: 4px;
-      color: rgba(255,255,255,.82);
+      color: var(--muted);
       font-size: .82rem;
       line-height: 1.45;
     }
     .finder-chip {
       appearance: none;
-      border: 1px solid rgba(255,255,255,.16);
+      border: 1px solid rgba(37,99,235,.16);
       border-radius: 999px;
-      background: rgba(255,255,255,.12);
-      color: white;
+      background: rgba(37,99,235,.08);
+      color: var(--ink);
       padding: 8px 12px;
       font-size: .84rem;
       font-weight: 700;
     }
     .finder-chip:hover,
     .finder-suggestion:hover {
-      background: rgba(255,255,255,.18);
+      background: rgba(37,99,235,.12);
     }
     .hero-pill {
-      padding: 8px 12px;
-      border: 1px solid rgba(255,255,255,.18);
-      border-radius: 999px;
-      background: rgba(255,255,255,.09);
-      font-size: .86rem;
+      display: grid;
+      gap: 3px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #f8fafc;
+      color: var(--ink);
+      font-size: .92rem;
+      font-weight: 800;
+    }
+    .hero-pill span {
+      color: var(--muted);
+      font-size: .76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
     }
     .status-banner {
       margin-bottom: 18px;
-      background: linear-gradient(180deg, rgba(255,255,255,.96), rgba(249,246,241,.92));
+      background: #ffffff;
     }
     .status-actions {
       display: flex;
@@ -783,7 +789,7 @@ def build_html(payload: dict) -> str:
     }
     .status-card {
       border: 1px solid var(--line);
-      border-radius: 18px;
+      border-radius: 10px;
       padding: 14px;
       background: rgba(255,255,255,.88);
     }
@@ -983,7 +989,7 @@ def build_html(payload: dict) -> str:
       border: 1px solid var(--line);
       border-radius: 20px;
       padding: 18px;
-      background: linear-gradient(180deg, rgba(255,255,255,.96), rgba(247,244,238,.92));
+      background: #ffffff;
     }
     .summary-hero h3 {
       margin: 0 0 8px;
@@ -1150,10 +1156,7 @@ def build_html(payload: dict) -> str:
       overflow: hidden;
       border: 1px solid var(--line);
       border-radius: 20px;
-      background:
-        radial-gradient(circle at top left, rgba(15,118,110,.08), transparent 24%),
-        radial-gradient(circle at bottom right, rgba(180,83,9,.08), transparent 22%),
-        linear-gradient(180deg, rgba(255,255,255,.98), rgba(245,248,249,.94));
+      background: #ffffff;
       padding: 14px;
     }
     .map-stage::after {
@@ -1252,7 +1255,7 @@ def build_html(payload: dict) -> str:
       width: 100%;
       height: 360px;
       display: block;
-      background: linear-gradient(180deg, rgba(255,255,255,.98), rgba(244,248,248,.94));
+      background: #ffffff;
       border-radius: 16px;
       border: 1px solid var(--line);
     }
@@ -1321,7 +1324,7 @@ def build_html(payload: dict) -> str:
       align-items: center;
       padding: 14px 14px 10px;
       border-bottom: 1px solid var(--line);
-      background: linear-gradient(180deg, rgba(255,255,255,.94), rgba(244,244,240,.9));
+      background: #f8fafc;
     }
     .party-logo {
       width: 42px;
@@ -1543,7 +1546,7 @@ def build_html(payload: dict) -> str:
       right: 0;
       width: min(580px, 100vw);
       height: 100%;
-      background: linear-gradient(180deg, #fdfcf8, #f6f1e7);
+      background: #ffffff;
       box-shadow: -20px 0 40px rgba(15,23,42,.18);
       display: flex;
       flex-direction: column;
@@ -1609,6 +1612,9 @@ def build_html(payload: dict) -> str:
       }
     }
     @media (max-width: 1180px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
       .layout {
         grid-template-columns: 1fr;
       }
@@ -1731,25 +1737,27 @@ def build_html(payload: dict) -> str:
       <span class="glossary-chip"><strong>Parliamentary threshold</strong>: parties below 4% national DPR vote do not receive DPR seats</span>
     </section>
     <section class="hero">
-      <h1>2024 DPR Vote Dashboard</h1>
-      <p>Start here: who won seats in each district, and how did candidate votes vs party votes shape the outcome? Use the district finder to see who won, who nearly won, and whether the result was driven more by party labels or standout candidates.</p>
-      <div class="hero-meta" id="heroMeta"></div>
-      <div class="finder-shell">
-        <div class="finder-grid">
-          <div>
-            <label for="districtFinderInput">Start With Your District</label>
-            <input id="districtFinderInput" type="text" list="districtFinderList" placeholder="Type district, province, or candidate name" />
-            <datalist id="districtFinderList"></datalist>
+      <div class="hero-main">
+        <h1>Legislative Results</h1>
+        <p>Find who won DPR seats in each district and how party votes vs candidate votes shaped the outcome.</p>
+        <div class="finder-shell">
+          <div class="finder-grid">
+            <div>
+              <label for="districtFinderInput">Search District Or Candidate</label>
+              <input id="districtFinderInput" type="text" list="districtFinderList" placeholder="Try Jawa Barat VII, DKI Jakarta II, or a candidate name" />
+              <datalist id="districtFinderList"></datalist>
+            </div>
+            <div class="finder-actions">
+              <button class="btn-primary" id="districtFinderBtn">Go To Result</button>
+            </div>
           </div>
-          <div class="finder-actions">
-            <button class="btn-primary" id="districtFinderBtn">Go To District</button>
-          </div>
+          <p class="finder-note">Start with a dapil, province, or candidate. District matches jump directly into the local result.</p>
         </div>
-        <p class="finder-note">Type a district, province, or even a candidate name. District matches jump directly into the local result; candidate matches suggest the district where that person is competing.</p>
       </div>
+      <div class="hero-meta" id="heroMeta" aria-label="Dashboard summary"></div>
       <div class="finder-support">
         <section class="finder-panel" aria-live="polite">
-          <h2>Start Here</h2>
+          <h2>Suggested Starting Points</h2>
           <div id="finderGuidance"></div>
           <div class="tag-row" id="recentDistricts"></div>
           <div class="finder-suggestion-grid" id="finderSuggestions"></div>
@@ -1760,17 +1768,19 @@ def build_html(payload: dict) -> str:
     <section class="panel pad status-banner" role="status" aria-live="polite">
       <div class="section-head">
         <div>
-          <h2>Result Status</h2>
+          <h2>Data Notes</h2>
           <p id="statusSummary"></p>
         </div>
         <div class="status-actions">
           <button class="btn-primary" id="shareViewBtn">Copy View Link</button>
           <button class="btn-secondary" id="shareDistrictBtn">Copy District Link</button>
-          <button class="btn-secondary" id="downloadMethodBtn">Download Method Note</button>
           <button class="btn-secondary" id="methodologyBtn">How This Works</button>
           <button class="btn-secondary" id="glossaryBtn">Glossary</button>
           <button class="btn-secondary" id="sourcesBtn">Sources</button>
         </div>
+      </div>
+      <div class="button-row">
+        <button class="btn-secondary" id="downloadMethodBtn">Download Method Note</button>
       </div>
       <div class="status-grid" id="statusMeta"></div>
     </section>
@@ -2840,11 +2850,10 @@ def build_html(payload: dict) -> str:
       if (!query) {
         const activeLabel = state.district !== ALL_LABEL ? `${state.district} — ${state.province}` : "No district selected yet";
         const intro = state.district !== ALL_LABEL
-          ? `You are currently reading <strong>${escapeHtml(activeLabel)}</strong>. Use the chips below to jump to a recent district or explore one of the larger districts in the dataset.`
-          : "Type your district name first. After that, read the district summary, then check the estimated winners and the strongest near-miss candidates.";
+          ? `Current result: <strong>${escapeHtml(activeLabel)}</strong>.`
+          : "Pick a district to see estimated winners, near misses, and party-vs-candidate vote patterns.";
         elements.finderGuidance.innerHTML = `
           <p>${intro}</p>
-          <p class="small-note" style="margin-top:8px;">Use the map or the recent-district chips below to move quickly through the dashboard.</p>
         `;
 
         elements.recentDistricts.innerHTML = [
@@ -2886,8 +2895,7 @@ def build_html(payload: dict) -> str:
 
       const totalMatches = districtSuggestions.length + candidateSuggestions.length;
       elements.finderGuidance.innerHTML = `
-        <p>${totalMatches ? `Pick a match below. District matches jump into the local result; candidate matches open that person's district and focus the dashboard on them.` : "No direct match yet. Try the district name, province name, or a longer candidate name."}</p>
-        <p class="small-note" style="margin-top:8px;">District matches are prioritized first because the dashboard is district-first by design.</p>
+        <p>${totalMatches ? `Pick a match below.` : "No direct match yet. Try a district, province, or longer candidate name."}</p>
       `;
       elements.recentDistricts.innerHTML = recent.map(record => `
         <button class="finder-chip" data-action="finder-district" data-record="${escapeHtml(record.display)}">Recent: ${escapeHtml(record.district)}</button>
@@ -3144,14 +3152,17 @@ def build_html(payload: dict) -> str:
     function renderHeroMeta() {
       const summary = DASHBOARD_DATA.summary;
       const pills = [
-        `${summary.validation.checks.dpr_candidate_rows} candidate rows`,
-        `${summary.validation.checks.total_dapil_seats} total dapil seats`,
-        `${summary.voteDynamics.party_slates} party slates`,
-        `${summary.winners.qualified_parties} parties above 4%`,
-        `Excluded vote share ${formatPercent(summary.winners.excluded_vote_share, 1)}`,
-        `Validation ${DASHBOARD_DATA.meta.validationStatus.toUpperCase()}`,
+        { label: "DPR Seats", value: formatNumber(summary.validation.checks.total_dapil_seats) },
+        { label: "Districts", value: formatNumber(summary.voteDynamics.districts_covered) },
+        { label: "Threshold", value: "4% applied" },
+        { label: "Qualified Parties", value: formatNumber(summary.winners.qualified_parties) },
       ];
-      elements.heroMeta.innerHTML = pills.map(item => `<span class="hero-pill">${escapeHtml(item)}</span>`).join("");
+      elements.heroMeta.innerHTML = pills.map(item => `
+        <div class="hero-pill">
+          <span>${escapeHtml(item.label)}</span>
+          ${escapeHtml(item.value)}
+        </div>
+      `).join("");
     }
 
     function renderNotes() {
@@ -3164,15 +3175,10 @@ def build_html(payload: dict) -> str:
       const validationClass = meta.validationStatus === "pass" ? "validation-pass" : "validation-warn";
       elements.shareDistrictBtn.disabled = !primaryCtx;
       elements.statusSummary.innerHTML = `
-        ${escapeHtml(meta.status.officialInputs)} ${escapeHtml(meta.status.estimatedOutputs)}
-        <strong>${escapeHtml(districtLabel)}</strong> is shown with official vote inputs and analytical seat estimates. ${escapeHtml(meta.status.thresholdRule)}
+        <strong>${escapeHtml(districtLabel)}</strong> uses official vote inputs with analytical DPR seat estimates. The default seat view applies the 4% national DPR threshold.
       `;
 
       elements.statusMeta.innerHTML = `
-        <div class="status-card">
-          <h3>Official Inputs</h3>
-          <p>${escapeHtml(meta.status.officialInputs)}</p>
-        </div>
         <div class="status-card">
           <h3>Estimated Outputs</h3>
           <p>${escapeHtml(meta.status.estimatedOutputs)}</p>
@@ -3184,10 +3190,6 @@ def build_html(payload: dict) -> str:
         <div class="status-card">
           <h3>Dashboard Build</h3>
           <p>Generated ${escapeHtml(formatDateTime(meta.generatedAt))}. Freshest source updated ${escapeHtml(formatDateTime(meta.freshestSourceAt))}.</p>
-        </div>
-        <div class="status-card">
-          <h3>Known Limits</h3>
-          <p>${escapeHtml(meta.status.caution)}</p>
         </div>
       `;
 
