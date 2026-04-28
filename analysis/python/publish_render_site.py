@@ -177,6 +177,8 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
     .brand {{
       color: var(--ink);
       font-weight: 800;
+      font-size: 1.15rem;
+      text-decoration: none;
     }}
     .site-links {{
       display: flex;
@@ -395,7 +397,7 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
 <body>
   <main class="page">
     <header class="masthead">
-      <span class="brand">Pileg Reports</span>
+      <a class="brand" href="/">Home</a>
       <nav class="site-links" aria-label="Report navigation">
         <a href="/dpr/">Legislative Results</a>
         <a href="/pileg-seats/">Seat Scenarios</a>

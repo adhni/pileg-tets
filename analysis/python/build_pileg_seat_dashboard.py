@@ -625,6 +625,7 @@ def build_html(payload: dict) -> str:
     }
     .site-brand {
       color: var(--ink);
+      font-size: 1.15rem;
       font-weight: 800;
       text-decoration: none;
     }
@@ -1165,7 +1166,7 @@ def build_html(payload: dict) -> str:
   <a class="skip-link" href="#main-content">Skip to dashboard</a>
   <div class="app">
     <header class="site-nav">
-      <a class="site-brand" href="/">Pileg Reports</a>
+      <a class="site-brand" href="/">Home</a>
       <nav class="site-links" aria-label="Report navigation">
         <a href="/dpr/">Legislative Results</a>
         <a class="active" href="/pileg-seats/">Seat Scenarios</a>
