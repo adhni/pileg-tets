@@ -400,6 +400,7 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
         <a href="/dpr/">Legislative Results</a>
         <a href="/pileg-seats/">Seat Scenarios</a>
         <a href="/pilpres-vs-pileg/">Presidential Alignment</a>
+        <a href="#glossary">Glossary</a>
       </nav>
     </header>
     <section class="hero">
@@ -420,7 +421,7 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
         </ul>
       </aside>
     </section>
-    <section class="basics" aria-labelledby="basics-heading">
+    <section class="basics" id="glossary" aria-labelledby="basics-heading">
       <div>
         <h2 id="basics-heading">Election Basics</h2>
         <p>

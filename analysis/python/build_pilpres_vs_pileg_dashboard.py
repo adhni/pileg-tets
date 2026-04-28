@@ -395,6 +395,7 @@ def build_html(payload: dict) -> str:
     .glossary-strip {
       display: flex;
       flex-wrap: wrap;
+      align-items: flex-start;
       gap: 8px;
       margin-bottom: 16px;
       padding: 12px;
@@ -404,6 +405,15 @@ def build_html(payload: dict) -> str:
       color: var(--muted);
       font-size: 0.88rem;
       line-height: 1.4;
+    }
+    .glossary-title {
+      flex-basis: 100%;
+      margin: 0 0 2px;
+      color: var(--ink);
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
     .glossary-strip strong {
       color: var(--ink);
@@ -852,9 +862,11 @@ def build_html(payload: dict) -> str:
         <a href="/dpr/">Legislative Results</a>
         <a href="/pileg-seats/">Seat Scenarios</a>
         <a class="active" href="/pilpres-vs-pileg/">Presidential Alignment</a>
+        <a href="#glossary">Glossary</a>
       </nav>
     </header>
-    <section class="glossary-strip" aria-label="Election glossary">
+    <section class="glossary-strip" id="glossary" aria-label="Election glossary">
+      <h2 class="glossary-title">Glossary</h2>
       <span class="glossary-chip"><strong>Pileg</strong>: legislative election</span>
       <span class="glossary-chip"><strong>Pilpres</strong>: presidential election</span>
       <span class="glossary-chip"><strong>DPR</strong>: national House of Representatives</span>
