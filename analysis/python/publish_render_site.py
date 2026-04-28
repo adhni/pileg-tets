@@ -178,6 +178,20 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
       color: var(--ink);
       font-weight: 800;
     }}
+    .site-links {{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px 14px;
+    }}
+    .site-links a {{
+      color: var(--muted);
+      font-weight: 700;
+      text-decoration: none;
+    }}
+    .site-links a:hover {{
+      color: var(--ink);
+    }}
     .hero {{
       display: grid;
       grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr);
@@ -335,7 +349,11 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
   <main class="page">
     <header class="masthead">
       <span class="brand">Pileg Reports</span>
-      <span>2024 Indonesian election analysis</span>
+      <nav class="site-links" aria-label="Report navigation">
+        <a href="/dpr/">DPR</a>
+        <a href="/pileg-seats/">Pileg Seats</a>
+        <a href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+      </nav>
     </header>
     <section class="hero">
       <div>
@@ -352,7 +370,6 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
           <li><strong>Election year</strong><span>2024</span></li>
           <li><strong>Primary focus</strong><span>DPR Pileg</span></li>
           <li><strong>Comparison view</strong><span>Pilpres vs Pileg</span></li>
-          <li><strong>Site build</strong><span>{escape(generated_at)}</span></li>
         </ul>
       </aside>
     </section>
@@ -364,7 +381,7 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
       {card_html}
     </section>
     <p class="footer">
-      Built from Python source, tracked reference inputs, and map geometry in this repository.
+      Built from Python source, tracked reference inputs, and map geometry in this repository. Last rebuilt {escape(generated_at)}.
     </p>
   </main>
 </body>

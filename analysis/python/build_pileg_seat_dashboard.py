@@ -612,6 +612,37 @@ def build_html(payload: dict) -> str:
       margin: 0 auto;
       padding: 28px 20px 72px;
     }
+    .site-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .site-brand {
+      color: var(--ink);
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .site-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px 14px;
+    }
+    .site-links a {
+      color: var(--muted);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .site-links a.active,
+    .site-links a:hover {
+      color: var(--accent-2);
+    }
     .hero {
       padding: 30px;
       border-radius: 34px;
@@ -737,6 +768,31 @@ def build_html(payload: dict) -> str:
       color: var(--muted);
       font-size: 0.9rem;
       line-height: 1.4;
+    }
+    .current-view {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .current-view strong {
+      color: var(--ink);
+    }
+    .current-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 10px;
+      border: 1px solid rgba(31,41,51,0.10);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.82);
     }
     main {
       display: grid;
@@ -1053,6 +1109,13 @@ def build_html(payload: dict) -> str:
     }
     @media (max-width: 720px) {
       .app { padding: 16px 14px 48px; }
+      .site-nav {
+        align-items: start;
+        flex-direction: column;
+      }
+      .site-links {
+        justify-content: flex-start;
+      }
       .hero, .panel { padding: 18px; }
       .summary-grid,
       .detail-metrics,
@@ -1069,14 +1132,22 @@ def build_html(payload: dict) -> str:
 <body>
   <a class="skip-link" href="#main-content">Skip to dashboard</a>
   <div class="app">
+    <header class="site-nav">
+      <a class="site-brand" href="/">Pileg Reports</a>
+      <nav class="site-links" aria-label="Report navigation">
+        <a href="/dpr/">DPR</a>
+        <a class="active" href="/pileg-seats/">Pileg Seats</a>
+        <a href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+      </nav>
+    </header>
     <header class="hero">
       <div class="hero-grid">
         <div>
           <div class="eyebrow">Seat Proportion Explorer</div>
           <h1>How Does Party Balance Change When Dapil Seat Counts Move?</h1>
           <p>
-            This dashboard rebuilds the seat-adjustment idea from the Quarto note using only the live repo data. Pick a factor,
-            choose whether you want the legal DPR lens or the all-party lens, then inspect how vote share turns into seat share at both
+            This dashboard tests 2024 DPR seat-count scenarios using only the live repo data. Pick a chamber size,
+            choose whether to apply the 4% DPR threshold, then inspect how vote share turns into seat share at both
             the national and dapil level.
           </p>
           <p id="hero-meta" class="small-note"></p>
@@ -1084,17 +1155,18 @@ def build_html(payload: dict) -> str:
         <div class="hero-side">
           <section class="control-card">
             <div>
-              <div class="control-label">Scenario Factor</div>
+              <div class="control-label">Chamber Size Scenario</div>
               <div id="factor-controls" class="segmented"></div>
             </div>
             <div>
-              <div class="control-label">Allocation Lens</div>
+              <div class="control-label">Threshold Rule</div>
               <div id="lens-controls" class="segmented"></div>
             </div>
             <div class="small-note" id="lens-note"></div>
           </section>
         </div>
       </div>
+      <div id="current-view" class="current-view" aria-live="polite"></div>
       <div id="summary-cards" class="summary-grid"></div>
     </header>
 
@@ -1192,6 +1264,7 @@ def build_html(payload: dict) -> str:
       factorControls: document.getElementById("factor-controls"),
       lensControls: document.getElementById("lens-controls"),
       lensNote: document.getElementById("lens-note"),
+      currentView: document.getElementById("current-view"),
       summaryCards: document.getElementById("summary-cards"),
       partyChart: document.getElementById("party-chart"),
       partySearch: document.getElementById("party-search"),
@@ -1305,8 +1378,8 @@ def build_html(payload: dict) -> str:
 
     function renderControls() {
       elements.factorControls.innerHTML = factorList.map(item => `
-        <button class="segment-btn ${item.key === state.factorKey ? "active" : ""}" data-factor="${escapeHtml(item.key)}" type="button">
-          ${escapeHtml(item.shortLabel)}
+        <button class="segment-btn ${item.key === state.factorKey ? "active" : ""}" data-factor="${escapeHtml(item.key)}" type="button" title="${escapeHtml(item.headline)}: ${escapeHtml(formatNumber(item.totalSeats))} seats">
+          ${escapeHtml(item.shortLabel)} · ${escapeHtml(formatNumber(item.totalSeats))}
         </button>
       `).join("");
       elements.lensControls.innerHTML = lensList.map(item => `
@@ -1322,6 +1395,22 @@ def build_html(payload: dict) -> str:
         : `This scenario changes the chamber from ${formatNumber(payload.meta.baseTotalSeats)} to ${formatNumber(factor.totalSeats)} seats (${formatDelta(seatDelta)}).`;
       const disproportionality = currentScenario().nationalDisproportionality || 0;
       elements.heroMeta.textContent = `${factor.headline}. ${chamberNote} National disproportionality in the current lens is ${formatPercent(disproportionality)}.`;
+    }
+
+    function renderCurrentView() {
+      const factor = currentFactor();
+      const lens = currentLens();
+      const district = state.districtKey ? districtIndex.get(state.districtKey) : null;
+      const party = state.partyFocus ? partyIndex.get(state.partyFocus) : null;
+      const districtLabel = district ? `${district.label}, ${district.province}` : "National view";
+      const partyLabel = party ? `${party.partyCode} focus` : "All parties";
+      elements.currentView.innerHTML = `
+        <strong>Current view</strong>
+        <span class="current-chip">Scenario: ${escapeHtml(factor.shortLabel)} / ${escapeHtml(formatNumber(factor.totalSeats))} seats</span>
+        <span class="current-chip">Rule: ${escapeHtml(lens.shortLabel)}</span>
+        <span class="current-chip">Scope: ${escapeHtml(districtLabel)}</span>
+        <span class="current-chip">Party: ${escapeHtml(partyLabel)}</span>
+      `;
     }
 
     function renderSummaryCards() {
@@ -1735,6 +1824,7 @@ def build_html(payload: dict) -> str:
 
     function renderAll() {
       renderControls();
+      renderCurrentView();
       renderSummaryCards();
       renderPartyChart();
       renderPartyTable();

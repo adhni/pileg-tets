@@ -361,6 +361,37 @@ def build_html(payload: dict) -> str:
       margin: 0 auto;
       padding: 28px 20px 72px;
     }
+    .site-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .site-brand {
+      color: var(--ink);
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .site-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px 14px;
+    }
+    .site-links a {
+      color: var(--muted);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .site-links a.active,
+    .site-links a:hover {
+      color: var(--positive);
+    }
     .hero {
       padding: 30px;
       border-radius: 34px;
@@ -492,6 +523,31 @@ def build_html(payload: dict) -> str:
       color: var(--muted);
       font-size: 0.92rem;
       line-height: 1.45;
+    }
+    .current-view {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .current-view strong {
+      color: var(--ink);
+    }
+    .current-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 10px;
+      border: 1px solid rgba(23,34,44,0.10);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.82);
     }
     main {
       display: grid;
@@ -747,6 +803,13 @@ def build_html(payload: dict) -> str:
     }
     @media (max-width: 720px) {
       .app { padding: 16px 14px 48px; }
+      .site-nav {
+        align-items: start;
+        flex-direction: column;
+      }
+      .site-links {
+        justify-content: flex-start;
+      }
       .hero, .panel { padding: 18px; }
       .summary-grid,
       .detail-metrics,
@@ -761,14 +824,22 @@ def build_html(payload: dict) -> str:
 <body>
   <a class="skip-link" href="#main-content">Skip to dashboard</a>
   <div class="app">
+    <header class="site-nav">
+      <a class="site-brand" href="/">Pileg Reports</a>
+      <nav class="site-links" aria-label="Report navigation">
+        <a href="/dpr/">DPR</a>
+        <a href="/pileg-seats/">Pileg Seats</a>
+        <a class="active" href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+      </nav>
+    </header>
     <header class="hero">
       <div class="hero-grid">
         <div>
           <div class="eyebrow">Pilpres vs Pileg</div>
-          <h1>Where Did The Presidential Ticket And Coalition Move Together?</h1>
+          <h1>Pilpres vs Pileg Coalition Alignment</h1>
           <p>
-            This dashboard compares each ticket's 2024 Pilpres vote share with the legislative coalition percentage attributed to that
-            ticket in the source comparison table. Click a province anywhere to inspect how tightly the campaign and coalition stayed aligned.
+            Compare each 2024 presidential ticket's province vote share with the legislative coalition percentage attributed to that
+            ticket. Use the controls to switch ticket focus, then click a province to inspect where campaign and coalition strength diverged.
           </p>
           <p class="small-note" id="hero-meta"></p>
         </div>
@@ -784,6 +855,7 @@ def build_html(payload: dict) -> str:
           <div class="small-note" id="candidate-note"></div>
         </section>
       </div>
+      <div id="current-view" class="current-view" aria-live="polite"></div>
       <div id="summary-cards" class="summary-grid"></div>
     </header>
 
@@ -872,6 +944,7 @@ def build_html(payload: dict) -> str:
       heroMeta: document.getElementById("hero-meta"),
       candidateControls: document.getElementById("candidate-controls"),
       candidateNote: document.getElementById("candidate-note"),
+      currentView: document.getElementById("current-view"),
       provinceSearch: document.getElementById("province-search"),
       summaryCards: document.getElementById("summary-cards"),
       scatterChart: document.getElementById("scatter-chart"),
@@ -982,6 +1055,20 @@ def build_html(payload: dict) -> str:
       const avg = summary.avgAbsDifference === null ? "NA" : formatPct(summary.avgAbsDifference);
       elements.heroMeta.textContent = `${payload.meta.comparableProvinceCount} comparable provinces. ${payload.meta.incompleteProvinceCount} province has incomplete coalition data. ${currentCandidate().shortLabel} has an average absolute gap of ${avg}.`;
       elements.candidateNote.textContent = `${currentCandidate().shortLabel} coalition parties: ${currentCandidate().coalitionParties.join(", ")}. Positive differences mean the ticket outran the coalition.`;
+    }
+
+    function renderCurrentView() {
+      const candidate = currentCandidate();
+      const province = state.regionKey ? provinceIndex.get(state.regionKey) : null;
+      const provinceLabel = province ? province.displayLabel : "All provinces";
+      const searchLabel = state.search ? `Search: ${state.search}` : "No search filter";
+      elements.currentView.innerHTML = `
+        <strong>Current view</strong>
+        <span class="current-chip">Ticket: ${escapeHtml(candidate.label)}</span>
+        <span class="current-chip">Province: ${escapeHtml(provinceLabel)}</span>
+        <span class="current-chip">${escapeHtml(searchLabel)}</span>
+        <span class="current-chip">Sort: ${state.sortMode === "candidate" ? "Selected ticket gap" : "Total mismatch"}</span>
+      `;
     }
 
     function renderSummaryCards() {
@@ -1265,6 +1352,7 @@ def build_html(payload: dict) -> str:
 
     function renderAll() {
       renderControls();
+      renderCurrentView();
       renderSummaryCards();
       renderScatter();
       renderProvinceDetail();

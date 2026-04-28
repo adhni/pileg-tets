@@ -553,6 +553,37 @@ def build_html(payload: dict) -> str:
       margin: 0 auto;
       padding: 26px 20px 72px;
     }
+    .site-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .92rem;
+    }
+    .site-brand {
+      color: var(--ink);
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .site-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px 14px;
+    }
+    .site-links a {
+      color: var(--muted);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .site-links a.active,
+    .site-links a:hover {
+      color: var(--accent);
+    }
     .sr-only {
       position: absolute;
       width: 1px;
@@ -1566,6 +1597,13 @@ def build_html(payload: dict) -> str:
       .app {
         padding: 18px 14px 48px;
       }
+      .site-nav {
+        align-items: start;
+        flex-direction: column;
+      }
+      .site-links {
+        justify-content: flex-start;
+      }
       .section-head {
         flex-direction: column;
         align-items: start;
@@ -1642,8 +1680,16 @@ def build_html(payload: dict) -> str:
 <body>
   <a class="skip-link" href="#mainContent">Skip to main content</a>
   <div class="app">
+    <header class="site-nav">
+      <a class="site-brand" href="/">Pileg Reports</a>
+      <nav class="site-links" aria-label="Report navigation">
+        <a class="active" href="/dpr/">DPR</a>
+        <a href="/pileg-seats/">Pileg Seats</a>
+        <a href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+      </nav>
+    </header>
     <section class="hero">
-      <h1>Interactive DPR Vote Dashboard</h1>
+      <h1>2024 DPR Vote Dashboard</h1>
       <p>Built for the general public first: start with your district, see who won, who nearly won, and whether the result was driven more by party labels or by standout candidates. The deeper analysis tools are still here, but the first question is now local.</p>
       <div class="hero-meta" id="heroMeta"></div>
       <div class="finder-shell">
