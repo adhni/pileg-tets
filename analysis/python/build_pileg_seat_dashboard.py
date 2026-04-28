@@ -643,6 +643,28 @@ def build_html(payload: dict) -> str:
     .site-links a:hover {
       color: var(--accent-2);
     }
+    .glossary-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.4;
+    }
+    .glossary-strip strong {
+      color: var(--ink);
+    }
+    .glossary-chip {
+      padding: 6px 8px;
+      border: 1px solid rgba(31,41,51,0.10);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.72);
+    }
     .hero {
       padding: 30px;
       border-radius: 34px;
@@ -1135,18 +1157,25 @@ def build_html(payload: dict) -> str:
     <header class="site-nav">
       <a class="site-brand" href="/">Pileg Reports</a>
       <nav class="site-links" aria-label="Report navigation">
-        <a href="/dpr/">DPR</a>
-        <a class="active" href="/pileg-seats/">Pileg Seats</a>
-        <a href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+        <a href="/dpr/">Legislative Results</a>
+        <a class="active" href="/pileg-seats/">Seat Scenarios</a>
+        <a href="/pilpres-vs-pileg/">Presidential Alignment</a>
       </nav>
     </header>
+    <section class="glossary-strip" aria-label="Election glossary">
+      <span class="glossary-chip"><strong>Pileg</strong>: legislative election</span>
+      <span class="glossary-chip"><strong>Pilpres</strong>: presidential election</span>
+      <span class="glossary-chip"><strong>DPR</strong>: national House of Representatives</span>
+      <span class="glossary-chip"><strong>Dapil</strong>: electoral district</span>
+      <span class="glossary-chip"><strong>Parliamentary threshold</strong>: parties below 4% national DPR vote do not receive DPR seats</span>
+    </section>
     <header class="hero">
       <div class="hero-grid">
         <div>
           <div class="eyebrow">Seat Proportion Explorer</div>
           <h1>How Does Party Balance Change When Dapil Seat Counts Move?</h1>
           <p>
-            This dashboard tests 2024 DPR seat-count scenarios using only the live repo data. Pick a chamber size,
+            Start here: what would happen if district seat counts were larger or smaller? This dashboard tests 2024 DPR seat-count scenarios using only the live repo data. Pick a chamber size,
             choose whether to apply the 4% DPR threshold, then inspect how vote share turns into seat share at both
             the national and dapil level.
           </p>

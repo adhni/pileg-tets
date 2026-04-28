@@ -584,6 +584,28 @@ def build_html(payload: dict) -> str:
     .site-links a:hover {
       color: var(--accent);
     }
+    .glossary-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.82);
+      color: var(--muted);
+      font-size: .88rem;
+      line-height: 1.4;
+    }
+    .glossary-strip strong {
+      color: var(--ink);
+    }
+    .glossary-chip {
+      padding: 6px 8px;
+      border: 1px solid rgba(28,39,51,.10);
+      border-radius: 999px;
+      background: rgba(255,255,255,.72);
+    }
     .sr-only {
       position: absolute;
       width: 1px;
@@ -1683,14 +1705,21 @@ def build_html(payload: dict) -> str:
     <header class="site-nav">
       <a class="site-brand" href="/">Pileg Reports</a>
       <nav class="site-links" aria-label="Report navigation">
-        <a class="active" href="/dpr/">DPR</a>
-        <a href="/pileg-seats/">Pileg Seats</a>
-        <a href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+        <a class="active" href="/dpr/">Legislative Results</a>
+        <a href="/pileg-seats/">Seat Scenarios</a>
+        <a href="/pilpres-vs-pileg/">Presidential Alignment</a>
       </nav>
     </header>
+    <section class="glossary-strip" aria-label="Election glossary">
+      <span class="glossary-chip"><strong>Pileg</strong>: legislative election</span>
+      <span class="glossary-chip"><strong>Pilpres</strong>: presidential election</span>
+      <span class="glossary-chip"><strong>DPR</strong>: national House of Representatives</span>
+      <span class="glossary-chip"><strong>Dapil</strong>: electoral district</span>
+      <span class="glossary-chip"><strong>Parliamentary threshold</strong>: parties below 4% national DPR vote do not receive DPR seats</span>
+    </section>
     <section class="hero">
       <h1>2024 DPR Vote Dashboard</h1>
-      <p>Built for the general public first: start with your district, see who won, who nearly won, and whether the result was driven more by party labels or by standout candidates. The deeper analysis tools are still here, but the first question is now local.</p>
+      <p>Start here: who won seats in each district, and how did candidate votes vs party votes shape the outcome? Use the district finder to see who won, who nearly won, and whether the result was driven more by party labels or standout candidates.</p>
       <div class="hero-meta" id="heroMeta"></div>
       <div class="finder-shell">
         <div class="finder-grid">

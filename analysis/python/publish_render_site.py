@@ -32,7 +32,7 @@ PUBLIC_LOGO_DIR = PUBLIC_SITE_DIR / "assets" / "logos"
 DASHBOARD_CONFIG = [
     {
         "slug": "dpr",
-        "label": "DPR Dashboard",
+        "label": "Legislative Results",
         "title": "Candidate and party vote dashboard",
         "summary": "The main interactive DPR view with dapil map filtering, threshold-aware winners, and candidate-vs-party dynamics.",
         "output_dir": build_interactive_dashboard.OUTPUT_DIR,
@@ -41,7 +41,7 @@ DASHBOARD_CONFIG = [
     },
     {
         "slug": "pileg-seats",
-        "label": "Pileg Seats",
+        "label": "Seat Allocation Scenarios",
         "title": "Seat-scenario and proportionality dashboard",
         "summary": "Scenario-based DPR seat adjustments, focused on proportionality, seat premium, and dapil-level distortions.",
         "output_dir": build_pileg_seat_dashboard.OUTPUT_DIR,
@@ -50,7 +50,7 @@ DASHBOARD_CONFIG = [
     },
     {
         "slug": "pilpres-vs-pileg",
-        "label": "Pilpres vs Pileg",
+        "label": "Presidential vs Legislative Alignment",
         "title": "Province coalition alignment dashboard",
         "summary": "Province-by-province comparison between presidential vote share and coalition legislative strength.",
         "output_dir": build_pilpres_vs_pileg_dashboard.OUTPUT_DIR,
@@ -272,6 +272,47 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
       color: var(--muted);
       font-size: 0.92rem;
     }}
+    .basics {{
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 16px;
+      margin-top: 24px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }}
+    .basics h2 {{
+      font-size: 1.15rem;
+    }}
+    .basics p {{
+      margin: 10px 0 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }}
+    .glossary {{
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }}
+    .glossary div {{
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfd;
+    }}
+    .glossary strong {{
+      display: block;
+      color: var(--ink);
+    }}
+    .glossary span {{
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 0.9rem;
+    }}
     .reports {{
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -333,6 +374,9 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
       .reports {{
         grid-template-columns: 1fr;
       }}
+      .basics {{
+        grid-template-columns: 1fr;
+      }}
     }}
     @media (max-width: 620px) {{
       .masthead, .section-head {{
@@ -342,6 +386,9 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
       h1 {{
         font-size: clamp(2.35rem, 14vw, 4rem);
       }}
+      .glossary {{
+        grid-template-columns: 1fr;
+      }}
     }}
   </style>
 </head>
@@ -350,9 +397,9 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
     <header class="masthead">
       <span class="brand">Pileg Reports</span>
       <nav class="site-links" aria-label="Report navigation">
-        <a href="/dpr/">DPR</a>
-        <a href="/pileg-seats/">Pileg Seats</a>
-        <a href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+        <a href="/dpr/">Legislative Results</a>
+        <a href="/pileg-seats/">Seat Scenarios</a>
+        <a href="/pilpres-vs-pileg/">Presidential Alignment</a>
       </nav>
     </header>
     <section class="hero">
@@ -360,7 +407,7 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
         <span class="eyebrow">Public report hub</span>
         <h1>2024 Indonesian Election Reports</h1>
         <p>
-          Interactive reports for reading Indonesia's 2024 DPR legislative results alongside seat-allocation
+          Interactive reports for reading Indonesia's 2024 House of Representatives election alongside seat-allocation
           scenarios and province-level Pilpres-vs-Pileg coalition alignment.
         </p>
       </div>
@@ -372,6 +419,22 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
           <li><strong>Comparison view</strong><span>Pilpres vs Pileg</span></li>
         </ul>
       </aside>
+    </section>
+    <section class="basics" aria-labelledby="basics-heading">
+      <div>
+        <h2 id="basics-heading">Election Basics</h2>
+        <p>
+          Indonesia's House of Representatives election uses multi-member districts, open party lists,
+          and a 4% national parliamentary threshold.
+        </p>
+      </div>
+      <div class="glossary" aria-label="Short glossary">
+        <div><strong>Pileg</strong><span>Legislative election.</span></div>
+        <div><strong>Pilpres</strong><span>Presidential election.</span></div>
+        <div><strong>DPR</strong><span>National House of Representatives.</span></div>
+        <div><strong>Dapil</strong><span>Electoral district.</span></div>
+        <div><strong>Parliamentary threshold</strong><span>Parties below 4% national DPR vote do not receive DPR seats.</span></div>
+      </div>
     </section>
     <section class="section-head" aria-labelledby="reports-heading">
       <h2 id="reports-heading">Choose a report</h2>

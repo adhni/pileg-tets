@@ -392,6 +392,28 @@ def build_html(payload: dict) -> str:
     .site-links a:hover {
       color: var(--positive);
     }
+    .glossary-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.4;
+    }
+    .glossary-strip strong {
+      color: var(--ink);
+    }
+    .glossary-chip {
+      padding: 6px 8px;
+      border: 1px solid rgba(23,34,44,0.10);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.72);
+    }
     .hero {
       padding: 30px;
       border-radius: 34px;
@@ -827,18 +849,25 @@ def build_html(payload: dict) -> str:
     <header class="site-nav">
       <a class="site-brand" href="/">Pileg Reports</a>
       <nav class="site-links" aria-label="Report navigation">
-        <a href="/dpr/">DPR</a>
-        <a href="/pileg-seats/">Pileg Seats</a>
-        <a class="active" href="/pilpres-vs-pileg/">Pilpres vs Pileg</a>
+        <a href="/dpr/">Legislative Results</a>
+        <a href="/pileg-seats/">Seat Scenarios</a>
+        <a class="active" href="/pilpres-vs-pileg/">Presidential Alignment</a>
       </nav>
     </header>
+    <section class="glossary-strip" aria-label="Election glossary">
+      <span class="glossary-chip"><strong>Pileg</strong>: legislative election</span>
+      <span class="glossary-chip"><strong>Pilpres</strong>: presidential election</span>
+      <span class="glossary-chip"><strong>DPR</strong>: national House of Representatives</span>
+      <span class="glossary-chip"><strong>Dapil</strong>: electoral district</span>
+      <span class="glossary-chip"><strong>Parliamentary threshold</strong>: parties below 4% national DPR vote do not receive DPR seats</span>
+    </section>
     <header class="hero">
       <div class="hero-grid">
         <div>
           <div class="eyebrow">Pilpres vs Pileg</div>
           <h1>Pilpres vs Pileg Coalition Alignment</h1>
           <p>
-            Compare each 2024 presidential ticket's province vote share with the legislative coalition percentage attributed to that
+            Start here: did presidential candidates perform better or worse than their supporting party coalitions? Compare each 2024 presidential ticket's province vote share with the legislative coalition percentage attributed to that
             ticket. Use the controls to switch ticket focus, then click a province to inspect where campaign and coalition strength diverged.
           </p>
           <p class="small-note" id="hero-meta"></p>
