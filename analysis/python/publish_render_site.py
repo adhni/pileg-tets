@@ -128,7 +128,7 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
         <a class="report-card" href="/{escape(str(card['slug']))}/" style="--accent: {escape(str(card['accent']))};">
           <span class="card-label">{escape(str(card['label']))}</span>
           <h2>{escape(str(card['title']))}</h2>
-          <p>{escape(str(card['subtitle']) or str(card['summary']))}</p>
+          <p>{escape(str(card['summary']))}</p>
           <span class="card-link">Open report</span>
         </a>
         """.strip()
@@ -142,121 +142,158 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
   <title>Pileg Reports</title>
   <style>
     :root {{
-      --paper: #f5efe2;
-      --ink: #15202b;
-      --muted: #5f6b76;
-      --line: rgba(21, 32, 43, 0.12);
-      --shadow: 0 24px 50px rgba(21, 32, 43, 0.12);
-      --radius: 28px;
+      --paper: #f7f8fa;
+      --surface: #ffffff;
+      --ink: #17202a;
+      --muted: #5d6673;
+      --line: #dce2ea;
+      --line-strong: #b9c2cf;
+      --shadow: 0 12px 28px rgba(23, 32, 42, 0.08);
+      --radius: 8px;
     }}
     * {{ box-sizing: border-box; }}
     body {{
       margin: 0;
       min-height: 100vh;
       color: var(--ink);
-      font-family: "Avenir Next", "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at top left, rgba(15,118,110,0.14), transparent 28%),
-        radial-gradient(circle at top right, rgba(180,83,9,0.12), transparent 24%),
-        linear-gradient(180deg, #f8f3e9 0%, #f7f1e6 42%, #efe6d5 100%);
+      font-family: Inter, "Avenir Next", "Segoe UI", sans-serif;
+      background: var(--paper);
     }}
     .page {{
-      max-width: 1280px;
+      max-width: 1180px;
       margin: 0 auto;
-      padding: 28px 20px 64px;
+      padding: 24px 20px 56px;
+    }}
+    .masthead {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 0 0 18px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }}
+    .brand {{
+      color: var(--ink);
+      font-weight: 800;
     }}
     .hero {{
-      padding: 34px;
-      border-radius: 36px;
-      background:
-        linear-gradient(135deg, rgba(255,255,255,0.90), rgba(255,255,255,0.76)),
-        linear-gradient(135deg, rgba(15,118,110,0.10), rgba(29,78,216,0.08));
-      border: 1px solid rgba(255,255,255,0.62);
-      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr);
+      gap: 34px;
+      padding: 42px 0 30px;
+      border-bottom: 1px solid var(--line);
     }}
     .eyebrow {{
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: rgba(15,118,110,0.10);
       color: #0f766e;
-      font-size: 0.78rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0;
       text-transform: uppercase;
     }}
-    h1, h2 {{
+    h1, h2, h3 {{
       margin: 0;
-      font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
-      letter-spacing: -0.02em;
+      letter-spacing: 0;
     }}
     h1 {{
-      margin-top: 16px;
-      max-width: 12ch;
-      font-size: clamp(2.3rem, 5vw, 4.8rem);
-      line-height: 0.94;
+      margin-top: 14px;
+      max-width: 13ch;
+      font-size: clamp(2.6rem, 7vw, 5.8rem);
+      line-height: 0.95;
     }}
     .hero p {{
-      margin: 16px 0 0;
-      max-width: 64ch;
+      margin: 22px 0 0;
+      max-width: 68ch;
       color: var(--muted);
-      line-height: 1.62;
-      font-size: 1rem;
+      line-height: 1.65;
+      font-size: 1.05rem;
     }}
-    .meta-row {{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 20px;
-    }}
-    .meta-chip {{
-      padding: 9px 12px;
-      border-radius: 999px;
+    .context-panel {{
+      align-self: end;
+      padding: 18px;
       border: 1px solid var(--line);
-      background: rgba(255,255,255,0.82);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }}
+    .context-panel h2 {{
+      font-size: 0.92rem;
+      text-transform: uppercase;
+    }}
+    .context-panel ul {{
+      display: grid;
+      gap: 10px;
+      margin: 14px 0 0;
+      padding: 0;
+      list-style: none;
+    }}
+    .context-panel li {{
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
       color: var(--muted);
-      font-size: 0.84rem;
+      font-size: 0.92rem;
+    }}
+    .context-panel strong {{
+      color: var(--ink);
+    }}
+    .section-head {{
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-top: 28px;
+    }}
+    .section-head h2 {{
+      font-size: 1.15rem;
+    }}
+    .section-head p {{
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
     }}
     .reports {{
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
-      margin-top: 26px;
+      gap: 16px;
+      margin-top: 16px;
     }}
     .report-card {{
       display: grid;
-      gap: 14px;
-      padding: 24px;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 12px;
+      min-height: 260px;
+      padding: 20px;
       border-radius: var(--radius);
-      background:
-        linear-gradient(145deg, rgba(255,255,255,0.92), rgba(255,255,255,0.78)),
-        linear-gradient(145deg, color-mix(in srgb, var(--accent) 12%, white), rgba(255,255,255,0.0));
-      border: 1px solid rgba(255,255,255,0.68);
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--accent);
       box-shadow: var(--shadow);
       text-decoration: none;
       color: inherit;
-      transition: transform 180ms ease, box-shadow 180ms ease;
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
     }}
     .report-card:hover {{
-      transform: translateY(-4px);
-      box-shadow: 0 28px 56px rgba(21, 32, 43, 0.16);
+      transform: translateY(-3px);
+      border-color: var(--line-strong);
+      box-shadow: 0 16px 32px rgba(23, 32, 42, 0.12);
     }}
     .card-label {{
-      justify-self: start;
-      padding: 8px 11px;
-      border-radius: 999px;
-      background: color-mix(in srgb, var(--accent) 12%, white);
       color: var(--accent);
       font-size: 0.78rem;
-      font-weight: 700;
-      letter-spacing: 0.06em;
+      font-weight: 800;
+      letter-spacing: 0;
       text-transform: uppercase;
     }}
     .report-card h2 {{
-      font-size: 1.5rem;
-      line-height: 1.08;
+      font-size: 1.4rem;
+      line-height: 1.14;
     }}
     .report-card p {{
       margin: 0;
@@ -264,7 +301,7 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
       line-height: 1.58;
     }}
     .card-link {{
-      font-weight: 700;
+      font-weight: 800;
       color: var(--accent);
     }}
     .footer {{
@@ -273,30 +310,61 @@ def build_homepage(cards: list[dict[str, object]]) -> str:
       font-size: 0.86rem;
     }}
     @media (max-width: 980px) {{
-      .reports {{ grid-template-columns: 1fr; }}
+      .hero {{
+        grid-template-columns: 1fr;
+      }}
+      .context-panel {{
+        align-self: start;
+      }}
+      .reports {{
+        grid-template-columns: 1fr;
+      }}
+    }}
+    @media (max-width: 620px) {{
+      .masthead, .section-head {{
+        align-items: start;
+        flex-direction: column;
+      }}
+      h1 {{
+        font-size: clamp(2.35rem, 14vw, 4rem);
+      }}
     }}
   </style>
 </head>
 <body>
   <main class="page">
+    <header class="masthead">
+      <span class="brand">Pileg Reports</span>
+      <span>2024 Indonesian election analysis</span>
+    </header>
     <section class="hero">
-      <span class="eyebrow">Public dashboard bundle</span>
-      <h1>Three election dashboards, one public entry point.</h1>
-      <p>
-        This static site packages the DPR dashboard, the seat-scenario dashboard, and the Pilpres-vs-Pileg alignment dashboard
-        under a single Render deployment. Each report stays standalone, but the landing page keeps the whole analysis legible.
-      </p>
-      <div class="meta-row">
-        <span class="meta-chip">Generated {escape(generated_at)}</span>
-        <span class="meta-chip">Static build for Render</span>
-        <span class="meta-chip">No generated HTML committed</span>
+      <div>
+        <span class="eyebrow">Public report hub</span>
+        <h1>2024 Indonesian Election Reports</h1>
+        <p>
+          Interactive reports for reading Indonesia's 2024 DPR legislative results alongside seat-allocation
+          scenarios and province-level Pilpres-vs-Pileg coalition alignment.
+        </p>
       </div>
+      <aside class="context-panel" aria-label="Report coverage">
+        <h2>Coverage</h2>
+        <ul>
+          <li><strong>Election year</strong><span>2024</span></li>
+          <li><strong>Primary focus</strong><span>DPR Pileg</span></li>
+          <li><strong>Comparison view</strong><span>Pilpres vs Pileg</span></li>
+          <li><strong>Site build</strong><span>{escape(generated_at)}</span></li>
+        </ul>
+      </aside>
+    </section>
+    <section class="section-head" aria-labelledby="reports-heading">
+      <h2 id="reports-heading">Choose a report</h2>
+      <p>Three standalone dashboards published from the same analysis pipeline.</p>
     </section>
     <section class="reports">
       {card_html}
     </section>
     <p class="footer">
-      The site is rebuilt from Python source, tracked reference inputs, and the existing map geometry in this repo.
+      Built from Python source, tracked reference inputs, and map geometry in this repository.
     </p>
   </main>
 </body>
