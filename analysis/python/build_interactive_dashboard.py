@@ -1751,7 +1751,7 @@ def build_html(payload: dict) -> str:
               <button class="btn-primary" id="districtFinderBtn">Go To Result</button>
             </div>
           </div>
-          <p class="finder-note">Start with a dapil, province, or candidate. District matches jump directly into the local result.</p>
+          <p class="finder-note">Start with an electoral district, province, or candidate. District matches jump directly into the local result.</p>
         </div>
       </div>
       <div class="hero-meta" id="heroMeta" aria-label="Dashboard summary"></div>
@@ -1787,13 +1787,13 @@ def build_html(payload: dict) -> str:
 
     <nav class="panel pad quick-jump" aria-label="Quick jump">
       <div class="jump-links">
-        <a class="jump-link" href="#dapilMapSection">Dapil Map</a>
+        <a class="jump-link" href="#dapilMapSection">District Map</a>
         <a class="jump-link" href="#districtSummarySection">District Summary</a>
         <a class="jump-link" href="#winnersSection">Winners</a>
-        <a class="jump-link" href="#voteStructureSection">Vote Structure</a>
-        <a class="jump-link" href="#partyRatioSection">Party Ratio</a>
-        <a class="jump-link" href="#partyInspectorSection">Party Inspector</a>
-        <a class="jump-link" href="#candidateTableSection">Candidate Table</a>
+        <a class="jump-link" href="#voteStructureSection">Party vs Candidate Votes</a>
+        <a class="jump-link" href="#partyRatioSection">Party Vote Dependence</a>
+        <a class="jump-link" href="#partyInspectorSection">Party Details</a>
+        <a class="jump-link" href="#candidateTableSection">All Candidates</a>
       </div>
     </nav>
 
@@ -1831,7 +1831,7 @@ def build_html(payload: dict) -> str:
               <input id="topNRange" type="range" min="8" max="40" step="1" value="18" />
             </div>
             <div>
-              <label for="pageSizeSelect">Candidate Table Rows</label>
+              <label for="pageSizeSelect">Candidate List Rows</label>
               <select id="pageSizeSelect">
                 <option value="25">25</option>
                 <option value="50">50</option>
@@ -1863,8 +1863,8 @@ def build_html(payload: dict) -> str:
           <p class="small-note">Export the current public view as CSV. District-specific files unlock after you select a district.</p>
           <div class="control-grid">
             <button class="btn-secondary" id="downloadWinnersBtn">Download Winners CSV</button>
-            <button class="btn-secondary" id="downloadContendersBtn">Download Threshold Changes CSV</button>
-            <button class="btn-secondary" id="downloadCandidatesBtn">Download Candidate Table CSV</button>
+            <button class="btn-secondary" id="downloadContendersBtn">Download 4% Rule Changes CSV</button>
+            <button class="btn-secondary" id="downloadCandidatesBtn">Download All Candidates CSV</button>
             <button class="btn-secondary" id="downloadPartiesBtn">Download Party Summary CSV</button>
           </div>
         </section>
@@ -1879,13 +1879,13 @@ def build_html(payload: dict) -> str:
         <section class="panel pad" id="dapilMapSection">
           <div class="section-head">
             <div>
-              <h2>Dapil Map</h2>
-              <p>Use the map to move through the dashboard geographically. The fill shows the leading party in each dapil, and clicking a dapil filters the rest of the page to that district.</p>
+              <h2>District Map</h2>
+              <p>Use the map to move geographically. Color shows the leading party in each electoral district; clicking a district filters the rest of the page.</p>
             </div>
           </div>
           <div class="map-shell">
             <div class="map-toolbar">
-              <p class="small-note">This is a navigation layer first. Hover for district context, then click to lock the dashboard onto that dapil.</p>
+              <p class="small-note">This is a navigation layer first. Hover for district context, then click to focus the dashboard on that district.</p>
               <div class="map-controls">
                 <div class="button-row" style="margin-top:0;">
                   <button class="btn-secondary" id="clearMapDistrictBtn">Show All Districts</button>
@@ -1904,47 +1904,47 @@ def build_html(payload: dict) -> str:
           <div class="section-head">
             <div>
               <h2>District Summary</h2>
-              <p>This is the new public-facing entry point. When a district is selected, the dashboard explains what happened there in plain language before dropping into deeper charts and tables.</p>
+              <p>Start here after choosing a district. This plain-English summary explains who won seats and how the 4% rule affected the result.</p>
             </div>
           </div>
           <div id="districtSummary" aria-live="polite"></div>
         </section>
 
-        <section class="panel pad" id="scopeOverviewSection">
-          <div class="section-head">
-            <div>
-              <h2>Scope Overview</h2>
-              <p>These metrics summarize the current filter scope. Party-only votes are deduplicated at the slate level, while candidate totals sum the visible scope.</p>
-            </div>
-          </div>
-          <div class="metric-grid" id="metricGrid"></div>
-        </section>
-
         <section class="panel pad" id="winnersSection">
           <div class="section-head">
             <div>
-              <h2>Who Won And What The 4% Rule Changed</h2>
-              <p>The left panel lists the threshold-adjusted DPR winner set in the selected district. The right panel shows which raw winners were displaced and which replacement winners entered after sub-threshold parties were removed from seat allocation.</p>
+              <h2>Winners And 4% Rule Changes</h2>
+              <p>See the estimated DPR seat winners for the selected district, plus any changes caused by excluding parties below the national 4% threshold.</p>
             </div>
           </div>
           <div class="inline-note">These winners are Python estimates, not official certified seat declarations. Vote tables still show all parties; seat and winner views apply the legal DPR threshold.</div>
           <div class="split-2">
             <div class="subpanel">
-              <h3>Threshold-Adjusted Winners</h3>
+              <h3>Winners With 4% Rule Applied</h3>
               <div id="districtWinners" aria-live="polite"></div>
             </div>
             <div class="subpanel">
-              <h3>Threshold Changes</h3>
+              <h3>Changed By The 4% Rule</h3>
               <div id="districtContenders" aria-live="polite"></div>
             </div>
           </div>
         </section>
 
+        <section class="panel pad" id="scopeOverviewSection">
+          <div class="section-head">
+            <div>
+              <h2>Current View At A Glance</h2>
+              <p>These numbers summarize the selected district, province, party, or candidate search.</p>
+            </div>
+          </div>
+          <div class="metric-grid" id="metricGrid"></div>
+        </section>
+
         <section class="panel pad" id="voteStructureSection">
           <div class="section-head">
             <div>
-              <h2>Vote Structure</h2>
-              <p>The left panel ranks candidates by raw vote count inside the current scope. The scatter on the right compares party-ballot share and top-candidate dominance for each slate in the selected scope.</p>
+              <h2>Party Votes vs Candidate Votes</h2>
+              <p>Compare support for party lists with support for individual candidates. This helps show whether the result was driven by party labels or standout candidates.</p>
             </div>
           </div>
           <div class="split-2">
@@ -1953,7 +1953,7 @@ def build_html(payload: dict) -> str:
               <div id="candidateLeaderboard"></div>
             </div>
             <div class="subpanel">
-              <h3 id="scatterHeading">Slate Scatter: Top Candidate Share vs Party Vote Share</h3>
+              <h3 id="scatterHeading">Candidate Strength vs Party-List Support</h3>
               <div class="scatter-shell">
                 <svg class="scatter-svg" id="scatterSvg" viewBox="0 0 620 360" preserveAspectRatio="none" role="img" aria-labelledby="scatterHeading" aria-describedby="scatterSummary"></svg>
               </div>
@@ -1965,8 +1965,8 @@ def build_html(payload: dict) -> str:
         <section class="panel pad" id="partyRatioSection">
           <div class="section-head">
             <div>
-              <h2>Party Ratio Drilldown</h2>
-              <p>Inspired directly by the party-ratio notebook: how much of each party’s support comes from party-only ballots versus candidate votes, and which parties convert that support into estimated seats in the current scope.</p>
+              <h2>Party Vote Dependence</h2>
+              <p>See which parties rely more on party-list votes versus individual candidate votes, and which ones convert support into estimated seats.</p>
             </div>
           </div>
           <div class="split-2">
@@ -1984,8 +1984,8 @@ def build_html(payload: dict) -> str:
         <section class="panel pad" id="partyInspectorSection">
           <div class="section-head">
             <div>
-              <h2>Party Inspector</h2>
-              <p>Each card shows a party’s current-scope totals, party-ratio metrics, estimated seats, and the candidates driving its performance. Click a party card to open a deeper side drawer.</p>
+              <h2>Party Details</h2>
+              <p>Each card shows party totals, estimated seats, and the candidates driving performance in the current view.</p>
             </div>
           </div>
           <div class="party-grid" id="partyInspector"></div>
@@ -1994,11 +1994,11 @@ def build_html(payload: dict) -> str:
         <section class="panel pad" id="candidateTableSection">
           <div class="section-head">
             <div>
-              <h2>Candidate Table</h2>
-              <p>This table now supports clickable column sorting and pagination. Click any candidate name to open a detail drawer.</p>
+              <h2>All Candidates</h2>
+              <p>Sort and page through candidate-level results. Click a candidate name for more detail.</p>
             </div>
             <div class="section-actions">
-              <button class="btn-secondary" id="downloadCandidatesInlineBtn">Download Visible Candidate Table</button>
+              <button class="btn-secondary" id="downloadCandidatesInlineBtn">Download Visible Candidates</button>
             </div>
           </div>
           <div class="candidate-table-wrap" id="candidateTableWrap"></div>
@@ -3371,8 +3371,8 @@ def build_html(payload: dict) -> str:
 
       elements.storyGuide.innerHTML = `
         <p><strong>${escapeHtml(primaryCtx.district)}</strong> is now the anchor. The district summary, winners, and threshold-change explanation stay district-wide so the public story does not disappear when you narrow the charts.</p>
-        <p>Use the party filter to zoom into one party, and use candidate search to find a person. Vote exploration below still shows all parties, but the DPR winner set above uses the legal threshold-adjusted seat model.</p>
-        <p>Use the map and district finder to move from one dapil to the next instead of splitting attention across multiple districts at once.</p>
+        <p>Use the party filter to zoom into one party, and use candidate search to find a person. Vote exploration below still shows all parties, but the DPR winner set above uses the 4% rule.</p>
+        <p>Use the map and district finder to move from one electoral district to the next instead of splitting attention across multiple districts at once.</p>
       `;
     }
 
@@ -3420,7 +3420,7 @@ def build_html(payload: dict) -> str:
         svg.innerHTML = `<text x="50%" y="50%" text-anchor="middle" fill="#5f6b76" font-size="16">Map geometry is unavailable</text>`;
         svg.setAttribute("aria-label", "DAPIL map geometry is unavailable.");
         elements.dapilMapLegend.innerHTML = "";
-        elements.dapilMapSummary.textContent = "The map could not be drawn because no dapil geometry was available in the dashboard payload.";
+        elements.dapilMapSummary.textContent = "The map could not be drawn because no district geometry was available in the dashboard payload.";
         return;
       }
 
@@ -3472,7 +3472,7 @@ def build_html(payload: dict) -> str:
         ? `${highlightedProvince} is highlighted; other provinces are dimmed.`
         : "All provinces are visible.";
       elements.dapilMapSummary.textContent =
-        `Map color shows the leading party by total visible support in each dapil. ${visibleCount ? `${formatNumber(visibleCount)} districts are currently in focus.` : "No districts are currently in focus."} ${provinceSummary} Current selection: ${currentLabel}`;
+        `Map color shows the leading party by total visible support in each district. ${visibleCount ? `${formatNumber(visibleCount)} districts are currently in focus.` : "No districts are currently in focus."} ${provinceSummary} Current selection: ${currentLabel}`;
 
       svg.innerHTML = entries.map(entry => `
         <g
@@ -3507,12 +3507,12 @@ def build_html(payload: dict) -> str:
     function renderMetrics(metrics) {
       const cards = [
         ["Candidate Rows", formatNumber(metrics.candidateRows), "Rows in the current exploratory scope"],
-        ["Party Slates", formatNumber(metrics.slates), "Unique district-party slates"],
+        ["Party Candidate Lists", formatNumber(metrics.slates), "Unique district-party candidate lists"],
         ["Candidate Votes", formatNumber(metrics.candidateVotes), "Sum of visible candidate votes"],
         ["Party Votes", formatNumber(metrics.partyVotes), "Deduplicated party-only ballots"],
         ["Party/Candidate Ratio", formatDecimal(metrics.ratio, 3), "Party votes divided by candidate votes"],
         ["Party Vote Share", formatPercent(metrics.partyShare, 1), "Party-only votes as share of total support"],
-        ["Estimated Seats", formatNumber(metrics.seatsWon), "Threshold-adjusted DPR seats in the current scope"],
+        ["Estimated Seats", formatNumber(metrics.seatsWon), "DPR seats with the 4% rule applied in the current scope"],
         ["Avg Top Share", formatPercent(metrics.avgTopShare, 1), "Average top-candidate dominance"],
       ];
       elements.metricGrid.innerHTML = cards.map(([title, value, note]) => `
@@ -4310,8 +4310,8 @@ def build_html(payload: dict) -> str:
               winnerChange
                 ? escapeHtml(winnerChange.changeReason)
                 : isWinner
-                  ? `${escapeHtml(row.candidateName)} is in the threshold-adjusted DPR winner set for ${escapeHtml(row.district)}.`
-                  : `${escapeHtml(row.candidateName)} did not make the threshold-adjusted DPR winner set for ${escapeHtml(row.district)}.`
+                  ? `${escapeHtml(row.candidateName)} is in the DPR winner set with the 4% rule applied for ${escapeHtml(row.district)}.`
+                  : `${escapeHtml(row.candidateName)} did not make the DPR winner set with the 4% rule applied for ${escapeHtml(row.district)}.`
             }</p>
             <p class="small-note">This candidate accounts for <strong>${escapeHtml(formatPercent(derived.shareOfPartyCandidates, 1))}</strong> of visible candidate votes inside ${escapeHtml(row.partyCode)}, and <strong>${escapeHtml(formatPercent(derived.shareOfTotalSupport, 1))}</strong> of the party's total support.</p>
             <p class="small-note">${
@@ -4329,7 +4329,7 @@ def build_html(payload: dict) -> str:
             <h3>Party Slate Context</h3>
             <p class="small-note">${partyRow ? `${escapeHtml(row.partyCode)} recorded ${escapeHtml(formatNumber(partyRow.partyVoteTotal))} party votes and ${escapeHtml(formatNumber(partyRow.candidateVoteTotal))} candidate votes in this district scope.` : "No party context available."}</p>
             <p class="small-note">${partySeats === 0 ? `${escapeHtml(row.partyCode)} did not win a legal DPR seat here.` : `${escapeHtml(row.partyCode)} won ${partySeats} ${pluralize(partySeats, "seat")} here, so only its top ${partySeats} vote-getter${partySeats === 1 ? "" : "s"} were estimated to win.`}</p>
-            <p class="small-note">Raw all-party simulation: ${escapeHtml(formatNumber(rawPartySeats))} seat${rawPartySeats === 1 ? "" : "s"}. Threshold-adjusted legal DPR model: ${escapeHtml(formatNumber(partySeats))} seat${partySeats === 1 ? "" : "s"}.</p>
+            <p class="small-note">All-party simulation: ${escapeHtml(formatNumber(rawPartySeats))} seat${rawPartySeats === 1 ? "" : "s"}. DPR model with the 4% rule applied: ${escapeHtml(formatNumber(partySeats))} seat${partySeats === 1 ? "" : "s"}.</p>
           </section>
           <section class="drawer-section">
             <h3>Top Candidates In ${escapeHtml(row.partyCode)}</h3>
@@ -4663,15 +4663,15 @@ def build_html(payload: dict) -> str:
     });
     elements.downloadContendersBtn.addEventListener("click", () => {
       downloadCurrentViewCsv("contenders");
-      flashButton(elements.downloadContendersBtn, "Download Threshold Changes CSV", "Downloaded");
+      flashButton(elements.downloadContendersBtn, "Download 4% Rule Changes CSV", "Downloaded");
     });
     elements.downloadCandidatesBtn.addEventListener("click", () => {
       downloadCurrentViewCsv("candidates");
-      flashButton(elements.downloadCandidatesBtn, "Download Candidate Table CSV", "Downloaded");
+      flashButton(elements.downloadCandidatesBtn, "Download All Candidates CSV", "Downloaded");
     });
     elements.downloadCandidatesInlineBtn.addEventListener("click", () => {
       downloadCurrentViewCsv("candidates");
-      flashButton(elements.downloadCandidatesInlineBtn, "Download Visible Candidate Table", "Downloaded");
+      flashButton(elements.downloadCandidatesInlineBtn, "Download Visible Candidates", "Downloaded");
     });
     elements.downloadPartiesBtn.addEventListener("click", () => {
       downloadCurrentViewCsv("parties");
