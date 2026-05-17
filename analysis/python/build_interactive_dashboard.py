@@ -75,7 +75,8 @@ METHODOLOGY = [
         "title": "Expected Coverage Gaps",
         "body": (
             "Some source gaps are expected and documented rather than treated as failures. "
-            "In the current source set, Papua Barat Daya is absent from the DPD file, and DKI Jakarta is absent from the DPRD kabupaten/kota file."
+            "In the current prepared source set, Papua Barat Daya is absent from the DPD file. "
+            "DPRD seat files are kept separately as exploratory inputs."
         ),
     },
 ]
@@ -494,7 +495,7 @@ def make_payload() -> dict:
             "Vote exploration shows all parties. DPR winner and seat views apply the 4% national parliamentary threshold.",
             "Replacement winners are tracked explicitly when seats are reallocated away from sub-threshold parties.",
             "Metrics react to province, district, and party filters. Candidate search narrows candidate views but leaves scope-level vote metrics anchored to the selected geography and party.",
-            "Expected source gaps are documented separately and are not treated as data failures: Papua Barat Daya is absent from DPD, and DKI Jakarta is absent from DPRD kabupaten/kota.",
+            "Expected source gaps are documented separately and are not treated as data failures: Papua Barat Daya is absent from DPD. DPRD seat files are exploratory inputs outside the prepared pipeline.",
         ],
     }
 

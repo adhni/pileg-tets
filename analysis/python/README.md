@@ -14,7 +14,7 @@ Small Python ports that run against `data/prepared`.
   Estimates DPR winners using explicit dapil seat counts from `data/prepared/dapil_seats.csv`, with the threshold-adjusted legal DPR model as the default output and the raw all-party simulation retained for comparison.
 
 - `python/data_coverage_report.py`
-  Summarizes province coverage across DPR, DPD, DPRD, and dapil seat datasets.
+  Summarizes province coverage across DPR, DPD, and dapil seat datasets.
 
 - `python/validate_prepared_data.py`
   Validates the prepared data layer and records expected source coverage gaps as notes instead of failures.
