@@ -1,0 +1,687 @@
+province,party_code,party_name,party_scope,comparable_to_dpr,dprd_provincial_seats,dprd_provincial_seat_share,dpr_estimated_seats,dpr_estimated_seat_share,dpr_total_votes,dpr_vote_share,dprd_minus_dpr_vote_share,dprd_minus_dpr_seat_share
+Aceh,PA,Partai Aceh,local_aceh,false,20,0.246914,0,0.000000,0,0.000000,,
+Aceh,NasDem,Partai NasDem,national,true,10,0.123457,2,0.153846,328147,0.107669,0.015787,-0.030389
+Aceh,Golkar,Partai Golongan Karya,national,true,9,0.111111,3,0.230769,594213,0.194969,-0.083858,-0.119658
+Aceh,PKB,Partai Kebangkitan Bangsa,national,true,9,0.111111,2,0.153846,587783,0.192859,-0.081748,-0.042735
+Aceh,Demokrat,Partai Demokrat,national,true,7,0.086420,1,0.076923,224351,0.073613,0.012807,0.009497
+Aceh,Gerindra,Partai Gerakan Indonesia Raya,national,true,5,0.061728,1,0.076923,263602,0.086491,-0.024763,-0.015195
+Aceh,PAN,Partai Amanat Nasional,national,true,5,0.061728,1,0.076923,268710,0.088167,-0.026439,-0.015195
+Aceh,PPP,Partai Persatuan Pembangunan,national,true,5,0.061728,0,0.000000,230749,0.075712,-0.013983,0.061728
+Aceh,PASA,PASA,local_aceh,false,4,0.049383,0,0.000000,0,0.000000,,
+Aceh,PKS,Partai Keadilan Sejahtera,national,true,4,0.049383,2,0.153846,223721,0.073406,-0.024023,-0.104463
+Aceh,PDA,PDA,local_aceh,false,1,0.012346,0,0.000000,0,0.000000,,
+Aceh,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,1,0.012346,1,0.076923,153336,0.050312,-0.037966,-0.064577
+Aceh,PNA,PNA,local_aceh,false,1,0.012346,0,0.000000,0,0.000000,,
+Aceh,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,12823,0.004207,-0.004207,0.000000
+Aceh,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,8051,0.002642,-0.002642,0.000000
+Aceh,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,19625,0.006439,-0.006439,0.000000
+Aceh,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,54024,0.017726,-0.017726,0.000000
+Aceh,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,25134,0.008247,-0.008247,0.000000
+Aceh,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,4028,0.001322,-0.001322,0.000000
+Aceh,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,22809,0.007484,-0.007484,0.000000
+Aceh,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,8349,0.002739,-0.002739,0.000000
+Aceh,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,18274,0.005996,-0.005996,0.000000
+Bali,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,32,0.581818,5,0.555556,1290884,0.524603,0.057215,0.026263
+Bali,Gerindra,Partai Gerakan Indonesia Raya,national,true,10,0.181818,1,0.111111,295313,0.120012,0.061806,0.070707
+Bali,Golkar,Partai Golongan Karya,national,true,7,0.127273,1,0.111111,333521,0.135540,-0.008267,0.016162
+Bali,Demokrat,Partai Demokrat,national,true,3,0.054545,1,0.111111,174476,0.070905,-0.016360,-0.056566
+Bali,NasDem,Partai NasDem,national,true,2,0.036364,1,0.111111,147678,0.060015,-0.023651,-0.074747
+Bali,PSI,Partai Solidaritas Indonesia,national,true,1,0.018182,0,0.000000,60722,0.024677,-0.006495,0.018182
+Bali,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,9045,0.003676,-0.003676,0.000000
+Bali,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,4600,0.001869,-0.001869,0.000000
+Bali,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,23731,0.009644,-0.009644,0.000000
+Bali,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,9851,0.004003,-0.004003,0.000000
+Bali,PAN,Partai Amanat Nasional,national,true,0,0.000000,0,0.000000,6683,0.002716,-0.002716,0.000000
+Bali,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,1805,0.000734,-0.000734,0.000000
+Bali,PKB,Partai Kebangkitan Bangsa,national,true,0,0.000000,0,0.000000,41628,0.016917,-0.016917,0.000000
+Bali,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,23681,0.009624,-0.009624,0.000000
+Bali,PKS,Partai Keadilan Sejahtera,national,true,0,0.000000,0,0.000000,19145,0.007780,-0.007780,0.000000
+Bali,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,5232,0.002126,-0.002126,0.000000
+Bali,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,10531,0.004280,-0.004280,0.000000
+Bali,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,2160,0.000878,-0.000878,0.000000
+Banten,Gerindra,Partai Gerakan Indonesia Raya,national,true,14,0.140000,3,0.136364,706915,0.109000,0.031000,0.003636
+Banten,Golkar,Partai Golongan Karya,national,true,14,0.140000,4,0.181818,931294,0.143597,-0.003597,-0.041818
+Banten,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,14,0.140000,4,0.181818,820438,0.126504,0.013496,-0.041818
+Banten,PKS,Partai Keadilan Sejahtera,national,true,13,0.130000,2,0.090909,686645,0.105874,0.024126,0.039091
+Banten,Demokrat,Partai Demokrat,national,true,11,0.110000,2,0.090909,627819,0.096804,0.013196,0.019091
+Banten,NasDem,Partai NasDem,national,true,10,0.100000,3,0.136364,570546,0.087973,0.012027,-0.036364
+Banten,PKB,Partai Kebangkitan Bangsa,national,true,10,0.100000,2,0.090909,691678,0.106650,-0.006650,0.009091
+Banten,PAN,Partai Amanat Nasional,national,true,7,0.070000,2,0.090909,581145,0.089607,-0.019607,-0.020909
+Banten,PPP,Partai Persatuan Pembangunan,national,true,4,0.040000,0,0.000000,290030,0.044720,-0.004720,0.040000
+Banten,PSI,Partai Solidaritas Indonesia,national,true,3,0.030000,0,0.000000,246571,0.038019,-0.008019,0.030000
+Banten,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,63614,0.009809,-0.009809,0.000000
+Banten,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,18938,0.002920,-0.002920,0.000000
+Banten,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,60013,0.009253,-0.009253,0.000000
+Banten,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,21994,0.003391,-0.003391,0.000000
+Banten,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,30017,0.004628,-0.004628,0.000000
+Banten,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,9609,0.001482,-0.001482,0.000000
+Banten,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,100540,0.015502,-0.015502,0.000000
+Banten,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,27665,0.004266,-0.004266,0.000000
+Bengkulu,Golkar,Partai Golongan Karya,national,true,10,0.222222,1,0.250000,324563,0.281832,-0.059609,-0.027778
+Bengkulu,Gerindra,Partai Gerakan Indonesia Raya,national,true,6,0.133333,0,0.000000,88087,0.076490,0.056844,0.133333
+Bengkulu,PAN,Partai Amanat Nasional,national,true,6,0.133333,1,0.250000,188346,0.163549,-0.030215,-0.116667
+Bengkulu,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,6,0.133333,1,0.250000,180917,0.157098,-0.023764,-0.116667
+Bengkulu,Demokrat,Partai Demokrat,national,true,4,0.088889,0,0.000000,27368,0.023765,0.065124,0.088889
+Bengkulu,NasDem,Partai NasDem,national,true,4,0.088889,1,0.250000,141236,0.122641,-0.033752,-0.161111
+Bengkulu,Hanura,Partai Hati Nurani Rakyat,national,true,3,0.066667,0,0.000000,11688,0.010149,0.056517,0.066667
+Bengkulu,PKB,Partai Kebangkitan Bangsa,national,true,3,0.066667,0,0.000000,30979,0.026900,0.039766,0.066667
+Bengkulu,PKS,Partai Keadilan Sejahtera,national,true,2,0.044444,0,0.000000,70344,0.061083,-0.016638,0.044444
+Bengkulu,PPP,Partai Persatuan Pembangunan,national,true,1,0.022222,0,0.000000,9460,0.008215,0.014008,0.022222
+Bengkulu,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,6399,0.005557,-0.005557,0.000000
+Bengkulu,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,4300,0.003734,-0.003734,0.000000
+Bengkulu,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,10400,0.009031,-0.009031,0.000000
+Bengkulu,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,3663,0.003181,-0.003181,0.000000
+Bengkulu,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,3043,0.002642,-0.002642,0.000000
+Bengkulu,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,17214,0.014948,-0.014948,0.000000
+Bengkulu,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,29775,0.025855,-0.025855,0.000000
+Bengkulu,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,3838,0.003333,-0.003333,0.000000
+DKI Jakarta,PKS,Partai Keadilan Sejahtera,national,true,18,0.169811,5,0.238095,1195699,0.179991,-0.010180,-0.068284
+DKI Jakarta,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,15,0.141509,4,0.190476,1044203,0.157186,-0.015676,-0.048967
+DKI Jakarta,Gerindra,Partai Gerakan Indonesia Raya,national,true,14,0.132075,3,0.142857,753569,0.113436,0.018639,-0.010782
+DKI Jakarta,Golkar,Partai Golongan Karya,national,true,10,0.094340,2,0.095238,684464,0.103034,-0.008694,-0.000898
+DKI Jakarta,NasDem,Partai NasDem,national,true,10,0.094340,1,0.047619,475924,0.071642,0.022698,0.046721
+DKI Jakarta,PAN,Partai Amanat Nasional,national,true,10,0.094340,3,0.142857,496407,0.074725,0.019615,-0.048518
+DKI Jakarta,PKB,Partai Kebangkitan Bangsa,national,true,10,0.094340,2,0.095238,440873,0.066365,0.027974,-0.000898
+DKI Jakarta,Demokrat,Partai Demokrat,national,true,9,0.084906,1,0.047619,381130,0.057372,0.027533,0.037287
+DKI Jakarta,PSI,Partai Solidaritas Indonesia,national,true,8,0.075472,0,0.000000,611570,0.092061,-0.016589,0.075472
+DKI Jakarta,PPP,Partai Persatuan Pembangunan,national,true,1,0.009434,0,0.000000,186289,0.028042,-0.018608,0.009434
+DKI Jakarta,Perindo,Partai Perindo,national,true,1,0.009434,0,0.000000,145003,0.021828,-0.012394,0.009434
+DKI Jakarta,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,72292,0.010882,-0.010882,0.000000
+DKI Jakarta,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,13284,0.002000,-0.002000,0.000000
+DKI Jakarta,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,47569,0.007161,-0.007161,0.000000
+DKI Jakarta,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,23277,0.003504,-0.003504,0.000000
+DKI Jakarta,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,14735,0.002218,-0.002218,0.000000
+DKI Jakarta,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,11578,0.001743,-0.001743,0.000000
+DKI Jakarta,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,45244,0.006811,-0.006811,0.000000
+Daerah Istimewa Yogyakarta,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,19,0.345455,2,0.250000,593969,0.258835,0.086620,0.095455
+Daerah Istimewa Yogyakarta,Gerindra,Partai Gerakan Indonesia Raya,national,true,8,0.145455,1,0.125000,272165,0.118602,0.026853,0.020455
+Daerah Istimewa Yogyakarta,PKS,Partai Keadilan Sejahtera,national,true,7,0.127273,1,0.125000,272061,0.118557,0.008716,0.002273
+Daerah Istimewa Yogyakarta,Golkar,Partai Golongan Karya,national,true,6,0.109091,1,0.125000,302845,0.131971,-0.022880,-0.015909
+Daerah Istimewa Yogyakarta,PKB,Partai Kebangkitan Bangsa,national,true,6,0.109091,1,0.125000,245627,0.107037,0.002054,-0.015909
+Daerah Istimewa Yogyakarta,PAN,Partai Amanat Nasional,national,true,5,0.090909,1,0.125000,198662,0.086571,0.004338,-0.034091
+Daerah Istimewa Yogyakarta,NasDem,Partai NasDem,national,true,2,0.036364,1,0.125000,130830,0.057012,-0.020648,-0.088636
+Daerah Istimewa Yogyakarta,PPP,Partai Persatuan Pembangunan,national,true,1,0.018182,0,0.000000,47873,0.020862,-0.002680,0.018182
+Daerah Istimewa Yogyakarta,PSI,Partai Solidaritas Indonesia,national,true,1,0.018182,0,0.000000,71998,0.031375,-0.013193,0.018182
+Daerah Istimewa Yogyakarta,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,15343,0.006686,-0.006686,0.000000
+Daerah Istimewa Yogyakarta,Demokrat,Partai Demokrat,national,true,0,0.000000,0,0.000000,49203,0.021441,-0.021441,0.000000
+Daerah Istimewa Yogyakarta,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,4792,0.002088,-0.002088,0.000000
+Daerah Istimewa Yogyakarta,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,12732,0.005548,-0.005548,0.000000
+Daerah Istimewa Yogyakarta,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,4047,0.001764,-0.001764,0.000000
+Daerah Istimewa Yogyakarta,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,3250,0.001416,-0.001416,0.000000
+Daerah Istimewa Yogyakarta,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,3638,0.001585,-0.001585,0.000000
+Daerah Istimewa Yogyakarta,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,10234,0.004460,-0.004460,0.000000
+Daerah Istimewa Yogyakarta,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,55510,0.024190,-0.024190,0.000000
+Gorontalo,Golkar,Partai Golongan Karya,national,true,8,0.177778,1,0.333333,163074,0.219841,-0.042063,-0.155556
+Gorontalo,NasDem,Partai NasDem,national,true,7,0.155556,1,0.333333,227533,0.306738,-0.151182,-0.177778
+Gorontalo,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,7,0.155556,0,0.000000,46225,0.062316,0.093239,0.155556
+Gorontalo,Gerindra,Partai Gerakan Indonesia Raya,national,true,6,0.133333,1,0.333333,145152,0.195680,-0.062347,-0.200000
+Gorontalo,PKS,Partai Keadilan Sejahtera,national,true,5,0.111111,0,0.000000,17590,0.023713,0.087398,0.111111
+Gorontalo,PPP,Partai Persatuan Pembangunan,national,true,4,0.088889,0,0.000000,70720,0.095338,-0.006449,0.088889
+Gorontalo,Demokrat,Partai Demokrat,national,true,3,0.066667,0,0.000000,14090,0.018995,0.047672,0.066667
+Gorontalo,PAN,Partai Amanat Nasional,national,true,3,0.066667,0,0.000000,15149,0.020422,0.046244,0.066667
+Gorontalo,Hanura,Partai Hati Nurani Rakyat,national,true,1,0.022222,0,0.000000,5984,0.008067,0.014155,0.022222
+Gorontalo,PKB,Partai Kebangkitan Bangsa,national,true,1,0.022222,0,0.000000,14897,0.020083,0.002140,0.022222
+Gorontalo,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,2447,0.003299,-0.003299,0.000000
+Gorontalo,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,1663,0.002242,-0.002242,0.000000
+Gorontalo,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,5348,0.007210,-0.007210,0.000000
+Gorontalo,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,1552,0.002092,-0.002092,0.000000
+Gorontalo,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,970,0.001308,-0.001308,0.000000
+Gorontalo,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,2469,0.003328,-0.003328,0.000000
+Gorontalo,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,5843,0.007877,-0.007877,0.000000
+Gorontalo,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,1077,0.001452,-0.001452,0.000000
+Jambi,PAN,Partai Amanat Nasional,national,true,10,0.181818,1,0.125000,166290,0.085202,0.096617,0.056818
+Jambi,Golkar,Partai Golongan Karya,national,true,7,0.127273,2,0.250000,341039,0.174737,-0.047465,-0.122727
+Jambi,Gerindra,Partai Gerakan Indonesia Raya,national,true,6,0.109091,1,0.125000,241351,0.123660,-0.014570,-0.015909
+Jambi,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,6,0.109091,1,0.125000,318124,0.162996,-0.053905,-0.015909
+Jambi,PKB,Partai Kebangkitan Bangsa,national,true,6,0.109091,1,0.125000,212847,0.109056,0.000035,-0.015909
+Jambi,Demokrat,Partai Demokrat,national,true,5,0.090909,1,0.125000,197962,0.101429,-0.010520,-0.034091
+Jambi,NasDem,Partai NasDem,national,true,5,0.090909,1,0.125000,176441,0.090403,0.000506,-0.034091
+Jambi,PKS,Partai Keadilan Sejahtera,national,true,5,0.090909,0,0.000000,107298,0.054976,0.035933,0.090909
+Jambi,PPP,Partai Persatuan Pembangunan,national,true,5,0.090909,0,0.000000,58114,0.029776,0.061133,0.090909
+Jambi,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,12233,0.006268,-0.006268,0.000000
+Jambi,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,6729,0.003448,-0.003448,0.000000
+Jambi,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,15627,0.008007,-0.008007,0.000000
+Jambi,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,12783,0.006550,-0.006550,0.000000
+Jambi,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,5457,0.002796,-0.002796,0.000000
+Jambi,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,5656,0.002898,-0.002898,0.000000
+Jambi,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,34649,0.017753,-0.017753,0.000000
+Jambi,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,28989,0.014853,-0.014853,0.000000
+Jambi,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,10135,0.005193,-0.005193,0.000000
+Jawa Barat,Gerindra,Partai Gerakan Indonesia Raya,national,true,20,0.166667,16,0.175824,4197376,0.159648,0.007019,-0.009158
+Jawa Barat,Golkar,Partai Golongan Karya,national,true,19,0.158333,17,0.186813,4292082,0.163250,-0.004917,-0.028480
+Jawa Barat,PKS,Partai Keadilan Sejahtera,national,true,19,0.158333,12,0.131868,3505195,0.133321,0.025013,0.026465
+Jawa Barat,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,17,0.141667,11,0.120879,2983432,0.113475,0.028191,0.020788
+Jawa Barat,PKB,Partai Kebangkitan Bangsa,national,true,15,0.125000,13,0.142857,2876990,0.109427,0.015573,-0.017857
+Jawa Barat,Demokrat,Partai Demokrat,national,true,8,0.066667,6,0.065934,1779410,0.067680,-0.001014,0.000733
+Jawa Barat,NasDem,Partai NasDem,national,true,8,0.066667,8,0.087912,1689044,0.064243,0.002424,-0.021245
+Jawa Barat,PAN,Partai Amanat Nasional,national,true,7,0.058333,8,0.087912,1885165,0.071703,-0.013369,-0.029579
+Jawa Barat,PPP,Partai Persatuan Pembangunan,national,true,6,0.050000,0,0.000000,1197820,0.045559,0.004441,0.050000
+Jawa Barat,PSI,Partai Solidaritas Indonesia,national,true,1,0.008333,0,0.000000,744452,0.028315,-0.019982,0.008333
+Jawa Barat,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,273661,0.010409,-0.010409,0.000000
+Jawa Barat,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,60915,0.002317,-0.002317,0.000000
+Jawa Barat,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,220788,0.008398,-0.008398,0.000000
+Jawa Barat,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,107768,0.004099,-0.004099,0.000000
+Jawa Barat,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,89013,0.003386,-0.003386,0.000000
+Jawa Barat,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,40482,0.001540,-0.001540,0.000000
+Jawa Barat,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,239510,0.009110,-0.009110,0.000000
+Jawa Barat,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,108348,0.004121,-0.004121,0.000000
+Jawa Tengah,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,33,0.275000,23,0.298701,5846493,0.279136,-0.004136,-0.023701
+Jawa Tengah,PKB,Partai Kebangkitan Bangsa,national,true,20,0.166667,10,0.129870,2672345,0.127589,0.039078,0.036797
+Jawa Tengah,Gerindra,Partai Gerakan Indonesia Raya,national,true,17,0.141667,10,0.129870,2279011,0.108810,0.032857,0.011797
+Jawa Tengah,Golkar,Partai Golongan Karya,national,true,17,0.141667,12,0.155844,2648583,0.126454,0.015212,-0.014177
+Jawa Tengah,PKS,Partai Keadilan Sejahtera,national,true,11,0.091667,7,0.090909,1492537,0.071260,0.020407,0.000758
+Jawa Tengah,Demokrat,Partai Demokrat,national,true,7,0.058333,5,0.064935,1372784,0.065542,-0.007209,-0.006602
+Jawa Tengah,PPP,Partai Persatuan Pembangunan,national,true,6,0.050000,0,0.000000,874749,0.041764,0.008236,0.050000
+Jawa Tengah,PAN,Partai Amanat Nasional,national,true,4,0.033333,3,0.038961,1137194,0.054294,-0.020961,-0.005628
+Jawa Tengah,NasDem,Partai NasDem,national,true,3,0.025000,7,0.090909,1321849,0.063111,-0.038111,-0.065909
+Jawa Tengah,PSI,Partai Solidaritas Indonesia,national,true,2,0.016667,0,0.000000,580751,0.027727,-0.011061,0.016667
+Jawa Tengah,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,86023,0.004107,-0.004107,0.000000
+Jawa Tengah,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,41317,0.001973,-0.001973,0.000000
+Jawa Tengah,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,148895,0.007109,-0.007109,0.000000
+Jawa Tengah,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,146358,0.006988,-0.006988,0.000000
+Jawa Tengah,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,25133,0.001200,-0.001200,0.000000
+Jawa Tengah,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,23371,0.001116,-0.001116,0.000000
+Jawa Tengah,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,162035,0.007736,-0.007736,0.000000
+Jawa Tengah,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,85528,0.004083,-0.004083,0.000000
+Jawa Timur,PKB,Partai Kebangkitan Bangsa,national,true,27,0.225000,18,0.206897,4156291,0.176522,0.048478,0.018103
+Jawa Timur,Gerindra,Partai Gerakan Indonesia Raya,national,true,21,0.175000,14,0.160920,3257479,0.138348,0.036652,0.014080
+Jawa Timur,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,21,0.175000,19,0.218391,4062371,0.172533,0.002467,-0.043391
+Jawa Timur,Golkar,Partai Golongan Karya,national,true,15,0.125000,13,0.149425,3232218,0.137275,-0.012275,-0.024425
+Jawa Timur,Demokrat,Partai Demokrat,national,true,11,0.091667,6,0.068966,1621940,0.068885,0.022781,0.022701
+Jawa Timur,NasDem,Partai NasDem,national,true,10,0.083333,7,0.080460,1885813,0.080092,0.003241,0.002874
+Jawa Timur,PAN,Partai Amanat Nasional,national,true,5,0.041667,5,0.057471,1484944,0.063067,-0.021400,-0.015805
+Jawa Timur,PKS,Partai Keadilan Sejahtera,national,true,5,0.041667,5,0.057471,1129997,0.047992,-0.006325,-0.015805
+Jawa Timur,PPP,Partai Persatuan Pembangunan,national,true,4,0.033333,0,0.000000,1204062,0.051138,-0.017804,0.033333
+Jawa Timur,PSI,Partai Solidaritas Indonesia,national,true,1,0.008333,0,0.000000,712635,0.030266,-0.021933,0.008333
+Jawa Timur,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,109217,0.004639,-0.004639,0.000000
+Jawa Timur,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,47061,0.001999,-0.001999,0.000000
+Jawa Timur,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,141857,0.006025,-0.006025,0.000000
+Jawa Timur,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,88528,0.003760,-0.003760,0.000000
+Jawa Timur,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,38917,0.001653,-0.001653,0.000000
+Jawa Timur,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,28856,0.001226,-0.001226,0.000000
+Jawa Timur,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,267757,0.011372,-0.011372,0.000000
+Jawa Timur,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,75566,0.003209,-0.003209,0.000000
+Kalimantan Barat,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,13,0.200000,4,0.333333,735610,0.244689,-0.044689,-0.133333
+Kalimantan Barat,NasDem,Partai NasDem,national,true,10,0.153846,2,0.166667,514489,0.171137,-0.017290,-0.012821
+Kalimantan Barat,Gerindra,Partai Gerakan Indonesia Raya,national,true,9,0.138462,1,0.083333,344780,0.114686,0.023776,0.055128
+Kalimantan Barat,Golkar,Partai Golongan Karya,national,true,9,0.138462,2,0.166667,409076,0.136073,0.002389,-0.028205
+Kalimantan Barat,Demokrat,Partai Demokrat,national,true,6,0.092308,0,0.000000,134940,0.044886,0.047422,0.092308
+Kalimantan Barat,PAN,Partai Amanat Nasional,national,true,5,0.076923,1,0.083333,189531,0.063044,0.013879,-0.006410
+Kalimantan Barat,PKB,Partai Kebangkitan Bangsa,national,true,5,0.076923,1,0.083333,174943,0.058192,0.018731,-0.006410
+Kalimantan Barat,Hanura,Partai Hati Nurani Rakyat,national,true,4,0.061538,0,0.000000,78850,0.026228,0.035310,0.061538
+Kalimantan Barat,PKS,Partai Keadilan Sejahtera,national,true,2,0.030769,1,0.083333,137253,0.045655,-0.014886,-0.052564
+Kalimantan Barat,PPP,Partai Persatuan Pembangunan,national,true,2,0.030769,0,0.000000,114087,0.037949,-0.007180,0.030769
+Kalimantan Barat,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,11350,0.003775,-0.003775,0.000000
+Kalimantan Barat,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,6956,0.002314,-0.002314,0.000000
+Kalimantan Barat,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,16224,0.005397,-0.005397,0.000000
+Kalimantan Barat,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,4706,0.001565,-0.001565,0.000000
+Kalimantan Barat,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,3981,0.001324,-0.001324,0.000000
+Kalimantan Barat,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,74358,0.024734,-0.024734,0.000000
+Kalimantan Barat,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,45082,0.014996,-0.014996,0.000000
+Kalimantan Barat,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,10091,0.003357,-0.003357,0.000000
+Kalimantan Selatan,Golkar,Partai Golongan Karya,national,true,13,0.236364,3,0.272727,501255,0.224797,0.011567,-0.036364
+Kalimantan Selatan,NasDem,Partai NasDem,national,true,10,0.181818,2,0.181818,296156,0.132816,0.049002,0.000000
+Kalimantan Selatan,Gerindra,Partai Gerakan Indonesia Raya,national,true,7,0.127273,2,0.181818,247043,0.110791,0.016482,-0.054545
+Kalimantan Selatan,PAN,Partai Amanat Nasional,national,true,6,0.109091,3,0.272727,372607,0.167102,-0.058011,-0.163636
+Kalimantan Selatan,PKB,Partai Kebangkitan Bangsa,national,true,6,0.109091,0,0.000000,146780,0.065826,0.043265,0.109091
+Kalimantan Selatan,PKS,Partai Keadilan Sejahtera,national,true,6,0.109091,1,0.090909,169987,0.076234,0.032857,0.018182
+Kalimantan Selatan,Demokrat,Partai Demokrat,national,true,3,0.054545,0,0.000000,138909,0.062296,-0.007751,0.054545
+Kalimantan Selatan,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,3,0.054545,0,0.000000,145204,0.065119,-0.010574,0.054545
+Kalimantan Selatan,PPP,Partai Persatuan Pembangunan,national,true,1,0.018182,0,0.000000,102434,0.045938,-0.027757,0.018182
+Kalimantan Selatan,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,13250,0.005942,-0.005942,0.000000
+Kalimantan Selatan,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,6727,0.003017,-0.003017,0.000000
+Kalimantan Selatan,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,23419,0.010503,-0.010503,0.000000
+Kalimantan Selatan,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,9424,0.004226,-0.004226,0.000000
+Kalimantan Selatan,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,7585,0.003402,-0.003402,0.000000
+Kalimantan Selatan,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,2572,0.001153,-0.001153,0.000000
+Kalimantan Selatan,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,20058,0.008995,-0.008995,0.000000
+Kalimantan Selatan,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,14806,0.006640,-0.006640,0.000000
+Kalimantan Selatan,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,11600,0.005202,-0.005202,0.000000
+Kalimantan Tengah,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,10,0.222222,1,0.166667,295749,0.218325,0.003897,0.055556
+Kalimantan Tengah,Golkar,Partai Golongan Karya,national,true,8,0.177778,1,0.166667,193871,0.143118,0.034660,0.011111
+Kalimantan Tengah,Demokrat,Partai Demokrat,national,true,6,0.133333,1,0.166667,154407,0.113985,0.019348,-0.033333
+Kalimantan Tengah,Gerindra,Partai Gerakan Indonesia Raya,national,true,6,0.133333,1,0.166667,177420,0.130974,0.002360,-0.033333
+Kalimantan Tengah,NasDem,Partai NasDem,national,true,5,0.111111,1,0.166667,134107,0.098999,0.012112,-0.055556
+Kalimantan Tengah,PAN,Partai Amanat Nasional,national,true,4,0.088889,1,0.166667,148111,0.109337,-0.020448,-0.077778
+Kalimantan Tengah,PKB,Partai Kebangkitan Bangsa,national,true,4,0.088889,0,0.000000,111434,0.082262,0.006627,0.088889
+Kalimantan Tengah,PKS,Partai Keadilan Sejahtera,national,true,1,0.022222,0,0.000000,29778,0.021982,0.000240,0.022222
+Kalimantan Tengah,Perindo,Partai Perindo,national,true,1,0.022222,0,0.000000,27215,0.020090,0.002132,0.022222
+Kalimantan Tengah,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,6427,0.004744,-0.004744,0.000000
+Kalimantan Tengah,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,4853,0.003583,-0.003583,0.000000
+Kalimantan Tengah,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,8095,0.005976,-0.005976,0.000000
+Kalimantan Tengah,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,13786,0.010177,-0.010177,0.000000
+Kalimantan Tengah,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,4042,0.002984,-0.002984,0.000000
+Kalimantan Tengah,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,3143,0.002320,-0.002320,0.000000
+Kalimantan Tengah,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,18776,0.013861,-0.013861,0.000000
+Kalimantan Tengah,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,21397,0.015796,-0.015796,0.000000
+Kalimantan Tengah,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,2014,0.001487,-0.001487,0.000000
+Kalimantan Timur,Golkar,Partai Golongan Karya,national,true,15,0.272727,2,0.250000,538147,0.267212,0.005516,0.022727
+Kalimantan Timur,Gerindra,Partai Gerakan Indonesia Raya,national,true,10,0.181818,1,0.125000,307259,0.152566,0.029252,0.056818
+Kalimantan Timur,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,9,0.163636,1,0.125000,252714,0.125483,0.038154,0.038636
+Kalimantan Timur,PKB,Partai Kebangkitan Bangsa,national,true,6,0.109091,1,0.125000,143852,0.071428,0.037663,-0.015909
+Kalimantan Timur,PAN,Partai Amanat Nasional,national,true,4,0.072727,1,0.125000,111141,0.055186,0.017541,-0.052273
+Kalimantan Timur,PKS,Partai Keadilan Sejahtera,national,true,4,0.072727,1,0.125000,145538,0.072265,0.000462,-0.052273
+Kalimantan Timur,NasDem,Partai NasDem,national,true,3,0.054545,1,0.125000,227803,0.113113,-0.058568,-0.070455
+Kalimantan Timur,Demokrat,Partai Demokrat,national,true,2,0.036364,0,0.000000,110752,0.054993,-0.018629,0.036364
+Kalimantan Timur,PPP,Partai Persatuan Pembangunan,national,true,2,0.036364,0,0.000000,38578,0.019156,0.017208,0.036364
+Kalimantan Timur,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,8643,0.004292,-0.004292,0.000000
+Kalimantan Timur,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,5158,0.002561,-0.002561,0.000000
+Kalimantan Timur,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,56308,0.027959,-0.027959,0.000000
+Kalimantan Timur,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,13254,0.006581,-0.006581,0.000000
+Kalimantan Timur,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,5789,0.002874,-0.002874,0.000000
+Kalimantan Timur,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,3662,0.001818,-0.001818,0.000000
+Kalimantan Timur,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,29931,0.014862,-0.014862,0.000000
+Kalimantan Timur,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,10268,0.005098,-0.005098,0.000000
+Kalimantan Timur,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,5139,0.002552,-0.002552,0.000000
+Kalimantan Utara,Demokrat,Partai Demokrat,national,true,6,0.171429,1,0.333333,63863,0.168301,0.003128,-0.161905
+Kalimantan Utara,Gerindra,Partai Gerakan Indonesia Raya,national,true,6,0.171429,1,0.333333,126507,0.333389,-0.161960,-0.161905
+Kalimantan Utara,Golkar,Partai Golongan Karya,national,true,6,0.171429,0,0.000000,24992,0.065862,0.105566,0.171429
+Kalimantan Utara,PKS,Partai Keadilan Sejahtera,national,true,4,0.114286,0,0.000000,12354,0.032557,0.081729,0.114286
+Kalimantan Utara,Hanura,Partai Hati Nurani Rakyat,national,true,3,0.085714,0,0.000000,8197,0.021602,0.064112,0.085714
+Kalimantan Utara,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,3,0.085714,1,0.333333,75556,0.199116,-0.113401,-0.247619
+Kalimantan Utara,NasDem,Partai NasDem,national,true,2,0.057143,0,0.000000,31201,0.082225,-0.025082,0.057143
+Kalimantan Utara,PAN,Partai Amanat Nasional,national,true,2,0.057143,0,0.000000,7795,0.020542,0.036600,0.057143
+Kalimantan Utara,PKB,Partai Kebangkitan Bangsa,national,true,2,0.057143,0,0.000000,7607,0.020047,0.037096,0.057143
+Kalimantan Utara,PPP,Partai Persatuan Pembangunan,national,true,1,0.028571,0,0.000000,8208,0.021631,0.006941,0.028571
+Kalimantan Utara,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,1688,0.004448,-0.004448,0.000000
+Kalimantan Utara,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,1273,0.003355,-0.003355,0.000000
+Kalimantan Utara,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,3622,0.009545,-0.009545,0.000000
+Kalimantan Utara,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,988,0.002604,-0.002604,0.000000
+Kalimantan Utara,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,815,0.002148,-0.002148,0.000000
+Kalimantan Utara,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,3053,0.008046,-0.008046,0.000000
+Kalimantan Utara,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,1385,0.003650,-0.003650,0.000000
+Kalimantan Utara,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,354,0.000933,-0.000933,0.000000
+Kepulauan Bangka Belitung,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,9,0.200000,1,0.333333,168406,0.218196,-0.018196,-0.133333
+Kepulauan Bangka Belitung,Golkar,Partai Golongan Karya,national,true,8,0.177778,1,0.333333,115549,0.149711,0.028066,-0.155556
+Kepulauan Bangka Belitung,Gerindra,Partai Gerakan Indonesia Raya,national,true,7,0.155556,1,0.333333,172949,0.224082,-0.068526,-0.177778
+Kepulauan Bangka Belitung,NasDem,Partai NasDem,national,true,6,0.133333,0,0.000000,80472,0.104264,0.029070,0.133333
+Kepulauan Bangka Belitung,PKS,Partai Keadilan Sejahtera,national,true,6,0.133333,0,0.000000,33169,0.042975,0.090358,0.133333
+Kepulauan Bangka Belitung,Demokrat,Partai Demokrat,national,true,3,0.066667,0,0.000000,16873,0.021862,0.044805,0.066667
+Kepulauan Bangka Belitung,PPP,Partai Persatuan Pembangunan,national,true,3,0.066667,0,0.000000,72724,0.094225,-0.027558,0.066667
+Kepulauan Bangka Belitung,PKB,Partai Kebangkitan Bangsa,national,true,2,0.044444,0,0.000000,36444,0.047219,-0.002774,0.044444
+Kepulauan Bangka Belitung,PBB,Partai Bulan Bintang,national,true,1,0.022222,0,0.000000,22996,0.029795,-0.007573,0.022222
+Kepulauan Bangka Belitung,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,5072,0.006572,-0.006572,0.000000
+Kepulauan Bangka Belitung,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,2503,0.003243,-0.003243,0.000000
+Kepulauan Bangka Belitung,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,6870,0.008901,-0.008901,0.000000
+Kepulauan Bangka Belitung,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,7149,0.009263,-0.009263,0.000000
+Kepulauan Bangka Belitung,PAN,Partai Amanat Nasional,national,true,0,0.000000,0,0.000000,12288,0.015921,-0.015921,0.000000
+Kepulauan Bangka Belitung,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,998,0.001293,-0.001293,0.000000
+Kepulauan Bangka Belitung,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,7219,0.009353,-0.009353,0.000000
+Kepulauan Bangka Belitung,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,8091,0.010483,-0.010483,0.000000
+Kepulauan Bangka Belitung,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,2040,0.002643,-0.002643,0.000000
+Kepulauan Riau,Gerindra,Partai Gerakan Indonesia Raya,national,true,9,0.200000,1,0.250000,164310,0.155893,0.044107,-0.050000
+Kepulauan Riau,Golkar,Partai Golongan Karya,national,true,9,0.200000,1,0.250000,166147,0.157635,0.042365,-0.050000
+Kepulauan Riau,NasDem,Partai NasDem,national,true,7,0.155556,1,0.250000,151776,0.144001,0.011555,-0.094444
+Kepulauan Riau,PKS,Partai Keadilan Sejahtera,national,true,6,0.133333,0,0.000000,108797,0.103223,0.030110,0.133333
+Kepulauan Riau,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,4,0.088889,1,0.250000,149222,0.141578,-0.052689,-0.161111
+Kepulauan Riau,Demokrat,Partai Demokrat,national,true,3,0.066667,0,0.000000,54173,0.051398,0.015269,0.066667
+Kepulauan Riau,PAN,Partai Amanat Nasional,national,true,2,0.044444,0,0.000000,57472,0.054528,-0.010083,0.044444
+Kepulauan Riau,PKB,Partai Kebangkitan Bangsa,national,true,2,0.044444,0,0.000000,88253,0.083732,-0.039287,0.044444
+Kepulauan Riau,Hanura,Partai Hati Nurani Rakyat,national,true,1,0.022222,0,0.000000,10629,0.010084,0.012138,0.022222
+Kepulauan Riau,PSI,Partai Solidaritas Indonesia,national,true,1,0.022222,0,0.000000,45857,0.043508,-0.021286,0.022222
+Kepulauan Riau,Perindo,Partai Perindo,national,true,1,0.022222,0,0.000000,14004,0.013287,0.008936,0.022222
+Kepulauan Riau,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,10084,0.009567,-0.009567,0.000000
+Kepulauan Riau,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,3206,0.003042,-0.003042,0.000000
+Kepulauan Riau,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,9870,0.009364,-0.009364,0.000000
+Kepulauan Riau,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,3155,0.002993,-0.002993,0.000000
+Kepulauan Riau,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,1920,0.001822,-0.001822,0.000000
+Kepulauan Riau,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,9927,0.009418,-0.009418,0.000000
+Kepulauan Riau,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,5193,0.004927,-0.004927,0.000000
+Lampung,Gerindra,Partai Gerakan Indonesia Raya,national,true,16,0.188235,4,0.200000,806836,0.173444,0.014791,-0.011765
+Lampung,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,13,0.152941,3,0.150000,724522,0.155749,-0.002808,0.002941
+Lampung,Golkar,Partai Golongan Karya,national,true,11,0.129412,3,0.150000,670414,0.144118,-0.014706,-0.020588
+Lampung,PKB,Partai Kebangkitan Bangsa,national,true,11,0.129412,2,0.100000,579246,0.124520,0.004892,0.029412
+Lampung,NasDem,Partai NasDem,national,true,10,0.117647,2,0.100000,443412,0.095320,0.022327,0.017647
+Lampung,Demokrat,Partai Demokrat,national,true,9,0.105882,2,0.100000,428727,0.092163,0.013720,0.005882
+Lampung,PAN,Partai Amanat Nasional,national,true,8,0.094118,2,0.100000,364060,0.078261,0.015856,-0.005882
+Lampung,PKS,Partai Keadilan Sejahtera,national,true,7,0.082353,2,0.100000,303074,0.065151,0.017202,-0.017647
+Lampung,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,27738,0.005963,-0.005963,0.000000
+Lampung,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,14021,0.003014,-0.003014,0.000000
+Lampung,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,27631,0.005940,-0.005940,0.000000
+Lampung,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,20815,0.004475,-0.004475,0.000000
+Lampung,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,8431,0.001812,-0.001812,0.000000
+Lampung,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,6701,0.001441,-0.001441,0.000000
+Lampung,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,69049,0.014843,-0.014843,0.000000
+Lampung,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,93721,0.020147,-0.020147,0.000000
+Lampung,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,48052,0.010330,-0.010330,0.000000
+Lampung,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,15393,0.003309,-0.003309,0.000000
+Maluku,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,8,0.177778,1,0.250000,145777,0.140148,0.037630,-0.072222
+Maluku,NasDem,Partai NasDem,national,true,6,0.133333,0,0.000000,91835,0.088289,0.045045,0.133333
+Maluku,Gerindra,Partai Gerakan Indonesia Raya,national,true,5,0.111111,1,0.250000,136989,0.131699,-0.020588,-0.138889
+Maluku,Demokrat,Partai Demokrat,national,true,4,0.088889,0,0.000000,70184,0.067474,0.021415,0.088889
+Maluku,Golkar,Partai Golongan Karya,national,true,4,0.088889,0,0.000000,87508,0.084129,0.004760,0.088889
+Maluku,PKB,Partai Kebangkitan Bangsa,national,true,4,0.088889,0,0.000000,53963,0.051879,0.037010,0.088889
+Maluku,PKS,Partai Keadilan Sejahtera,national,true,4,0.088889,1,0.250000,146716,0.141051,-0.052162,-0.161111
+Maluku,Hanura,Partai Hati Nurani Rakyat,national,true,3,0.066667,0,0.000000,14325,0.013772,0.052895,0.066667
+Maluku,PAN,Partai Amanat Nasional,national,true,3,0.066667,1,0.250000,178770,0.171867,-0.105200,-0.183333
+Maluku,PPP,Partai Persatuan Pembangunan,national,true,2,0.044444,0,0.000000,22322,0.021460,0.022984,0.044444
+Maluku,Perindo,Partai Perindo,national,true,2,0.044444,0,0.000000,25690,0.024698,0.019746,0.044444
+Maluku,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,8616,0.008283,-0.008283,0.000000
+Maluku,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,4514,0.004340,-0.004340,0.000000
+Maluku,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,13391,0.012874,-0.012874,0.000000
+Maluku,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,6193,0.005954,-0.005954,0.000000
+Maluku,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,11111,0.010682,-0.010682,0.000000
+Maluku,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,20904,0.020097,-0.020097,0.000000
+Maluku,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,1358,0.001306,-0.001306,0.000000
+Maluku Utara,Golkar,Partai Golongan Karya,national,true,8,0.177778,1,0.333333,128475,0.183719,-0.005941,-0.155556
+Maluku Utara,Hanura,Partai Hati Nurani Rakyat,national,true,5,0.111111,0,0.000000,10914,0.015607,0.095504,0.111111
+Maluku Utara,NasDem,Partai NasDem,national,true,5,0.111111,0,0.000000,56105,0.080230,0.030881,0.111111
+Maluku Utara,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,5,0.111111,1,0.333333,146937,0.210120,-0.099008,-0.222222
+Maluku Utara,PKS,Partai Keadilan Sejahtera,national,true,5,0.111111,1,0.333333,70736,0.101152,0.009959,-0.222222
+Maluku Utara,Gerindra,Partai Gerakan Indonesia Raya,national,true,4,0.088889,0,0.000000,64089,0.091647,-0.002758,0.088889
+Maluku Utara,PKB,Partai Kebangkitan Bangsa,national,true,4,0.088889,0,0.000000,58175,0.083190,0.005699,0.088889
+Maluku Utara,Demokrat,Partai Demokrat,national,true,3,0.066667,0,0.000000,34575,0.049442,0.017225,0.066667
+Maluku Utara,PAN,Partai Amanat Nasional,national,true,3,0.066667,0,0.000000,62457,0.089313,-0.022647,0.066667
+Maluku Utara,Garuda,Partai Garda Republik Indonesia,national,true,1,0.022222,0,0.000000,5594,0.007999,0.014223,0.022222
+Maluku Utara,PBB,Partai Bulan Bintang,national,true,1,0.022222,0,0.000000,6777,0.009691,0.012531,0.022222
+Maluku Utara,Perindo,Partai Perindo,national,true,1,0.022222,0,0.000000,18311,0.026185,-0.003962,0.022222
+Maluku Utara,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,6574,0.009401,-0.009401,0.000000
+Maluku Utara,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,8859,0.012668,-0.012668,0.000000
+Maluku Utara,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,3894,0.005568,-0.005568,0.000000
+Maluku Utara,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,8395,0.012005,-0.012005,0.000000
+Maluku Utara,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,5929,0.008478,-0.008478,0.000000
+Maluku Utara,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,2506,0.003584,-0.003584,0.000000
+Nusa Tenggara Barat,Gerindra,Partai Gerakan Indonesia Raya,national,true,10,0.153846,1,0.090909,434155,0.144421,0.009425,0.062937
+Nusa Tenggara Barat,Golkar,Partai Golongan Karya,national,true,10,0.153846,1,0.090909,285263,0.094892,0.058954,0.062937
+Nusa Tenggara Barat,PKS,Partai Keadilan Sejahtera,national,true,8,0.123077,2,0.181818,319321,0.106222,0.016855,-0.058741
+Nusa Tenggara Barat,PPP,Partai Persatuan Pembangunan,national,true,7,0.107692,0,0.000000,191199,0.063602,0.044090,0.107692
+Nusa Tenggara Barat,Demokrat,Partai Demokrat,national,true,6,0.092308,1,0.090909,220438,0.073328,0.018979,0.001399
+Nusa Tenggara Barat,PKB,Partai Kebangkitan Bangsa,national,true,6,0.092308,2,0.181818,355767,0.118346,-0.026038,-0.089510
+Nusa Tenggara Barat,NasDem,Partai NasDem,national,true,4,0.061538,2,0.181818,247854,0.082448,-0.020910,-0.120280
+Nusa Tenggara Barat,PAN,Partai Amanat Nasional,national,true,4,0.061538,1,0.090909,262809,0.087423,-0.025885,-0.029371
+Nusa Tenggara Barat,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,4,0.061538,1,0.090909,188688,0.062767,-0.001228,-0.029371
+Nusa Tenggara Barat,Perindo,Partai Perindo,national,true,3,0.046154,0,0.000000,212059,0.070541,-0.024387,0.046154
+Nusa Tenggara Barat,PBB,Partai Bulan Bintang,national,true,2,0.030769,0,0.000000,28195,0.009379,0.021390,0.030769
+Nusa Tenggara Barat,Hanura,Partai Hati Nurani Rakyat,national,true,1,0.015385,0,0.000000,33991,0.011307,0.004078,0.015385
+Nusa Tenggara Barat,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,22900,0.007618,-0.007618,0.000000
+Nusa Tenggara Barat,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,19289,0.006416,-0.006416,0.000000
+Nusa Tenggara Barat,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,116859,0.038873,-0.038873,0.000000
+Nusa Tenggara Barat,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,11008,0.003662,-0.003662,0.000000
+Nusa Tenggara Barat,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,46894,0.015599,-0.015599,0.000000
+Nusa Tenggara Barat,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,9482,0.003154,-0.003154,0.000000
+Nusa Tenggara Timur,Gerindra,Partai Gerakan Indonesia Raya,national,true,9,0.138462,1,0.076923,325202,0.116097,0.022364,0.061538
+Nusa Tenggara Timur,Golkar,Partai Golongan Karya,national,true,9,0.138462,3,0.230769,378996,0.135302,0.003160,-0.092308
+Nusa Tenggara Timur,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,9,0.138462,2,0.153846,447442,0.159737,-0.021275,-0.015385
+Nusa Tenggara Timur,NasDem,Partai NasDem,national,true,8,0.123077,2,0.153846,338882,0.120981,0.002096,-0.030769
+Nusa Tenggara Timur,Demokrat,Partai Demokrat,national,true,7,0.107692,2,0.153846,342001,0.122094,-0.014402,-0.046154
+Nusa Tenggara Timur,PKB,Partai Kebangkitan Bangsa,national,true,7,0.107692,2,0.153846,255277,0.091134,0.016558,-0.046154
+Nusa Tenggara Timur,PSI,Partai Solidaritas Indonesia,national,true,6,0.092308,0,0.000000,129806,0.046341,0.045967,0.092308
+Nusa Tenggara Timur,Hanura,Partai Hati Nurani Rakyat,national,true,4,0.061538,0,0.000000,75551,0.026972,0.034567,0.061538
+Nusa Tenggara Timur,PAN,Partai Amanat Nasional,national,true,4,0.061538,1,0.076923,212854,0.075989,-0.014450,-0.015385
+Nusa Tenggara Timur,PKS,Partai Keadilan Sejahtera,national,true,1,0.015385,0,0.000000,55982,0.019986,-0.004601,0.015385
+Nusa Tenggara Timur,Perindo,Partai Perindo,national,true,1,0.015385,0,0.000000,86108,0.030741,-0.015356,0.015385
+Nusa Tenggara Timur,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,25520,0.009111,-0.009111,0.000000
+Nusa Tenggara Timur,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,19101,0.006819,-0.006819,0.000000
+Nusa Tenggara Timur,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,24872,0.008879,-0.008879,0.000000
+Nusa Tenggara Timur,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,8306,0.002965,-0.002965,0.000000
+Nusa Tenggara Timur,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,16808,0.006000,-0.006000,0.000000
+Nusa Tenggara Timur,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,54666,0.019516,-0.019516,0.000000
+Nusa Tenggara Timur,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,3745,0.001337,-0.001337,0.000000
+Papua,Golkar,Partai Golongan Karya,national,true,9,0.200000,0,0.000000,71845,0.109034,0.090966,0.200000
+Papua,NasDem,Partai NasDem,national,true,8,0.177778,1,0.333333,99418,0.150880,0.026898,-0.155556
+Papua,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,7,0.155556,1,0.333333,154548,0.234547,-0.078991,-0.177778
+Papua,PKS,Partai Keadilan Sejahtera,national,true,4,0.088889,0,0.000000,27887,0.042322,0.046567,0.088889
+Papua,Demokrat,Partai Demokrat,national,true,3,0.066667,0,0.000000,42346,0.064266,0.002401,0.066667
+Papua,Gerindra,Partai Gerakan Indonesia Raya,national,true,3,0.066667,1,0.333333,110961,0.168398,-0.101731,-0.266667
+Papua,PAN,Partai Amanat Nasional,national,true,3,0.066667,0,0.000000,41911,0.063605,0.003061,0.066667
+Papua,PKB,Partai Kebangkitan Bangsa,national,true,3,0.066667,0,0.000000,11149,0.016920,0.049747,0.066667
+Papua,Perindo,Partai Perindo,national,true,3,0.066667,0,0.000000,12836,0.019480,0.047186,0.066667
+Papua,PPP,Partai Persatuan Pembangunan,national,true,1,0.022222,0,0.000000,8029,0.012185,0.010037,0.022222
+Papua,PSI,Partai Solidaritas Indonesia,national,true,1,0.022222,0,0.000000,21789,0.033068,-0.010845,0.022222
+Papua,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,5468,0.008298,-0.008298,0.000000
+Papua,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,4289,0.006509,-0.006509,0.000000
+Papua,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,9292,0.014102,-0.014102,0.000000
+Papua,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,25718,0.039030,-0.039030,0.000000
+Papua,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,3133,0.004755,-0.004755,0.000000
+Papua,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,5237,0.007948,-0.007948,0.000000
+Papua,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,3066,0.004653,-0.004653,0.000000
+Papua Barat,Golkar,Partai Golongan Karya,national,true,7,0.200000,1,0.333333,95883,0.298640,-0.098640,-0.133333
+Papua Barat,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,7,0.200000,1,0.333333,43951,0.136891,0.063109,-0.133333
+Papua Barat,NasDem,Partai NasDem,national,true,5,0.142857,1,0.333333,52964,0.164963,-0.022106,-0.190476
+Papua Barat,Demokrat,Partai Demokrat,national,true,3,0.085714,0,0.000000,13212,0.041150,0.044564,0.085714
+Papua Barat,Gerindra,Partai Gerakan Indonesia Raya,national,true,3,0.085714,0,0.000000,27411,0.085375,0.000339,0.085714
+Papua Barat,PAN,Partai Amanat Nasional,national,true,3,0.085714,0,0.000000,8747,0.027244,0.058471,0.085714
+Papua Barat,PKB,Partai Kebangkitan Bangsa,national,true,3,0.085714,0,0.000000,32041,0.099796,-0.014081,0.085714
+Papua Barat,Perindo,Partai Perindo,national,true,2,0.057143,0,0.000000,3718,0.011580,0.045563,0.057143
+Papua Barat,PKS,Partai Keadilan Sejahtera,national,true,1,0.028571,0,0.000000,19729,0.061448,-0.032877,0.028571
+Papua Barat,PPP,Partai Persatuan Pembangunan,national,true,1,0.028571,0,0.000000,4191,0.013053,0.015518,0.028571
+Papua Barat,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,2046,0.006373,-0.006373,0.000000
+Papua Barat,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,1456,0.004535,-0.004535,0.000000
+Papua Barat,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,2764,0.008609,-0.008609,0.000000
+Papua Barat,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,3369,0.010493,-0.010493,0.000000
+Papua Barat,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,885,0.002756,-0.002756,0.000000
+Papua Barat,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,1545,0.004812,-0.004812,0.000000
+Papua Barat,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,5192,0.016171,-0.016171,0.000000
+Papua Barat,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,1962,0.006111,-0.006111,0.000000
+Papua Barat Daya,Golkar,Partai Golongan Karya,national,true,8,0.228571,1,0.333333,102786,0.309936,-0.081365,-0.104762
+Papua Barat Daya,Demokrat,Partai Demokrat,national,true,5,0.142857,1,0.333333,44618,0.134539,0.008318,-0.190476
+Papua Barat Daya,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,5,0.142857,0,0.000000,28702,0.086547,0.056310,0.142857
+Papua Barat Daya,NasDem,Partai NasDem,national,true,4,0.114286,1,0.333333,40959,0.123506,-0.009220,-0.219048
+Papua Barat Daya,Gerindra,Partai Gerakan Indonesia Raya,national,true,3,0.085714,0,0.000000,34439,0.103846,-0.018131,0.085714
+Papua Barat Daya,Hanura,Partai Hati Nurani Rakyat,national,true,3,0.085714,0,0.000000,12416,0.037439,0.048276,0.085714
+Papua Barat Daya,Perindo,Partai Perindo,national,true,3,0.085714,0,0.000000,0,0.000000,0.085714,0.085714
+Papua Barat Daya,PAN,Partai Amanat Nasional,national,true,1,0.028571,0,0.000000,24203,0.072981,-0.044409,0.028571
+Papua Barat Daya,PKB,Partai Kebangkitan Bangsa,national,true,1,0.028571,0,0.000000,10607,0.031984,-0.003412,0.028571
+Papua Barat Daya,PKS,Partai Keadilan Sejahtera,national,true,1,0.028571,0,0.000000,15650,0.047190,-0.018619,0.028571
+Papua Barat Daya,PSI,Partai Solidaritas Indonesia,national,true,1,0.028571,0,0.000000,9355,0.028209,0.000363,0.028571
+Papua Barat Daya,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,2099,0.006329,-0.006329,0.000000
+Papua Barat Daya,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,1712,0.005162,-0.005162,0.000000
+Papua Barat Daya,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,2141,0.006456,-0.006456,0.000000
+Papua Barat Daya,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,1003,0.003024,-0.003024,0.000000
+Papua Barat Daya,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,946,0.002853,-0.002853,0.000000
+Papua Pegunungan,NasDem,Partai NasDem,national,true,11,0.244444,1,0.333333,482364,0.369221,-0.124777,-0.088889
+Papua Pegunungan,Demokrat,Partai Demokrat,national,true,5,0.111111,0,0.000000,90227,0.069063,0.042048,0.111111
+Papua Pegunungan,PKS,Partai Keadilan Sejahtera,national,true,5,0.111111,0,0.000000,145353,0.111259,-0.000148,0.111111
+Papua Pegunungan,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,4,0.088889,1,0.333333,202726,0.155175,-0.066286,-0.244444
+Papua Pegunungan,Perindo,Partai Perindo,national,true,4,0.088889,0,0.000000,2746,0.002102,0.086787,0.088889
+Papua Pegunungan,Gerindra,Partai Gerakan Indonesia Raya,national,true,3,0.066667,0,0.000000,1064,0.000814,0.065852,0.066667
+Papua Pegunungan,Golkar,Partai Golongan Karya,national,true,3,0.066667,0,0.000000,9866,0.007552,0.059115,0.066667
+Papua Pegunungan,PAN,Partai Amanat Nasional,national,true,2,0.044444,1,0.333333,189105,0.144749,-0.100304,-0.288889
+Papua Pegunungan,PKN,Partai Kebangkitan Nusantara,national,true,2,0.044444,0,0.000000,21505,0.016461,0.027984,0.044444
+Papua Pegunungan,PSI,Partai Solidaritas Indonesia,national,true,2,0.044444,0,0.000000,96512,0.073874,-0.029430,0.044444
+Papua Pegunungan,Garuda,Partai Garda Republik Indonesia,national,true,1,0.022222,0,0.000000,7118,0.005448,0.016774,0.022222
+Papua Pegunungan,Gelora,Partai Gelombang Rakyat Indonesia,national,true,1,0.022222,0,0.000000,1256,0.000961,0.021261,0.022222
+Papua Pegunungan,PBB,Partai Bulan Bintang,national,true,1,0.022222,0,0.000000,60,0.000046,0.022176,0.022222
+Papua Pegunungan,PKB,Partai Kebangkitan Bangsa,national,true,1,0.022222,0,0.000000,47981,0.036727,-0.014504,0.022222
+Papua Pegunungan,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,97,0.000074,-0.000074,0.000000
+Papua Pegunungan,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,1640,0.001255,-0.001255,0.000000
+Papua Pegunungan,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,6750,0.005167,-0.005167,0.000000
+Papua Pegunungan,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,66,0.000051,-0.000051,0.000000
+Papua Selatan,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,7,0.200000,1,0.333333,54416,0.179363,0.020637,-0.133333
+Papua Selatan,NasDem,Partai NasDem,national,true,6,0.171429,1,0.333333,50241,0.165601,0.005827,-0.161905
+Papua Selatan,Gerindra,Partai Gerakan Indonesia Raya,national,true,5,0.142857,0,0.000000,27454,0.090492,0.052365,0.142857
+Papua Selatan,Golkar,Partai Golongan Karya,national,true,4,0.114286,0,0.000000,30449,0.100364,0.013921,0.114286
+Papua Selatan,PKB,Partai Kebangkitan Bangsa,national,true,3,0.085714,1,0.333333,42490,0.140053,-0.054339,-0.247619
+Papua Selatan,PKS,Partai Keadilan Sejahtera,national,true,3,0.085714,0,0.000000,27285,0.089935,-0.004221,0.085714
+Papua Selatan,PPP,Partai Persatuan Pembangunan,national,true,2,0.057143,0,0.000000,7343,0.024204,0.032939,0.057143
+Papua Selatan,Perindo,Partai Perindo,national,true,2,0.057143,0,0.000000,4257,0.014032,0.043111,0.057143
+Papua Selatan,Demokrat,Partai Demokrat,national,true,1,0.028571,0,0.000000,5311,0.017506,0.011066,0.028571
+Papua Selatan,PAN,Partai Amanat Nasional,national,true,1,0.028571,0,0.000000,31576,0.104079,-0.075508,0.028571
+Papua Selatan,PSI,Partai Solidaritas Indonesia,national,true,1,0.028571,0,0.000000,5387,0.017756,0.010815,0.028571
+Papua Selatan,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,1932,0.006368,-0.006368,0.000000
+Papua Selatan,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,1826,0.006019,-0.006019,0.000000
+Papua Selatan,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,4830,0.015920,-0.015920,0.000000
+Papua Selatan,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,5340,0.017601,-0.017601,0.000000
+Papua Selatan,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,1587,0.005231,-0.005231,0.000000
+Papua Selatan,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,1019,0.003359,-0.003359,0.000000
+Papua Selatan,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,642,0.002116,-0.002116,0.000000
+Papua Tengah,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,11,0.244444,1,0.333333,289738,0.257160,-0.012716,-0.088889
+Papua Tengah,NasDem,Partai NasDem,national,true,5,0.111111,1,0.333333,157978,0.140215,-0.029104,-0.222222
+Papua Tengah,Gerindra,Partai Gerakan Indonesia Raya,national,true,4,0.088889,0,0.000000,50644,0.044950,0.043939,0.088889
+Papua Tengah,Golkar,Partai Golongan Karya,national,true,3,0.066667,1,0.333333,256718,0.227853,-0.161186,-0.266667
+Papua Tengah,Hanura,Partai Hati Nurani Rakyat,national,true,3,0.066667,0,0.000000,5152,0.004573,0.062094,0.066667
+Papua Tengah,PAN,Partai Amanat Nasional,national,true,3,0.066667,0,0.000000,119726,0.106264,-0.039597,0.066667
+Papua Tengah,PKB,Partai Kebangkitan Bangsa,national,true,3,0.066667,0,0.000000,24173,0.021455,0.045212,0.066667
+Papua Tengah,Demokrat,Partai Demokrat,national,true,2,0.044444,0,0.000000,7660,0.006799,0.037646,0.044444
+Papua Tengah,PBB,Partai Bulan Bintang,national,true,2,0.044444,0,0.000000,16978,0.015069,0.029375,0.044444
+Papua Tengah,PKS,Partai Keadilan Sejahtera,national,true,2,0.044444,0,0.000000,30158,0.026767,0.017677,0.044444
+Papua Tengah,PSI,Partai Solidaritas Indonesia,national,true,2,0.044444,0,0.000000,90402,0.080237,-0.035793,0.044444
+Papua Tengah,Perindo,Partai Perindo,national,true,2,0.044444,0,0.000000,6918,0.006140,0.038304,0.044444
+Papua Tengah,Garuda,Partai Garda Republik Indonesia,national,true,1,0.022222,0,0.000000,2256,0.002002,0.020220,0.022222
+Papua Tengah,PKN,Partai Kebangkitan Nusantara,national,true,1,0.022222,0,0.000000,6465,0.005738,0.016484,0.022222
+Papua Tengah,PPP,Partai Persatuan Pembangunan,national,true,1,0.022222,0,0.000000,41570,0.036896,-0.014674,0.022222
+Papua Tengah,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,11538,0.010241,-0.010241,0.000000
+Papua Tengah,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,3796,0.003369,-0.003369,0.000000
+Papua Tengah,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,4813,0.004272,-0.004272,0.000000
+Riau,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,11,0.169231,2,0.153846,431177,0.127106,0.042125,0.015385
+Riau,Golkar,Partai Golongan Karya,national,true,10,0.153846,3,0.230769,770977,0.227275,-0.073429,-0.076923
+Riau,PKS,Partai Keadilan Sejahtera,national,true,10,0.153846,2,0.153846,384023,0.113206,0.040640,0.000000
+Riau,Demokrat,Partai Demokrat,national,true,8,0.123077,1,0.076923,285992,0.084307,0.038770,0.046154
+Riau,Gerindra,Partai Gerakan Indonesia Raya,national,true,8,0.123077,2,0.153846,301207,0.088792,0.034284,-0.030769
+Riau,NasDem,Partai NasDem,national,true,6,0.092308,0,0.000000,252177,0.074339,0.017969,0.092308
+Riau,PKB,Partai Kebangkitan Bangsa,national,true,6,0.092308,2,0.153846,351942,0.103749,-0.011441,-0.061538
+Riau,PAN,Partai Amanat Nasional,national,true,5,0.076923,1,0.076923,266112,0.078447,-0.001524,0.000000
+Riau,PPP,Partai Persatuan Pembangunan,national,true,1,0.015385,0,0.000000,98679,0.029089,-0.013705,0.015385
+Riau,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,18235,0.005375,-0.005375,0.000000
+Riau,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,8976,0.002646,-0.002646,0.000000
+Riau,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,22559,0.006650,-0.006650,0.000000
+Riau,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,21162,0.006238,-0.006238,0.000000
+Riau,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,13761,0.004057,-0.004057,0.000000
+Riau,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,5976,0.001762,-0.001762,0.000000
+Riau,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,77468,0.022837,-0.022837,0.000000
+Riau,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,63693,0.018776,-0.018776,0.000000
+Riau,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,18143,0.005348,-0.005348,0.000000
+Sulawesi Barat,Golkar,Partai Golongan Karya,national,true,10,0.222222,0,0.000000,99793,0.127085,0.095137,0.222222
+Sulawesi Barat,Demokrat,Partai Demokrat,national,true,8,0.177778,1,0.250000,104369,0.132912,0.044865,-0.072222
+Sulawesi Barat,Gerindra,Partai Gerakan Indonesia Raya,national,true,5,0.111111,0,0.000000,76133,0.096954,0.014157,0.111111
+Sulawesi Barat,NasDem,Partai NasDem,national,true,5,0.111111,1,0.250000,142496,0.181466,-0.070355,-0.138889
+Sulawesi Barat,PAN,Partai Amanat Nasional,national,true,5,0.111111,1,0.250000,101646,0.129445,-0.018334,-0.138889
+Sulawesi Barat,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,5,0.111111,1,0.250000,132714,0.169009,-0.057898,-0.138889
+Sulawesi Barat,PKB,Partai Kebangkitan Bangsa,national,true,3,0.066667,0,0.000000,50561,0.064389,0.002278,0.066667
+Sulawesi Barat,Hanura,Partai Hati Nurani Rakyat,national,true,2,0.044444,0,0.000000,5966,0.007598,0.036847,0.044444
+Sulawesi Barat,PKS,Partai Keadilan Sejahtera,national,true,1,0.022222,0,0.000000,22460,0.028602,-0.006380,0.022222
+Sulawesi Barat,PPP,Partai Persatuan Pembangunan,national,true,1,0.022222,0,0.000000,13083,0.016661,0.005561,0.022222
+Sulawesi Barat,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,2730,0.003477,-0.003477,0.000000
+Sulawesi Barat,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,2168,0.002761,-0.002761,0.000000
+Sulawesi Barat,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,9260,0.011792,-0.011792,0.000000
+Sulawesi Barat,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,1365,0.001738,-0.001738,0.000000
+Sulawesi Barat,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,1377,0.001754,-0.001754,0.000000
+Sulawesi Barat,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,3328,0.004238,-0.004238,0.000000
+Sulawesi Barat,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,15003,0.019106,-0.019106,0.000000
+Sulawesi Barat,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,795,0.001012,-0.001012,0.000000
+Sulawesi Selatan,NasDem,Partai NasDem,national,true,17,0.200000,5,0.208333,876055,0.172403,0.027597,-0.008333
+Sulawesi Selatan,Golkar,Partai Golongan Karya,national,true,14,0.164706,4,0.166667,814225,0.160235,0.004470,-0.001961
+Sulawesi Selatan,Gerindra,Partai Gerakan Indonesia Raya,national,true,13,0.152941,5,0.208333,960959,0.189112,-0.036171,-0.055392
+Sulawesi Selatan,PKB,Partai Kebangkitan Bangsa,national,true,8,0.094118,2,0.083333,268777,0.052894,0.041224,0.010784
+Sulawesi Selatan,PPP,Partai Persatuan Pembangunan,national,true,8,0.094118,0,0.000000,382292,0.075233,0.018884,0.094118
+Sulawesi Selatan,Demokrat,Partai Demokrat,national,true,7,0.082353,2,0.083333,416719,0.082008,0.000345,-0.000980
+Sulawesi Selatan,PKS,Partai Keadilan Sejahtera,national,true,7,0.082353,2,0.083333,384394,0.075647,0.006706,-0.000980
+Sulawesi Selatan,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,6,0.070588,1,0.041667,309000,0.060810,0.009779,0.028922
+Sulawesi Selatan,PAN,Partai Amanat Nasional,national,true,4,0.047059,3,0.125000,411431,0.080968,-0.033909,-0.077941
+Sulawesi Selatan,Hanura,Partai Hati Nurani Rakyat,national,true,1,0.011765,0,0.000000,25209,0.004961,0.006804,0.011765
+Sulawesi Selatan,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,18576,0.003656,-0.003656,0.000000
+Sulawesi Selatan,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,11938,0.002349,-0.002349,0.000000
+Sulawesi Selatan,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,55875,0.010996,-0.010996,0.000000
+Sulawesi Selatan,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,9408,0.001851,-0.001851,0.000000
+Sulawesi Selatan,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,8902,0.001752,-0.001752,0.000000
+Sulawesi Selatan,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,87631,0.017245,-0.017245,0.000000
+Sulawesi Selatan,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,27990,0.005508,-0.005508,0.000000
+Sulawesi Selatan,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,12048,0.002371,-0.002371,0.000000
+Sulawesi Tengah,Demokrat,Partai Demokrat,national,true,8,0.145455,1,0.142857,254852,0.148313,-0.002858,0.002597
+Sulawesi Tengah,Golkar,Partai Golongan Karya,national,true,8,0.145455,2,0.285714,330971,0.192611,-0.047156,-0.140260
+Sulawesi Tengah,NasDem,Partai NasDem,national,true,8,0.145455,1,0.142857,256799,0.149446,-0.003991,0.002597
+Sulawesi Tengah,Gerindra,Partai Gerakan Indonesia Raya,national,true,7,0.127273,1,0.142857,242635,0.141203,-0.013930,-0.015584
+Sulawesi Tengah,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,7,0.127273,1,0.142857,136625,0.079510,0.047763,-0.015584
+Sulawesi Tengah,PKB,Partai Kebangkitan Bangsa,national,true,5,0.090909,0,0.000000,101659,0.059161,0.031748,0.090909
+Sulawesi Tengah,PKS,Partai Keadilan Sejahtera,national,true,5,0.090909,0,0.000000,100727,0.058619,0.032290,0.090909
+Sulawesi Tengah,PAN,Partai Amanat Nasional,national,true,2,0.036364,1,0.142857,117811,0.068561,-0.032197,-0.106494
+Sulawesi Tengah,Perindo,Partai Perindo,national,true,2,0.036364,0,0.000000,31068,0.018080,0.018283,0.036364
+Sulawesi Tengah,Hanura,Partai Hati Nurani Rakyat,national,true,1,0.018182,0,0.000000,30995,0.018038,0.000144,0.018182
+Sulawesi Tengah,PBB,Partai Bulan Bintang,national,true,1,0.018182,0,0.000000,12354,0.007189,0.010992,0.018182
+Sulawesi Tengah,PPP,Partai Persatuan Pembangunan,national,true,1,0.018182,0,0.000000,28346,0.016496,0.001686,0.018182
+Sulawesi Tengah,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,9865,0.005741,-0.005741,0.000000
+Sulawesi Tengah,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,6094,0.003546,-0.003546,0.000000
+Sulawesi Tengah,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,20981,0.012210,-0.012210,0.000000
+Sulawesi Tengah,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,10713,0.006234,-0.006234,0.000000
+Sulawesi Tengah,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,20924,0.012177,-0.012177,0.000000
+Sulawesi Tengah,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,4924,0.002866,-0.002866,0.000000
+Sulawesi Tenggara,Golkar,Partai Golongan Karya,national,true,6,0.133333,1,0.166667,149788,0.102712,0.030622,-0.033333
+Sulawesi Tenggara,NasDem,Partai NasDem,national,true,6,0.133333,1,0.166667,207276,0.142132,-0.008799,-0.033333
+Sulawesi Tenggara,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,6,0.133333,1,0.166667,175830,0.120569,0.012764,-0.033333
+Sulawesi Tenggara,Gerindra,Partai Gerakan Indonesia Raya,national,true,5,0.111111,1,0.166667,233478,0.160099,-0.048988,-0.055556
+Sulawesi Tenggara,Demokrat,Partai Demokrat,national,true,4,0.088889,1,0.166667,159282,0.109222,-0.020333,-0.077778
+Sulawesi Tenggara,PBB,Partai Bulan Bintang,national,true,4,0.088889,0,0.000000,19723,0.013524,0.075365,0.088889
+Sulawesi Tenggara,PKS,Partai Keadilan Sejahtera,national,true,4,0.088889,0,0.000000,63092,0.043263,0.045626,0.088889
+Sulawesi Tenggara,PAN,Partai Amanat Nasional,national,true,3,0.066667,0,0.000000,110211,0.075573,-0.008907,0.066667
+Sulawesi Tenggara,PKB,Partai Kebangkitan Bangsa,national,true,3,0.066667,1,0.166667,147175,0.100920,-0.034253,-0.100000
+Sulawesi Tenggara,PPP,Partai Persatuan Pembangunan,national,true,3,0.066667,0,0.000000,118350,0.081154,-0.014488,0.066667
+Sulawesi Tenggara,Hanura,Partai Hati Nurani Rakyat,national,true,1,0.022222,0,0.000000,17140,0.011753,0.010469,0.022222
+Sulawesi Tenggara,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,7402,0.005076,-0.005076,0.000000
+Sulawesi Tenggara,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,4850,0.003326,-0.003326,0.000000
+Sulawesi Tenggara,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,20942,0.014360,-0.014360,0.000000
+Sulawesi Tenggara,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,7380,0.005061,-0.005061,0.000000
+Sulawesi Tenggara,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,7274,0.004988,-0.004988,0.000000
+Sulawesi Tenggara,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,6006,0.004118,-0.004118,0.000000
+Sulawesi Tenggara,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,3134,0.002149,-0.002149,0.000000
+Sulawesi Utara,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,19,0.422222,2,0.333333,511270,0.333396,0.088827,0.088889
+Sulawesi Utara,Demokrat,Partai Demokrat,national,true,6,0.133333,1,0.166667,327386,0.213486,-0.080153,-0.033333
+Sulawesi Utara,Golkar,Partai Golongan Karya,national,true,6,0.133333,1,0.166667,203548,0.132732,0.000601,-0.033333
+Sulawesi Utara,NasDem,Partai NasDem,national,true,6,0.133333,1,0.166667,174555,0.113826,0.019507,-0.033333
+Sulawesi Utara,Gerindra,Partai Gerakan Indonesia Raya,national,true,4,0.088889,1,0.166667,116781,0.076152,0.012737,-0.077778
+Sulawesi Utara,PKB,Partai Kebangkitan Bangsa,national,true,1,0.022222,0,0.000000,16639,0.010850,0.011372,0.022222
+Sulawesi Utara,PKS,Partai Keadilan Sejahtera,national,true,1,0.022222,0,0.000000,28665,0.018692,0.003530,0.022222
+Sulawesi Utara,PSI,Partai Solidaritas Indonesia,national,true,1,0.022222,0,0.000000,17317,0.011292,0.010930,0.022222
+Sulawesi Utara,Perindo,Partai Perindo,national,true,1,0.022222,0,0.000000,21438,0.013980,0.008243,0.022222
+Sulawesi Utara,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,3766,0.002456,-0.002456,0.000000
+Sulawesi Utara,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,1684,0.001098,-0.001098,0.000000
+Sulawesi Utara,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,5802,0.003783,-0.003783,0.000000
+Sulawesi Utara,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,10248,0.006683,-0.006683,0.000000
+Sulawesi Utara,PAN,Partai Amanat Nasional,national,true,0,0.000000,0,0.000000,80753,0.052658,-0.052658,0.000000
+Sulawesi Utara,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,2980,0.001943,-0.001943,0.000000
+Sulawesi Utara,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,1628,0.001062,-0.001062,0.000000
+Sulawesi Utara,PPP,Partai Persatuan Pembangunan,national,true,0,0.000000,0,0.000000,8242,0.005375,-0.005375,0.000000
+Sulawesi Utara,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,821,0.000535,-0.000535,0.000000
+Sumatera Barat,Gerindra,Partai Gerakan Indonesia Raya,national,true,10,0.153846,2,0.142857,398477,0.136454,0.017393,0.010989
+Sumatera Barat,PKS,Partai Keadilan Sejahtera,national,true,10,0.153846,2,0.142857,381879,0.130770,0.023076,0.010989
+Sumatera Barat,Golkar,Partai Golongan Karya,national,true,9,0.138462,2,0.142857,354500,0.121394,0.017067,-0.004396
+Sumatera Barat,NasDem,Partai NasDem,national,true,9,0.138462,3,0.214286,475586,0.162859,-0.024397,-0.075824
+Sumatera Barat,Demokrat,Partai Demokrat,national,true,8,0.123077,1,0.071429,258149,0.088400,0.034677,0.051648
+Sumatera Barat,PAN,Partai Amanat Nasional,national,true,8,0.123077,2,0.142857,382856,0.131104,-0.008027,-0.019780
+Sumatera Barat,PPP,Partai Persatuan Pembangunan,national,true,5,0.076923,0,0.000000,124748,0.042718,0.034205,0.076923
+Sumatera Barat,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,3,0.046154,1,0.071429,245407,0.084037,-0.037883,-0.025275
+Sumatera Barat,PKB,Partai Kebangkitan Bangsa,national,true,3,0.046154,1,0.071429,150872,0.051664,-0.005510,-0.025275
+Sumatera Barat,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,14330,0.004907,-0.004907,0.000000
+Sumatera Barat,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,9379,0.003212,-0.003212,0.000000
+Sumatera Barat,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,22251,0.007620,-0.007620,0.000000
+Sumatera Barat,Hanura,Partai Hati Nurani Rakyat,national,true,0,0.000000,0,0.000000,22606,0.007741,-0.007741,0.000000
+Sumatera Barat,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,14340,0.004911,-0.004911,0.000000
+Sumatera Barat,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,3828,0.001311,-0.001311,0.000000
+Sumatera Barat,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,15385,0.005268,-0.005268,0.000000
+Sumatera Barat,Perindo,Partai Perindo,national,true,0,0.000000,0,0.000000,11251,0.003853,-0.003853,0.000000
+Sumatera Barat,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,34396,0.011778,-0.011778,0.000000
+Sumatera Selatan,Golkar,Partai Golongan Karya,national,true,12,0.160000,3,0.176471,857642,0.175934,-0.015934,-0.016471
+Sumatera Selatan,Gerindra,Partai Gerakan Indonesia Raya,national,true,11,0.146667,3,0.176471,766894,0.157318,-0.010652,-0.029804
+Sumatera Selatan,NasDem,Partai NasDem,national,true,10,0.133333,2,0.117647,834680,0.171224,-0.037891,0.015686
+Sumatera Selatan,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,9,0.120000,2,0.117647,471907,0.096806,0.023194,0.002353
+Sumatera Selatan,Demokrat,Partai Demokrat,national,true,8,0.106667,2,0.117647,480801,0.098630,0.008037,-0.010980
+Sumatera Selatan,PKB,Partai Kebangkitan Bangsa,national,true,7,0.093333,2,0.117647,441748,0.090619,0.002714,-0.024314
+Sumatera Selatan,PKS,Partai Keadilan Sejahtera,national,true,7,0.093333,2,0.117647,294282,0.060368,0.032965,-0.024314
+Sumatera Selatan,PAN,Partai Amanat Nasional,national,true,6,0.080000,1,0.058824,329836,0.067662,0.012338,0.021176
+Sumatera Selatan,PPP,Partai Persatuan Pembangunan,national,true,2,0.026667,0,0.000000,55280,0.011340,0.015327,0.026667
+Sumatera Selatan,Hanura,Partai Hati Nurani Rakyat,national,true,1,0.013333,0,0.000000,52535,0.010777,0.002556,0.013333
+Sumatera Selatan,PKN,Partai Kebangkitan Nusantara,national,true,1,0.013333,0,0.000000,20773,0.004261,0.009072,0.013333
+Sumatera Selatan,Perindo,Partai Perindo,national,true,1,0.013333,0,0.000000,47948,0.009836,0.003497,0.013333
+Sumatera Selatan,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,28911,0.005931,-0.005931,0.000000
+Sumatera Selatan,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,21469,0.004404,-0.004404,0.000000
+Sumatera Selatan,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,33234,0.006818,-0.006818,0.000000
+Sumatera Selatan,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,22808,0.004679,-0.004679,0.000000
+Sumatera Selatan,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,92503,0.018976,-0.018976,0.000000
+Sumatera Selatan,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,21537,0.004418,-0.004418,0.000000
+Sumatera Utara,Golkar,Partai Golongan Karya,national,true,22,0.220000,8,0.266667,1712074,0.231093,-0.011093,-0.046667
+Sumatera Utara,PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,21,0.210000,6,0.200000,1383049,0.186682,0.023318,0.010000
+Sumatera Utara,Gerindra,Partai Gerakan Indonesia Raya,national,true,13,0.130000,4,0.133333,915612,0.123588,0.006412,-0.003333
+Sumatera Utara,NasDem,Partai NasDem,national,true,12,0.120000,3,0.100000,847835,0.114440,0.005560,0.020000
+Sumatera Utara,PKS,Partai Keadilan Sejahtera,national,true,10,0.100000,2,0.066667,602832,0.081369,0.018631,0.033333
+Sumatera Utara,PAN,Partai Amanat Nasional,national,true,6,0.060000,2,0.066667,359489,0.048523,0.011477,-0.006667
+Sumatera Utara,Demokrat,Partai Demokrat,national,true,5,0.050000,3,0.100000,551861,0.074489,-0.024489,-0.050000
+Sumatera Utara,Hanura,Partai Hati Nurani Rakyat,national,true,5,0.050000,0,0.000000,71905,0.009706,0.040294,0.050000
+Sumatera Utara,PKB,Partai Kebangkitan Bangsa,national,true,4,0.040000,2,0.066667,434162,0.058603,-0.018603,-0.026667
+Sumatera Utara,PPP,Partai Persatuan Pembangunan,national,true,1,0.010000,0,0.000000,93038,0.012558,-0.002558,0.010000
+Sumatera Utara,Perindo,Partai Perindo,national,true,1,0.010000,0,0.000000,176044,0.023762,-0.013762,0.010000
+Sumatera Utara,Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,34956,0.004718,-0.004718,0.000000
+Sumatera Utara,Garuda,Partai Garda Republik Indonesia,national,true,0,0.000000,0,0.000000,16823,0.002271,-0.002271,0.000000
+Sumatera Utara,Gelora,Partai Gelombang Rakyat Indonesia,national,true,0,0.000000,0,0.000000,44403,0.005993,-0.005993,0.000000
+Sumatera Utara,PBB,Partai Bulan Bintang,national,true,0,0.000000,0,0.000000,18262,0.002465,-0.002465,0.000000
+Sumatera Utara,PKN,Partai Kebangkitan Nusantara,national,true,0,0.000000,0,0.000000,7981,0.001077,-0.001077,0.000000
+Sumatera Utara,PSI,Partai Solidaritas Indonesia,national,true,0,0.000000,0,0.000000,104735,0.014137,-0.014137,0.000000
+Sumatera Utara,Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,33520,0.004524,-0.004524,0.000000

@@ -1,0 +1,23 @@
+party_code,party_name,party_scope,comparable_to_dpr,dprd_provincial_seats,dprd_provincial_seat_share,dpr_estimated_seats,dpr_estimated_seat_share,dprd_minus_dpr_seat_share,dpr_national_vote_share
+PDIP,Partai Demokrasi Indonesia Perjuangan,national,true,389,0.163997,110,0.189655,-0.025659,0.167255
+Golkar,Partai Golongan Karya,national,true,363,0.153035,102,0.175862,-0.022827,0.152902
+Gerindra,Partai Gerakan Indonesia Raya,national,true,322,0.135750,86,0.148276,-0.012525,0.132235
+NasDem,Partai NasDem,national,true,265,0.111720,69,0.118966,-0.007245,0.096585
+PKB,Partai Kebangkitan Bangsa,national,true,220,0.092749,68,0.117241,-0.024493,0.106172
+PKS,Partai Keadilan Sejahtera,national,true,214,0.090219,53,0.091379,-0.001160,0.084205
+Demokrat,Partai Demokrat,national,true,207,0.087268,44,0.075862,0.011406,0.074335
+PAN,Partai Amanat Nasional,national,true,159,0.067032,48,0.082759,-0.015727,0.072364
+PPP,Partai Persatuan Pembangunan,national,true,82,0.034570,0,0.000000,0.034570,0.038708
+Hanura,Partai Hati Nurani Rakyat,national,true,42,0.017707,0,0.000000,0.017707,0.007211
+PSI,Partai Solidaritas Indonesia,national,true,32,0.013491,0,0.000000,0.013491,0.028067
+Perindo,Partai Perindo,national,true,31,0.013069,0,0.000000,0.013069,0.012850
+PA,Partai Aceh,local_aceh,false,20,0.008432,0,0.000000,,
+PBB,Partai Bulan Bintang,national,true,12,0.005059,0,0.000000,0.005059,0.003192
+PASA,PASA,local_aceh,false,4,0.001686,0,0.000000,,
+PKN,Partai Kebangkitan Nusantara,national,true,4,0.001686,0,0.000000,0.001686,0.002153
+Garuda,Partai Garda Republik Indonesia,national,true,3,0.001265,0,0.000000,0.001265,0.002681
+Gelora,Partai Gelombang Rakyat Indonesia,national,true,1,0.000422,0,0.000000,0.000422,0.008446
+PDA,PDA,local_aceh,false,1,0.000422,0,0.000000,,
+PNA,PNA,local_aceh,false,1,0.000422,0,0.000000,,
+Buruh,Partai Buruh,national,true,0,0.000000,0,0.000000,0.000000,0.006410
+Ummat,Partai Ummat,national,true,0,0.000000,0,0.000000,0.000000,0.004230

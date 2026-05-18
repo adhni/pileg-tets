@@ -1,0 +1,19 @@
+{
+  "dprd_total_seats": 2372,
+  "dprd_provinces": 38,
+  "dprd_parties_with_seats": 20,
+  "aceh_local_parties_with_seats": 4,
+  "pilpres_provinces": 38,
+  "pilpres_joined_provinces": 38,
+  "missing_from_pilpres": [],
+  "missing_from_dprd": [],
+  "outputs": {
+    "party_summary": "party_summary.csv",
+    "province_party_summary": "province_party_summary.csv",
+    "province_leaders": "province_leaders.csv",
+    "coalition_summary": "coalition_summary.csv",
+    "dprd_vs_pilpres": "dprd_vs_pilpres.csv",
+    "summary_markdown": "summary.md",
+    "html_report": "index.html"
+  }
+}
