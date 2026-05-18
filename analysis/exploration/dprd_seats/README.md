@@ -5,17 +5,31 @@ pipeline or dashboard.
 
 ## Files
 
+- `source/dprd_province_seats_2024_complete.csv`
+  Original province-level DPRD seat source.
+
 - `dprd_provincial_seats.csv`
-  DPRD provinsi seats by province and party.
+  Cleaned version to use for DPRD province work.
 
 - `dprd_kabkot_seats.csv`
   DPRD kabupaten/kota seats by province and party.
 
-- `dprd_seat_ratios.csv`
-  Province-party comparison between kabupaten/kota and provincial DPRD seats.
+## Normalization
 
-- `dprd_seat_totals.csv`
-  National party totals and ratio checks.
+The cleaned province file normalizes these labels:
+
+- `DK Jakarta` -> `DKI Jakarta`
+- `DI Yogyakarta` -> `Daerah Istimewa Yogyakarta`
+- `PDI-P` -> `PDIP`
+- `Partai Aceh` -> `PA`
+
+Current province file:
+
+- 394 elected-party rows
+- 38 provinces
+- 20 parties with seats
+- 2,372 total provincial DPRD seats
+- source URL and note columns kept
 
 ## Status
 
